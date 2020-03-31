@@ -9,6 +9,7 @@ import {
   Button
 } from 'reactstrap';
 import preNatalSymbol from '../../images/pregnant.png'
+import SearchBar from "../SearchBar";
 
 const MainMenuView = () => (
   <div>
@@ -16,12 +17,14 @@ const MainMenuView = () => (
       <NavbarBrand>
         <img src={preNatalSymbol} width={"50px"} alt="hubspot symbol"/>
       </NavbarBrand>
-      <Nav className="mr-auto" navbar>
+      <Nav className="w-100" navbar>
         <NavItem>
           <NavLink tag={Link} to="/">
             <Button outline color="info">Home</Button>
           </NavLink>
         </NavItem>
+        <SearchBar />
+
       </Nav>
     </Navbar>
   </div>

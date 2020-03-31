@@ -1,12 +1,12 @@
 import React from 'react';
 import {Form, Formik, Field, ErrorMessage} from 'formik';
 import { connect } from "react-redux";
-import { getData } from "../../actions";
+import { getBusinesses } from "../../actions";
 import * as Yup from 'yup';
 import { Button } from 'reactstrap'
 
 const mapDispatchToProps = (dispatch) => ({
-  getData: (category) => dispatch(getData(category))
+  getData: (category) => dispatch(getBusinesses(category))
 });
 
 class SearchBar extends React.Component {
@@ -22,12 +22,9 @@ class SearchBar extends React.Component {
         setSubmitting(false);
       }}
     >
-      <div className="col" id="search-form">
+      <div className="col mt-2" id="search-form">
         <Form>
           <div className="form-group">
-            <div className="row" id="search-label">
-              <label htmlFor="service">Service Needed</label>
-            </div>
             <div className="row">
               <div className="col-10">
                 <Field
@@ -36,7 +33,7 @@ class SearchBar extends React.Component {
                   className="form-control"
                 >
                   <option value="">Select a Value</option>
-                  <option value='"prenatal%20yoga"'>PreNatal Yoga</option>
+                  <option value='prenatal-yoga'>PreNatal Yoga</option>
                 </Field>
                 <ErrorMessage
                   name="serviceDropdown"

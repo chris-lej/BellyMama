@@ -3,6 +3,7 @@ import {
   DATA_LOADED,
   ERROR_CAPTURED
 } from "../constants/action-types";
+import Services from '../config.json';
 
 export const getData = (category) => async (dispatch) => {
   const searchTerm = `term=${category}`;
@@ -21,6 +22,13 @@ export const getData = (category) => async (dispatch) => {
   }
 };
 
+export const getBusinesses = (category) => (dispatch) => {
+  console.log(Services[category])
+  const service = Services[category]
+  dispatch({ type: DATA_LOADED, payload: {...service, searchCategory: category}})
+}
+
 export default {
-  getData
+  getData,
+  getBusinesses
 }

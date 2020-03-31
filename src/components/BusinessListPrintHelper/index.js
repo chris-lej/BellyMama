@@ -4,26 +4,12 @@ import React from 'react';
 // This component could be ignored and will ideally be removed in the future. Quick easy hack to get the info and move forward to whitelist businesses.
 
 function Index(props) {
+  const showData = JSON.stringify({...props.businesses}, null, 2)
+
   return (
-    <div>
-      <ul>
-        {props.businesses.map((business) => (
-          <li key={business.id}>
-            <div className="row">
-              Name: {business.name}
-              <br />
-              id: {business.id} (ignore this)
-            </div>
-            <div className="row">
-              Phone: {business.phone}
-            </div>
-            <br />
-            <br />
-            <hr />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <pre>
+      {showData}
+    </pre>
   );
 }
 

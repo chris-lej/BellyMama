@@ -5,12 +5,12 @@ import {
 
 const initialState = {
   apiData: [],
-  postedData: {},
   error: null,
   searchCategory: ''
 };
 
 const rootReducer = (state = initialState, action) => {
+  console.log('actionpayload', action.payload)
   if (action.type === DATA_LOADED) {
     return Object.assign({}, state, {
       apiData: action.payload
