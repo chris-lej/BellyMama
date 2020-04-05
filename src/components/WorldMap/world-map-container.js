@@ -11,11 +11,10 @@ import WorldMapView from './world-map-view';
 
 export const mapStateToProps = (state) => ({
   businesses: Selectors.apiDataTree(state)
-})
+});
 
 class WorldMapContainer extends React.Component {
   render() {
-    console.log(this.props)
     return (
         <WorldMapView
           centerLat={MAP_CENTER_LAT}

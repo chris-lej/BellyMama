@@ -1,31 +1,24 @@
-import React from 'react'
-import { Map as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet';
+import React from "react";
+import { Map, Marker, Popup } from "react-leaflet";
+import MapboxLayer from "./MapBoxLayer";
 
-export const WorldMapView = (props) => (
-      <div>
-        <LeafletMap
-          center={[props.centerLat, props.centerLong]}
-          zoom={11}
-          attributionControl={true}
-          zoomControl={true}
-          doubleClickZoom={true}
-          scrollWheelZoom={true}
-          dragging={true}
-          animate={true}
-          easeLinearity={0.35}
-        >
-          <TileLayer
-            url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
-          />
-          {props.businesses.map((business) => (
-            <Marker position={[business.coordinates.latitude, business.coordinates.longitude]} key={business.id}>
-              <Popup id={`popup-${business.id}`}>
-                {business.name}
-              </Popup>
-            </Marker>
-          ))}
-        </LeafletMap>
-      </div>
-    );
+const MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoiY2xlamV1bmVtZWlzdGVyIiwiYSI6ImNrN3hpaHExdDAwNjMzZnFxZWt2czNveGgifQ.1j3kadYAFg5UCsTkcvO1_Q";
 
-export default WorldMapView;
+const WorldMap = (props) => (
+  <div>
+    <Map center={[props.centerLat, props.centerLong]} zoom={11}>
+      <MapboxLayer
+        accessToken={MAPBOX_ACCESS_TOKEN}
+      />
+      {props.businesses.map((business) => (
+        <Marker position={[business.coordinates.latitude, business.coordinates.longitude]} key={business.id}>
+          <Popup id={`popup-${business.id}`}>
+            {business.name}
+          </Popup>
+        </Marker>
+      ))}
+    </Map>
+  </div>
+);
+
+export default WorldMap
