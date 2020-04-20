@@ -34,6 +34,7 @@ class SearchBar extends React.Component {
                 >
                   <option value="">Select a Value</option>
                   <option value='prenatal-yoga'>PreNatal Yoga</option>
+                  <option value='prenatal-massage'>PreNatal Massage</option>
                 </Field>
                 <ErrorMessage
                   name="serviceDropdown"

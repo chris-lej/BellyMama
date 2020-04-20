@@ -11,6 +11,7 @@ const initialState = {
 
 const rootReducer = (state = initialState, action) => {
   if (action.type === DATA_LOADED) {
+    console.log(action.payload)
     return Object.assign({}, state, {
       apiData: action.payload
     });

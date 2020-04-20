@@ -2,464 +2,580 @@
   "prenatal-yoga": {
     "businesses": [
       {
-        "id": "z1iITt6iaqyH7PhqCLIlQQ",
-        "alias": "austin-prenatal-yoga-austin",
         "name": "Austin Prenatal Yoga",
-        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/QRq80v32w_G-RIGtoFhKBQ/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/austin-prenatal-yoga-austin?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 26,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-876-9517",
+        "email": "",
         "coordinates": {
-          "latitude": 30.3590220931596,
-          "longitude": -97.7342891986725
-        },
-        "transactions": [],
-        "location": {
-          "address1": "2700 W Anderson Ln",
-          "address2": "Ste 320",
-          "address3": "",
-          "city": "Austin",
-          "zip_code": "78757",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "2700 W Anderson Ln",
-            "Ste 320",
-            "Austin, TX 78757"
-          ]
-        },
-        "phone": "+15128769517",
-        "display_phone": "(512) 876-9517",
-        "distance": 6397.8497361984955
+          "lat": 30.35902209,
+          "long": -97.7342892
+        }
       },
       {
-        "id": "6WhNEgyg4Q7oMRvlJG_NAA",
-        "alias": "lotus-babies-austin",
         "name": "Lotus Babies",
-        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0bW6TKSLSf5EDPmwR-aX1A/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/lotus-babies-austin?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 3,
-        "categories": [
-          {
-            "alias": "doulas",
-            "title": "Doulas"
-          },
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          },
-          {
-            "alias": "placentaencapsulation",
-            "title": "Placenta Encapsulations"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-577-3590",
+        "email": "",
         "coordinates": {
-          "latitude": 30.2036075592041,
-          "longitude": -97.7858047485352
-        },
-        "transactions": [],
-        "location": {
-          "address1": null,
-          "address2": null,
-          "address3": "",
-          "city": "Austin",
-          "zip_code": "78745",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "Austin, TX 78745"
-          ]
-        },
-        "phone": "+15125773590",
-        "display_phone": "(512) 577-3590",
-        "distance": 10637.807903495115
+          "lat": 30.20360756,
+          "long": -97.78580475
+        }
       },
       {
-        "id": "KgjQ7ke0LrYG-4xsaxZbrw",
-        "alias": "yoga-peace-school-austin",
         "name": "Yoga Peace School",
-        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZFy5MeIGzcfPBypXZQ90fA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/yoga-peace-school-austin?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 13,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-220-2848",
+        "email": "",
         "coordinates": {
-          "latitude": 30.278205,
-          "longitude": -97.751223
-        },
-        "transactions": [],
-        "location": {
-          "address1": "5806 Woodrow Ave",
-          "address2": null,
-          "address3": "",
-          "city": "Austin",
-          "zip_code": "78756",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "5806 Woodrow Ave",
-            "Austin, TX 78756"
-          ]
-        },
-        "phone": "+15122202848",
-        "display_phone": "(512) 220-2848",
-        "distance": 3061.098672207743
+          "lat": 30.278205,
+          "long": -97.751223
+        }
       },
       {
-        "id": "1OG7BC2gRND_p17_sm0Ojg",
-        "alias": "wild-heart-yoga-austin",
         "name": "Wild Heart Yoga",
-        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/EMf8RhodR79ZXAls4vtMsQ/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/wild-heart-yoga-austin?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 27,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-382-1560",
+        "email": "",
         "coordinates": {
-          "latitude": 30.29455,
-          "longitude": -97.82386
-        },
-        "transactions": [],
-        "location": {
-          "address1": "5604 Bee Cave Rd",
-          "address2": "",
-          "address3": null,
-          "city": "Austin",
-          "zip_code": "78746",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "5604 Bee Cave Rd",
-            "Austin, TX 78746"
-          ]
-        },
-        "phone": "+15123821560",
-        "display_phone": "(512) 382-1560",
-        "distance": 6461.843310846769
+          "lat": 30.29455,
+          "long": -97.82386
+        }
       },
       {
-        "id": "hO6aaV9gsTm3WqckEa6C_Q",
-        "alias": "austin-area-birthing-center-austin-2",
-        "name": "Austin Area Birthing Center",
-        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/bcq9pHUccnL14lwnIOW9EA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/austin-area-birthing-center-austin-2?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 100,
-        "categories": [
-          {
-            "alias": "midwives",
-            "title": "Midwives"
-          }
-        ],
-        "rating": 4.5,
+        "name": "Austin Area Birthing Center (Duval Rd)",
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-346-3224",
+        "email": "",
         "coordinates": {
-          "latitude": 30.412188,
-          "longitude": -97.728737
-        },
-        "transactions": [],
-        "location": {
-          "address1": "4100 Duval Rd",
-          "address2": "Bldg 2, Ste 101",
-          "address3": "",
-          "city": "Austin",
-          "zip_code": "78759",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "4100 Duval Rd",
-            "Bldg 2, Ste 101",
-            "Austin, TX 78759"
-          ]
-        },
-        "phone": "+15123463224",
-        "display_phone": "(512) 346-3224",
-        "distance": 12221.954072518194
+          "lat": 30.412188,
+          "long": -97.728737
+        }
       },
       {
-        "id": "MKln3w_MqGYCCL2jWMgcig",
-        "alias": "soul-strong-yoga-round-rock",
         "name": "Soul Strong Yoga",
-        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/hIOyyFYosfkgxuO4jZaQKw/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/soul-strong-yoga-round-rock?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 18,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-686-7685",
+        "email": "",
         "coordinates": {
-          "latitude": 30.5075323108905,
-          "longitude": -97.6815825
-        },
-        "transactions": [],
-        "location": {
-          "address1": "309 W Main St",
-          "address2": "Ste 121",
-          "address3": "",
-          "city": "Round Rock",
-          "zip_code": "78664",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "309 W Main St",
-            "Ste 121",
-            "Round Rock, TX 78664"
-          ]
-        },
-        "phone": "+15126867685",
-        "display_phone": "(512) 686-7685",
-        "distance": 23658.136725948007
+          "lat": 30.50753231,
+          "long": -97.6815825
+        }
       },
       {
-        "id": "msE0rGXOnHGYo_7letF-oQ",
-        "alias": "porter-massage-and-yoga-austin",
         "name": "Porter Massage and Yoga",
-        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/GqVa6NlCPOkL8Ohuy9CvdA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/porter-massage-and-yoga-austin?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 3,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          },
-          {
-            "alias": "massage_therapy",
-            "title": "Massage Therapy"
-          },
-          {
-            "alias": "hydrotherapy",
-            "title": "Hydrotherapy"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-636-4339",
+        "email": "",
         "coordinates": {
-          "latitude": 30.2368427,
-          "longitude": -97.8470436
-        },
-        "transactions": [],
-        "location": {
-          "address1": "5716 Hwy 290 W",
-          "address2": "205 F",
-          "address3": "",
-          "city": "Austin",
-          "zip_code": "78735",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "5716 Hwy 290 W",
-            "205 F",
-            "Austin, TX 78735"
-          ]
-        },
-        "phone": "+15126364339",
-        "display_phone": "(512) 636-4339",
-        "distance": 11457.857275421353
+          "lat": 30.2368427,
+          "long": -97.8470436
+        }
       },
       {
-        "id": "cN9DaM_o1aE-qlN1_d6CuQ",
-        "alias": "austin-area-birthing-center-austin-3",
         "name": "Austin Area Birthing Center",
-        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/eFq4YB34d8K7lGiHlNcnBw/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/austin-area-birthing-center-austin-3?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 74,
-        "categories": [
-          {
-            "alias": "obgyn",
-            "title": "Obstetricians & Gynecologists"
-          },
-          {
-            "alias": "midwives",
-            "title": "Midwives"
-          }
-        ],
-        "rating": 4.5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-243-8066",
+        "email": "",
         "coordinates": {
-          "latitude": 30.2065601,
-          "longitude": -97.8128815
-        },
-        "transactions": [],
-        "location": {
-          "address1": "2500 W William Cannon Dr",
-          "address2": "",
-          "address3": "",
-          "city": "Austin",
-          "zip_code": "78745",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "2500 W William Cannon Dr",
-            "Austin, TX 78745"
-          ]
-        },
-        "phone": "+15122438066",
-        "display_phone": "(512) 243-8066",
-        "distance": 12243.169743554237
+          "lat": 30.2065601,
+          "long": -97.8128815
+        }
       },
       {
-        "id": "Kcw5Aa7Ful0JYEtuR0ziCw",
-        "alias": "the-yoga-room-round-rock-3",
         "name": "The Yoga Room",
-        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/z2WNo745xk_2gQC-YvCYHw/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/the-yoga-room-round-rock-3?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 31,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          }
-        ],
-        "rating": 4.5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-318-2112",
+        "email": "",
         "coordinates": {
-          "latitude": 30.5188176,
-          "longitude": -97.6771205
-        },
-        "transactions": [],
-        "location": {
-          "address1": "503 E Palm Valley Blvd",
-          "address2": "Ste 220",
-          "address3": "",
-          "city": "Round Rock",
-          "zip_code": "78664",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "503 E Palm Valley Blvd",
-            "Ste 220",
-            "Round Rock, TX 78664"
-          ]
-        },
-        "phone": "+15123182112",
-        "display_phone": "(512) 318-2112",
-        "distance": 24983.67733077621
+          "lat": 30.5188176,
+          "long": -97.6771205
+        }
       },
       {
-        "id": "-HpsHL49DkONXiCeiaJn7A",
-        "alias": "stacy-wooster-pflugerville",
         "name": "Stacy Wooster",
-        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/q8GFxz7GJDxgf3HftP7KxA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/stacy-wooster-pflugerville?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 2,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          },
-          {
-            "alias": "massage_therapy",
-            "title": "Massage Therapy"
-          }
-        ],
-        "rating": 4.5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-225-4474",
+        "email": "",
         "coordinates": {
-          "latitude": 30.4332061,
-          "longitude": -97.6005786
-        },
-        "transactions": [],
-        "location": {
-          "address1": "",
-          "address2": null,
-          "address3": "",
-          "city": "Pflugerville",
-          "zip_code": "78660",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "Pflugerville, TX 78660"
-          ]
-        },
-        "phone": "+15122254474",
-        "display_phone": "(512) 225-4474",
-        "distance": 20736.776291397542
+          "lat": 30.4332061,
+          "long": -97.6005786
+        }
       },
       {
-        "id": "uniqueIdSouthAustinPrenatalYoga",
         "name": "South Austin Prenatal Yoga",
-        "url": "https://southaustinprenatalyoga.com/",
+        "website": "https://southaustinprenatalyoga.com/",
+        "address": "#REF!",
+        "phone": "512-577-3590",
+        "email": "",
         "coordinates": {
-          "latitude": 30.3588045436034,
-          "longitude": -97.7346646785736
-        },
-        "location": {
-          "address1": "2500 W William Cannon Dr",
-          "address2": "#503",
-          "address3": null,
-          "city": "Austin",
-          "zip_code": "78745",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "2500 W William Cannon Dr",
-            "#503",
-            "Austin, TX 78745"
-          ]
-        },
-        "phone": "+15125773590",
-        "display_phone": "(512) 577-3590"
+          "lat": 30.35880454,
+          "long": -97.73466468
+        }
       },
       {
-        "id": "A6dqMPWd8LwCfkGw1wCsng",
-        "alias": "the-little-yoga-house-austin-2",
         "name": "The Little Yoga House",
-        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/pIomJqQOaY94ZQT8AP5ARA/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/the-little-yoga-house-austin-2?adjust_creative=V_gXWB1BLfZVaTRf1gZ5ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=V_gXWB1BLfZVaTRf1gZ5ww",
-        "review_count": 10,
-        "categories": [
-          {
-            "alias": "yoga",
-            "title": "Yoga"
-          }
-        ],
-        "rating": 5,
+        "website": "#",
+        "address": "#REF!",
+        "phone": "512-358-6190",
+        "email": "",
         "coordinates": {
-          "latitude": 30.3588045436034,
-          "longitude": -97.7346646785736
-        },
-        "transactions": [],
-        "location": {
-          "address1": "2700 W Anderson Ln",
-          "address2": "Ste 229",
-          "address3": null,
-          "city": "Austin",
-          "zip_code": "78757",
-          "country": "US",
-          "state": "TX",
-          "display_address": [
-            "2700 W Anderson Ln",
-            "Ste 229",
-            "Austin, TX 78757"
-          ]
-        },
-        "phone": "+15123586190",
-        "display_phone": "(512) 358-6190",
-        "distance": 6362.587229626873
+          "lat": 30.35880454,
+          "long": -97.73466468
+        }
+      }
+    ]
+  },
+  "prenatal-massage": {
+    "businesses": [
+      {
+        "name": "Mantis Massage",
+        "website": "https://www.mantismassage.com",
+        "address": "3823 Airport Boulevard A, Austin, TX 78722",
+        "phone": "512-540-5827",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2887726,
+          "long": -97.7086502
+        }
+      },
+      {
+        "name": "The Massage Studio",
+        "website": "https://themassagestudio.com",
+        "address": "3801 S Congress Ave, Sute 101, Austin, TX 78704",
+        "phone": "512-759-854",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2254798,
+          "long": -97.7643983
+        }
+      },
+      {
+        "name": "Zen Well",
+        "website": "https://www.zenwell.com",
+        "address": "3421 W. William Cannon Dr.,Suite 139, Austin,TX 78745",
+        "phone": "512-537-3971",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2129225,
+          "long": -97.8316965
+        }
+      },
+      {
+        "name": "Sage Blossom Massage",
+        "website": "https://www.sageblossommassage.com",
+        "address": "6603 Menchaca Rd.Austin, TX 78745",
+        "phone": "512-826-3550",
+        "email": "juliann@sageblossommassage.com",
+        "coordinates": {
+          "lat": 30.2064501,
+          "long": -97.8080331
+        }
+      },
+      {
+        "name": "Heart and Soul Massage",
+        "website": "http://www.heartandsolemassage.com",
+        "address": "13276 Research Blvd. #109,  Austin, TX 78750",
+        "phone": "512-506-9775",
+        "email": "Admin@Heartandsolemassage.com",
+        "coordinates": {
+          "lat": 30.4429024,
+          "long": -97.7881844
+        }
+      },
+      {
+        "name": "Castle Hill Fitness",
+        "website": "https://www.castlehillfitness.com",
+        "address": "3801 N Capital of Texas Hwy I-100, Austin, TX 78746",
+        "phone": "512-478-4567",
+        "email": "concierge@castlehillfitness.com",
+        "coordinates": {
+          "lat": 30.337323,
+          "long": -97.803149
+        }
+      },
+      {
+        "name": "Spa at the Lake",
+        "website": "http://www.spaatthelake.com",
+        "address": "900 RR 620 S, Suite A-104, Austin TX 78734",
+        "phone": "512-263-7611",
+        "email": "info@spaatthelake.com ",
+        "coordinates": {
+          "lat": 30.3555165,
+          "long": -98.1015105
+        }
+      },
+      {
+        "name": "Pure Touch Massage",
+        "website": "https://www.massagebook.com",
+        "address": "2500 W. William Cannon Dr.,607D, Austin , TX 78745",
+        "phone": "512- 677-7941",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2056362,
+          "long": -97.8282426
+        }
+      },
+      {
+        "name": "Woman Craft Austin",
+        "website": "http://www.womancraftaustin.com",
+        "address": "9213 Magna Carta Loop, Austin, TX",
+        "phone": "512-537-1641",
+        "email": "Colleen@womancraftaustin.com",
+        "coordinates": {
+          "lat": 30.3353387,
+          "long": -97.6504938
+        }
+      },
+      {
+        "name": "Hand & Stone Massage and Facial Spa",
+        "website": "https://www.handandstonesouthaustin.com",
+        "address": "4301 West William Cannon Drive Suite 230, Austin, TX 78749",
+        "phone": "512-774-5495",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2191175,
+          "long": -97.8582135
+        }
+      },
+      {
+        "name": "Austin Massage Clinic",
+        "website": "https://www.austinmassageclinic.com",
+        "address": "3530 Bee Caves Rd Suite 110a, Austin, Texas 78746",
+        "phone": "512-861-8432",
+        "email": "info@austinmassageclinic.com",
+        "coordinates": {
+          "lat": 30.2778342,
+          "long": -97.8069542
+        }
+      },
+      {
+        "name": "Massage Sway",
+        "website": "https://massagesway.com/",
+        "address": "11011 Domain Drive Suite 124, Austin, TX 78758",
+        "phone": "512-873-0999",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3961927,
+          "long": -97.7279465
+        }
+      },
+      {
+        "name": "Absolutely Relaxed Austin",
+        "website": "http://www.absolutelyrelaxedaustin.com",
+        "address": " 1505 W. North Loop Blvd., Austin, TX 78756",
+        "phone": "512-709-8234",
+        "email": "AbsolutelyRelaxed@hotmail.com",
+        "coordinates": {
+          "lat": 30.3248397,
+          "long": -97.7398487
+        }
+      },
+      {
+        "name": "Living new Massage",
+        "website": "http://www.livinganewmassage.com",
+        "address": "2700 W. Anderson Lane #509, Austin, TX 78757",
+        "phone": "512-744-7483",
+        "email": "livinganewmassage@gmail.com",
+        "coordinates": {
+          "lat": 30.3588483,
+          "long": -97.7365737
+        }
+      },
+      {
+        "name": "Katie Massage",
+        "website": "http://www.katiemassage.com",
+        "address": "Clifford Ave, Austin, TX 78702",
+        "phone": "512-940-9260",
+        "email": "Katie@KatieMassage.com",
+        "coordinates": {
+          "lat": 30.2380038,
+          "long": -97.8417105
+        }
+      },
+      {
+        "name": "The Jade Gardenia",
+        "website": "https://thejadegardenia.com",
+        "address": "1708 S 1st St, Austin, TX 78704",
+        "phone": "512-774-4130",
+        "email": "thejadegardenia@gmail.com",
+        "coordinates": {
+          "lat": 0.2227707,
+          "long": -97.8279431
+        }
+      },
+      {
+        "name": "Pampering Pros",
+        "website": "https://www.pamperingpros.com",
+        "address": "10800 Lakeline Blvd, Austin, TX 78717",
+        "phone": "844-868-6946",
+        "email": "Info@PamperingPros.com",
+        "coordinates": {
+          "lat": 30.4824803,
+          "long": -97.7957661
+        }
+      },
+      {
+        "name": "Pampering Pros (Westlake)",
+        "website": "https://www.pamperingpros.com",
+        "address": "701 S Capital of Texas Hwy n840, Austin, TX 78746",
+        "phone": "844-868-6946",
+        "email": "Info@PamperingPros.com",
+        "coordinates": {
+          "lat": 30.2921161,
+          "long": -97.8281849
+        }
+      },
+      {
+        "name": "Viva Day Spa",
+        "website": "https://www.vivadayspa.com",
+        "address": "11601 Rock Rose Avenue, Austin, TX 78758",
+        "phone": "512-361-2558",
+        "email": "info@vivadayspa.com",
+        "coordinates": {
+          "lat": 30.4016785,
+          "long": -97.7244675
+        }
+      },
+      {
+        "name": "South Congress Massage",
+        "website": "https://www.socomassage.com",
+        "address": "1704 1/2 S. Congress Ave. (in the Woodland Office Suites  Suite D)  Austin, TX 78704",
+        "phone": "512-445-7455",
+        "email": "",
+        "coordinates": {
+          "lat": 30.247031,
+          "long": -97.7532937
+        }
+      },
+      {
+        "name": "Austin Roots Massage Therapy",
+        "website": "https://www.massagebook.com",
+        "address": "1900 W. Koenig Lane  AUSTIN , TX 7875",
+        "phone": "512-633-5259",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3336786,
+          "long": -97.8068378
+        }
+      },
+      {
+        "name": "Elements Massage",
+        "website": "https://elementsmassage.com",
+        "address": "Lakeline Market Shopping Center (183 & Lakeline Blvd), 14028 N US Hwy 183, Suite 20, Austin, TX 78717",
+        "phone": "512-234-3596",
+        "email": "",
+        "coordinates": {
+          "lat": 30.4768444,
+          "long": -97.8061121
+        }
+      },
+      {
+        "name": "Austin Community Wellness",
+        "website": "https://www.austincommunitywellness.com",
+        "address": "2900 S Congress Ave, Ste 104",
+        "phone": "512-507-5672",
+        "email": "austincommunitywellness@gmail.com",
+        "coordinates": {
+          "lat": 30.2335015,
+          "long": -97.7606876
+        }
+      },
+      {
+        "name": "Austin Massage Company",
+        "website": "https://austinmassagecompany.com",
+        "address": "Austin Trail Running Company, 13219 US-183 #200, Austin, TX 78750",
+        "phone": "512-575-3499",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3275841,
+          "long": -97.9099648
+        }
+      },
+      {
+        "name": "Hands of Chi ",
+        "website": "https://handsofchi.com",
+        "address": "4477 S. Lamar Blvd., #510, Austin, TX 78745",
+        "phone": "512-931-4263",
+        "email": "massage@handsofchi.com",
+        "coordinates": {
+          "lat": 30.2303741,
+          "long": -97.8010122
+        }
+      },
+      {
+        "name": "Spa Via Day Spa",
+        "website": "https://spaviadayspa.com/austin-tx",
+        "address": "6701 Burnet Rd, b3, Austin, TX 78757",
+        "phone": "512-956-5005",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3428803,
+          "long": -97.740514
+        }
+      },
+      {
+        "name": "Rosewood Wellness",
+        "website": "https://www.rosewoodchiro.com",
+        "address": "5815 W. William Cannon Ste 103 Austin, TX 78749",
+        "phone": "512-953-8397",
+        "email": "info@rosewoodchiro.com",
+        "coordinates": {
+          "lat": 30.2273941,
+          "long": -97.8634229
+        }
+      },
+      {
+        "name": "MYO",
+        "website": "https://myoaustin.com",
+        "address": "4616 Triangle Ave. #407, Austin 78751",
+        "phone": "512-458-4696",
+        "email": "",
+        "coordinates": {
+          "lat": 30.314706,
+          "long": -97.7360464
+        }
+      },
+      {
+        "name": "Austin Massage Professional",
+        "website": "https://www.austinmassagepro.com",
+        "address": "12593 Research Blvd, Suite 201",
+        "phone": "512-575-3499",
+        "email": "crystalcardona.cc@gmail.com",
+        "coordinates": {
+          "lat": 30.4313487,
+          "long": -97.764814
+        }
+      },
+      {
+        "name": "Pure Light Chiro",
+        "website": "https://www.purelightchiro.com",
+        "address": "1711 Fortview Rd Austin Tx 78704",
+        "phone": "512-750-1512",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2294626,
+          "long": -97.7871378
+        }
+      },
+      {
+        "name": "Work Well Austin Massage",
+        "website": "http://www.workwellaustin.com",
+        "address": "1706 S. Lamar Blvd, Austin, TX 78704",
+        "phone": "512-671-0224",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2505106,
+          "long": -97.7684561
+        }
+      },
+      {
+        "name": "Massage Heights",
+        "website": "https://www.massageheights.com",
+        "address": "9600 South Interstate 35 Frontage Road Suite D-200, Austin, TX 78748",
+        "phone": "512-645-1721",
+        "email": "",
+        "coordinates": {
+          "lat": 30.1613519,
+          "long": -97.9326687
+        }
+      },
+      {
+        "name": "Prevana Wellness",
+        "website": "http://www.prevanawellness.com",
+        "address": "2720 Bee Caves Rd, Austin, TX 78746",
+        "phone": "512-661-8382",
+        "email": "paige@prevanawellness.com",
+        "coordinates": {
+          "lat": 30.271769,
+          "long": -97.789813
+        }
+      },
+      {
+        "name": "Awakened Nature",
+        "website": "https://www.awakenednature.com",
+        "address": "1407 Medical Pkwy.Suite #217, Austin, TX 78756",
+        "phone": "512-919-0132",
+        "email": "osunray@gmail.com",
+        "coordinates": {
+          "lat": 30.4677827,
+          "long": -97.8953043
+        }
+      },
+      {
+        "name": "Jacqueline Healing",
+        "website": "http://jacquelinehealing.com",
+        "address": "2111 Dickson Dr,Austin, TX 78759",
+        "phone": "720-352-7255",
+        "email": "JACQUELINEHEALING@GMAIL.COM",
+        "coordinates": {
+          "lat": 30.2457188,
+          "long": -97.7835419
+        }
+      },
+      {
+        "name": "Milk and Honey Spa",
+        "website": "https://milkandhoneyspa.com",
+        "address": "Hill Country Galleria (spa + salon) | , 12901 Hill Country Blvd D1-110, Austin, Bee Cave, TX 78738",
+        "phone": "512-236-1115",
+        "email": "galleria@milkandhoneyspa.com",
+        "coordinates": {
+          "lat": 30.3093926,
+          "long": -97.9443181
+        }
+      },
+      {
+        "name": "Life Time Spine",
+        "website": "http://www.lifetimespineschiropractic.com",
+        "address": "2100 W. William Cannon Drive Suite C, Austin, TX 78745 ",
+        "phone": "512-291-3735",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2037984,
+          "long": -97.8253716
+        }
+      },
+      {
+        "name": "360 Massage",
+        "website": "https://maria-wheeler.squarespace.com",
+        "address": "4009 Medical Pkwy, Austin, TX 78756",
+        "phone": "512-820-9285",
+        "email": "m16wheeler@gmail.com",
+        "coordinates": {
+          "lat": 30.3092325,
+          "long": -97.7446452
+        }
+      },
+      {
+        "name": "Studio Mantra",
+        "website": "https://www.mantraaustin.com",
+        "address": "8127 Mesa Dr. | Austin, TX 78759",
+        "phone": "512-960-4660",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3731031,
+          "long": -97.7577137
+        }
+      },
+      {
+        "name": "Porcelain Massage",
+        "website": "https://bestasianmassage.wixsite.com",
+        "address": "2204 Airport Blvd, Austin TX 78722",
+        "phone": "512-838-6969",
+        "email": "",
+        "coordinates": {
+          "lat": 30.285583,
+          "long": -97.7084603
+        }
       }
     ]
   }
