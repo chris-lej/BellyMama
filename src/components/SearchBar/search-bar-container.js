@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { getBusinesses } from "../../actions";
 import * as Yup from 'yup';
 import { Button } from 'reactstrap'
+import './search-bar.css'
 
 const mapDispatchToProps = (dispatch) => ({
   getData: (category) => dispatch(getBusinesses(category))
@@ -32,7 +33,7 @@ class SearchBar extends React.Component {
                   as="select"
                   className="form-control"
                 >
-                  <option value="">Select a Value</option>
+                  <option value="">Choose your service</option>
                   <option value='prenatal-yoga'>PreNatal Yoga</option>
                   <option value='prenatal-massage'>PreNatal Massage</option>
                 </Field>
@@ -44,7 +45,7 @@ class SearchBar extends React.Component {
               <div className="col-2">
                 <Button
                   type="submit"
-                  color="primary"
+                  className="submit-button"
                 >
                   Submit
                 </Button>

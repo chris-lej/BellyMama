@@ -8,23 +8,28 @@ import {
   NavLink,
   Button
 } from 'reactstrap';
-import preNatalSymbol from '../../images/pregnant.png'
+import Logo from '../../images/logo.png'
 import SearchBar from "../SearchBar";
+import './main-menu.css'
 
 const MainMenuView = () => (
   <div>
-    <Navbar color="light" light expand="md" className="mb-3">
+    <Navbar light expand="md" className="mb-3">
       <NavbarBrand>
-        <img src={preNatalSymbol} width={"50px"} alt="hubspot symbol"/>
+        <img src={Logo} width={"250px"} alt="hubspot symbol"/>
       </NavbarBrand>
-      <Nav className="w-100" navbar>
+      <Nav className="w-100 navbar-content" navbar>
         <NavItem>
           <NavLink tag={Link} to="/">
-            <Button outline color="info">Home</Button>
+            <Button outline color="secondary">About</Button>
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink tag={Link} to="/">
+            <Button outline color="secondary">Contact Us</Button>
           </NavLink>
         </NavItem>
         <SearchBar />
-
       </Nav>
     </Navbar>
   </div>
