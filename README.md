@@ -1,2 +1,1 @@
-![prenatal-symbol](./src/images/pregnant.png)
-## Prenatal App
+![prenatal-symbol](./src/images/logo.png)
