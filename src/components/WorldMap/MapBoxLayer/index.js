@@ -1,6 +1,9 @@
 import L from "leaflet";
 import {} from "mapbox-gl-leaflet";
-import { GridLayer, withLeaflet } from "react-leaflet";
+import {
+  GridLayer,
+  withLeaflet
+} from "react-leaflet";
 
 class MapBoxGLLayer extends GridLayer {
   createLeafletElement(props) {

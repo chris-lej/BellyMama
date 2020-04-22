@@ -1,13 +1,13 @@
 import React from 'react';
 import {Form, Formik, Field, ErrorMessage} from 'formik';
 import { connect } from "react-redux";
-import { getBusinesses } from "../../actions";
+import Actions from "../../actions";
 import * as Yup from 'yup';
 import { Button } from 'reactstrap'
 import './search-bar.css'
 
 const mapDispatchToProps = (dispatch) => ({
-  getData: (category) => dispatch(getBusinesses(category))
+  getData: (category) => dispatch(Actions.getBusinesses(category))
 });
 
 class SearchBar extends React.Component {

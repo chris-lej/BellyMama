@@ -1,5 +1,6 @@
 import axios from 'axios'
 import {
+  TOGGLE_VIEW,
   DATA_LOADED,
   ERROR_CAPTURED
 } from "../constants/action-types";
@@ -15,7 +16,7 @@ export const getData = (category) => async (dispatch) => {
     const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?${searchTerm}&location=${searchLocation}&limit=50`, {
       headers
     })
-    dispatch({ type: DATA_LOADED, payload: {...response.data, searchCategory: category}})
+    dispatch({ type: DATA_LOADED, payload: response.data})
   } catch (error) {
     alert('Ops! Seems like there was an error. Please see Redux tree for error data set!')
     dispatch({ type: ERROR_CAPTURED, error})
@@ -24,10 +25,15 @@ export const getData = (category) => async (dispatch) => {
 
 export const getBusinesses = (category) => (dispatch) => {
   const service = Services[category]
-  dispatch({ type: DATA_LOADED, payload: {...service, searchCategory: category}})
+  dispatch({ type: DATA_LOADED, payload: service})
+}
+
+export const toggleBusinessView = (value) => (dispatch) => {
+  dispatch({ type: TOGGLE_VIEW, payload: value})
 }
 
 export default {
   getData,
-  getBusinesses
+  getBusinesses,
+  toggleBusinessView
 }

@@ -1,5 +1,9 @@
 import React from "react";
-import { Map, Marker, Popup } from "react-leaflet";
+import {
+  Map,
+  Marker,
+  Popup
+} from "react-leaflet";
 import MapboxLayer from "./MapBoxLayer";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
