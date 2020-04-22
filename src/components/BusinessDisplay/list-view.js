@@ -15,7 +15,9 @@ const ListView = (props) => (
               </div>
             )
           })
-        : 'NADA'
+        : <div className="business-container text-center">
+            'Select the service you are looking for with the dropdown above.'
+          </div>
       }
     </div>
   );

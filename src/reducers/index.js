@@ -7,7 +7,7 @@ import {
 const initialState = {
   apiData: [],
   error: null,
-  mapView: false
+  mapView: true
 };
 
 const rootReducer = (state = initialState, action) => {
