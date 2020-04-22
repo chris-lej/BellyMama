@@ -3,19 +3,17 @@ import {
   Button,
   ButtonGroup
 } from "reactstrap";
-import WorldMap from '../WorldMap';
+import BusinessDisplay from '../BusinessDisplay';
 
 export const HomeView = (props) => (
   <div>
-    <ButtonGroup>
-      <Button onClick={() => props.toggleView(true)}>Map</Button>
-      <Button onClick={() => props.toggleView(false)}>List</Button>
-    </ButtonGroup>
-
-    {props.businessViewIsMap
-      ? <WorldMap/>
-      : 'ListView'}
-
+    <div className="text-center">
+      <ButtonGroup>
+        <Button outline={props.businessViewIsMap ? false : true} color="info" onClick={() => props.toggleView(true)}>Map View</Button>
+        <Button outline={!props.businessViewIsMap ? false : true} color="info" onClick={() => props.toggleView(false)}>List View</Button>
+      </ButtonGroup>
+    </div>
+    <BusinessDisplay />
   </div>
 );
 

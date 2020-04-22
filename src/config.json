@@ -3,10 +3,10 @@
     "businesses": [
       {
         "name": "Austin Prenatal Yoga",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.austinprenatalyoga.com",
+        "address": "2700 W Anderson Ln, Suite 321, Austin, TX 78757",
         "phone": "512-876-9517",
-        "email": "",
+        "email": "lisa@austinprenatalyoga.com",
         "coordinates": {
           "lat": 30.35902209,
           "long": -97.7342892
@@ -14,10 +14,10 @@
       },
       {
         "name": "Lotus Babies",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.lotus-babies.com",
+        "address": "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
         "phone": "512-577-3590",
-        "email": "",
+        "email": "anyacasteel@gmail.com ",
         "coordinates": {
           "lat": 30.20360756,
           "long": -97.78580475
@@ -25,10 +25,10 @@
       },
       {
         "name": "Yoga Peace School",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.yogapeaceschool.com",
+        "address": "5806 Woodrow Ave, Austin, TX 78756",
         "phone": "512-220-2848",
-        "email": "",
+        "email": "explore@yogapeaceschool.com",
         "coordinates": {
           "lat": 30.278205,
           "long": -97.751223
@@ -36,19 +36,19 @@
       },
       {
         "name": "Wild Heart Yoga",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.wildheartyogaaustin.com",
+        "address": "5604 Bee Caves Rd, Austin, TX 78746",
         "phone": "512-382-1560",
-        "email": "",
+        "email": "info@wildheartyogaaustin.com",
         "coordinates": {
           "lat": 30.29455,
           "long": -97.82386
         }
       },
       {
-        "name": "Austin Area Birthing Center (Duval Rd)",
-        "website": "#",
-        "address": "#REF!",
+        "name": "Austin Area Birthing Center",
+        "website": "www.austinabc.com",
+        "address": "4100 Duval Road, Bldg 2 St 01, Austin, TX 7859",
         "phone": "512-346-3224",
         "email": "",
         "coordinates": {
@@ -58,10 +58,10 @@
       },
       {
         "name": "Soul Strong Yoga",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.soulstrongyogatx.com",
+        "address": "309 W Main St, Suite 121, Round Rock, TX 78664",
         "phone": "512-686-7685",
-        "email": "",
+        "email": "info@soulstrongyogatx.com",
         "coordinates": {
           "lat": 30.50753231,
           "long": -97.6815825
@@ -69,8 +69,8 @@
       },
       {
         "name": "Porter Massage and Yoga",
-        "website": "#",
-        "address": "#REF!",
+        "website": "portermassageyoga.com",
+        "address": "5716 Hwy 290 W, 205 F, Austin, TX 78735",
         "phone": "512-636-4339",
         "email": "",
         "coordinates": {
@@ -80,8 +80,8 @@
       },
       {
         "name": "Austin Area Birthing Center",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.austinabc.com",
+        "address": "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
         "phone": "512-243-8066",
         "email": "",
         "coordinates": {
@@ -91,8 +91,8 @@
       },
       {
         "name": "The Yoga Room",
-        "website": "#",
-        "address": "#REF!",
+        "website": "www.rryogaroom.com",
+        "address": "503 E Palm Valley Blvd, Suite 220, Round Rock, TX 78664",
         "phone": "512-318-2112",
         "email": "",
         "coordinates": {
@@ -101,20 +101,9 @@
         }
       },
       {
-        "name": "Stacy Wooster",
-        "website": "#",
-        "address": "#REF!",
-        "phone": "512-225-4474",
-        "email": "",
-        "coordinates": {
-          "lat": 30.4332061,
-          "long": -97.6005786
-        }
-      },
-      {
         "name": "South Austin Prenatal Yoga",
-        "website": "https://southaustinprenatalyoga.com/",
-        "address": "#REF!",
+        "website": "www.southaustinprenatalyoga.com",
+        "address": "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
         "phone": "512-577-3590",
         "email": "",
         "coordinates": {
@@ -124,10 +113,10 @@
       },
       {
         "name": "The Little Yoga House",
-        "website": "#",
-        "address": "#REF!",
+        "website": "https://thelittleyogahouse.com",
+        "address": " 2700 W Anderson Ln, Suite 229, Austin, TX 78757",
         "phone": "512-358-6190",
-        "email": "",
+        "email": "play@thelittleyogahouse.com",
         "coordinates": {
           "lat": 30.35880454,
           "long": -97.73466468
