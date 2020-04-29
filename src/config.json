@@ -2,6 +2,24 @@
   "prenatal-yoga": {
     "businesses": [
       {
+        "name": "TESTING HERE",
+        "website": "www.test.com",
+        "address": "",
+        "phone": "512-876-9517",
+        "email": "test@test.com",
+        "coordinates": {
+        }
+      },
+      {
+        "name": "TESTING 2 HERE",
+        "website": "www.test2.com",
+        "address": "",
+        "phone": "512-876-9517",
+        "email": "test2@test2.com",
+        "coordinates": {
+        }
+      },
+      {
         "name": "Austin Prenatal Yoga",
         "website": "www.austinprenatalyoga.com",
         "address": "2700 W Anderson Ln, Suite 321, Austin, TX 78757",
@@ -46,7 +64,7 @@
         }
       },
       {
-        "name": "Austin Area Birthing Center",
+        "name": "Austin Area Birthing Center (at Duval) ",
         "website": "www.austinabc.com",
         "address": "4100 Duval Road, Bldg 2 St 01, Austin, TX 7859",
         "phone": "512-346-3224",
