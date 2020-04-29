@@ -5,10 +5,10 @@ import {
   Popup
 } from "react-leaflet";
 import MapboxLayer from "./MapBoxLayer";
-import './list-view.css'
+import './business-view.css'
 
 const MapView = (props) => (
-  <div className="pt-2 d-flex">
+  <div className="d-flex map-container">
     <Map center={[props.centerLat, props.centerLong]} zoom={11}>
       <MapboxLayer
         accessToken={props.mapBoxToken}
@@ -32,20 +32,20 @@ const MapView = (props) => (
     </Map>
     {
       !!props.businessesWithoutAddress.length &&
-      <div className="w-30">
-        <h3>
-          Business Without Address
-        </h3>
-        {
-          props.businessesWithoutAddress.map(({ name, phone, website }) => (
-            <div className="business-container" key={`map-list-${name}`}>
-              <div>{name}</div>
-              <div>{phone}</div>
-              <div>{website}</div>
-            </div>
-          ))
-        }
-      </div>
+        <div className="w-30">
+          <h3>
+            Business Without Address
+          </h3>
+          {
+            props.businessesWithoutAddress.map(({ name, phone, website }) => (
+              <div className="business-container" key={`map-list-${name}`}>
+                <div>{name}</div>
+                <div>{phone}</div>
+                <div>{website}</div>
+              </div>
+            ))
+          }
+        </div>
     }
   </div>
 );

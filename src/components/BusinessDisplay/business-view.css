@@ -1,0 +1,10 @@
+.business-container {
+    background-color: #ecf3f4;
+    padding: 5px;
+    border-top: rgb(23, 162, 184) solid 1px;
+    margin: 0px 10px 10px 10px;
+}
+
+.map-container {
+    border-top: rgb(23, 162, 184) solid 1px;
+}

@@ -1,18 +1,10 @@
 import React from 'react';
-import {
-  Button,
-  ButtonGroup
-} from "reactstrap";
 import BusinessDisplay from '../BusinessDisplay';
+import ToggleView from '../ToggleView';
 
-export const HomeView = (props) => (
+export const HomeView = () => (
   <div>
-    <div className="text-center">
-      <ButtonGroup>
-        <Button outline={props.businessViewIsMap ? false : true} color="info" onClick={() => props.toggleView(true)}>Map View</Button>
-        <Button outline={!props.businessViewIsMap ? false : true} color="info" onClick={() => props.toggleView(false)}>List View</Button>
-      </ButtonGroup>
-    </div>
+    <ToggleView />
     <BusinessDisplay />
   </div>
 );

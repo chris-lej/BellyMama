@@ -1,5 +1,5 @@
 import React from 'react';
-import './list-view.css'
+import './business-view.css'
 
 const ListView = (props) => (
     <div>

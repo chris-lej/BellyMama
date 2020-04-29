@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 .submit-button {
     background-color: #E900D2!important;
     border-color: #E900D2!important;
+    width: 100%;
+}
+
+.search-title, .search-city {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.search-city {
+    margin-top: -4px;
+    margin-left: 7px;
+}
+
+.separator {
+    width: 1px;
+    background-color: #ecf3f4;
 }

@@ -1,3 +1,7 @@
 .navbar-content {
     margin-top: 2em;
 }
+
+.nav-button {
+    color: darkgrey!important;
+}

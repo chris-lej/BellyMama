@@ -1,3 +1,3 @@
-import SearchBar from './search-bar-container';
+import SearchBar from './search-bar';
 
 export default SearchBar;
