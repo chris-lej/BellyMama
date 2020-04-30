@@ -2,8 +2,7 @@ import React from 'react';
 import {
   Form,
   Formik,
-  Field,
-  ErrorMessage
+  Field
 } from 'formik';
 import { connect } from "react-redux";
 import Actions from "../../actions";
@@ -29,7 +28,6 @@ class SearchBar extends React.Component {
             .required('Required')
         })}
         onSubmit={(values, { setSubmitting }) => {
-          console.log('ban', values)
           this.props.getData(values.serviceDropdown);
           setSubmitting(false);
         }}
@@ -48,10 +46,6 @@ class SearchBar extends React.Component {
                     <option value='prenatal-yoga'>PreNatal Yoga</option>
                     <option value='prenatal-massage'>PreNatal Massage</option>
                   </Field>
-                  <ErrorMessage
-                    name="serviceDropdown"
-                    className="invalid-feedback"
-                  />
                 </div>
                 {
                   this.props.navBar &&

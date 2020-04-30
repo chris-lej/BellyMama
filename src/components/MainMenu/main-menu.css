@@ -5,3 +5,23 @@
 .nav-button {
     color: darkgrey!important;
 }
+
+.nav-button:hover, .nav-button:visited {
+    color: darkslategray!important;
+    text-decoration: none!important;
+}
+
+.separator {
+    width: 1px;
+    background-color: #ecf3f4;
+}
+
+.logo-symbol {
+    width: 50px;
+    height: 72px;
+}
+
+.search-bar {
+    padding-top: 17px;
+    padding-left: 25px;
+}

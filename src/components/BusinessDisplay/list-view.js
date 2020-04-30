@@ -2,7 +2,7 @@ import React from 'react';
 import './business-view.css'
 
 const ListView = (props) => (
-    <div>
+    <div className="list-container">
       {
         props.businesses.length
         ? props.businesses.map(({ name, address, phone, website }) => {

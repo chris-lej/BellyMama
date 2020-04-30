@@ -8,3 +8,7 @@
 .map-container {
     border-top: rgb(23, 162, 184) solid 1px;
 }
+
+.map-container, .list-container {
+    margin-top: -15px;
+}

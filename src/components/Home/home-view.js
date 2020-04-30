@@ -1,10 +1,8 @@
 import React from 'react';
 import BusinessDisplay from '../BusinessDisplay';
-import ToggleView from '../ToggleView';
 
 export const HomeView = () => (
-  <div>
-    <ToggleView />
+  <div id="home-container">
     <BusinessDisplay />
   </div>
 );

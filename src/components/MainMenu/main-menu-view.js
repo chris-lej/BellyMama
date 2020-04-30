@@ -3,24 +3,29 @@ import { Link } from 'react-router-dom'
 import {
   Nav,
   Navbar,
-  NavbarBrand,
   NavItem,
   NavLink,
   Button
 } from 'reactstrap';
-import Symbol from '../../images/symbol.png'
-import SearchBar from "../SearchBar";
 import './main-menu.css'
+import SearchBar from '../SearchBar/search-bar';
+import ToggleView from '../ToggleView';
+import Symbol from '../../images/symbol02.png';
 
 const MainMenuView = () => (
   <div>
-    <Navbar light expand="md">
-      <NavbarBrand>
-        <img src={Symbol} width={"50px"} alt="belly mama symbol"/>
-      </NavbarBrand>
-      <Nav className="w-100 navbar-content justify-content-between" navbar>
-        <SearchBar navBar />
-        <div className="d-flex">
+    <Navbar expand="md">
+      <Nav className="w-100 mt-0 navbar-content justify-content-between" navbar>
+        <li id="left-side" className="d-flex pt-2">
+          <img src={Symbol} alt="belly mama symbol" className="logo-symbol"/>
+          <div className="search-bar">
+            <SearchBar navBar />
+          </div>
+        </li>
+        <li id="right-side" className="d-flex pt-2">
+          <div id="toggle-view" className="pt-2">
+            <ToggleView />
+          </div>
           <NavItem>
             <NavLink tag={Link} to="/">
               <Button className="nav-button" color="link">About</Button>
@@ -32,7 +37,7 @@ const MainMenuView = () => (
               <Button className="nav-button" color="link">Contact Us</Button>
             </NavLink>
           </NavItem>
-        </div>
+        </li>
       </Nav>
     </Navbar>
   </div>
