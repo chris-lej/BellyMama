@@ -1,1 +1,1 @@
-![prenatal-symbol](./src/images/logo.png)
+![prenatal-logo](./src/images/logo02.png)
