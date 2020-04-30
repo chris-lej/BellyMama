@@ -2,21 +2,14 @@
   "prenatal-yoga": {
     "businesses": [
       {
-        "name": "TESTING HERE",
-        "website": "www.test.com",
+        "name": "Hannah Williams Yoga ",
+        "website": "www.hannahwilliamsyoga.com",
         "address": "",
-        "phone": "512-876-9517",
-        "email": "test@test.com",
+        "phone": "512-983-5333",
+        "email": "hannah@hannahwilliamsyoga.com",
         "coordinates": {
-        }
-      },
-      {
-        "name": "TESTING 2 HERE",
-        "website": "www.test2.com",
-        "address": "",
-        "phone": "512-876-9517",
-        "email": "test2@test2.com",
-        "coordinates": {
+          "lat": null,
+          "long": null
         }
       },
       {
@@ -144,6 +137,17 @@
   },
   "prenatal-massage": {
     "businesses": [
+      {
+        "name": "The Living Well",
+        "website": "https://www.the-living-well.com",
+        "address": "18204 Wind Valley Way, Pflugerville, TX 78660",
+        "phone": "512-925-5688",
+        "email": "contact@the-living-well.com",
+        "coordinates": {
+          "lat": 30.4551772,
+          "long": -97.5816644
+        }
+      },
       {
         "name": "Mantis Massage",
         "website": "https://www.mantismassage.com",
@@ -582,6 +586,362 @@
         "coordinates": {
           "lat": 30.285583,
           "long": -97.7084603
+        }
+      }
+    ]
+  },
+  "doulas": {
+    "businesses": [
+      {
+        "name": "Austin Born",
+        "website": "www.austin-born.com",
+        "address": "Classes held: 1305 W 34th St, Austin, TX 78705",
+        "phone": "512-200-2165",
+        "email": "info@austin-born.com",
+        "coordinates": {
+          "lat": 30.3037777,
+          "long": -97.7479368
+        }
+      },
+      {
+        "name": "Austin Child Birth",
+        "website": "austinchildbirth.com",
+        "address": "2913 Chisholm Trail, Austin, TX 78734",
+        "phone": "512- 773-2375",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3812755,
+          "long": -98.0575937
+        }
+      },
+      {
+        "name": "Austin Womb Service ( South office)",
+        "website": "www.austinwombservice.com",
+        "address": "605 Copeland Street, Austin, Texas 78704.",
+        "phone": "512-710-9662",
+        "email": "Austinwombservice@gmail.com",
+        "coordinates": {
+          "lat": 30.2534355,
+          "long": -97.7561458
+        }
+      },
+      {
+        "name": "Austin Womb Service ( North office)",
+        "website": "www.austinwombservice.com",
+        "address": "13805 Ann Pl, Austin, TX 78728",
+        "phone": "512-710-9662",
+        "email": "Austinwombservice@gmail.com",
+        "coordinates": {
+          "lat": 30.4276612,
+          "long": -97.6765209
+        }
+      },
+      {
+        "name": "Doulas of Austin",
+        "website": "www.doulasofaustin.com",
+        "address": "3507 Rock Shelf Ln, Round Rock, TX 78681",
+        "phone": "619-723-4463",
+        "email": "doulasofaustin@gmail.com",
+        "coordinates": {
+          "lat": 30.5547768,
+          "long": -97.7385756
+        }
+      },
+      {
+        "name": "Sacred Work Doula",
+        "website": "www.sacredworkdoula.com",
+        "address": "903 Sedalia St, Cedar Park, TX 78613",
+        "phone": "512-827-1857",
+        "email": "",
+        "coordinates": {
+          "lat": 30.5132033,
+          "long": -97.8112189
+        }
+      },
+      {
+        "name": "Shelley Scotka",
+        "website": "shelleyscotka.com",
+        "address": "",
+        "phone": "512-468-8526",
+        "email": "",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Mallory Jacks",
+        "website": "malloryjacks.com",
+        "address": "1401 W 29th St unit b, Austin, TX 78703",
+        "phone": "501-658-7888",
+        "email": "hello @malloryjacks.com",
+        "coordinates": {
+          "lat": 30.2140894,
+          "long": -97.8177609
+        }
+      },
+      {
+        "name": "Healing Birth Work",
+        "website": "healingbirthwork.com",
+        "address": "",
+        "phone": "",
+        "email": "molly.healingbirthwork@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Austin ABC ( Duval Rd)",
+        "website": "www.austinabc.com",
+        "address": "4100 Duval Road Bldg. 2, Suite 101, Austin, TX 78759",
+        "phone": "512-346-3224",
+        "email": "",
+        "coordinates": {
+          "lat": 30.4117805,
+          "long": -97.7300692
+        }
+      },
+      {
+        "name": "Austin ABC ( William Cannon)",
+        "website": "www.austinabc.com",
+        "address": "2500 W. William Cannon Drive Ste. 503 Austin, TX 78745",
+        "phone": "512-243-8066",
+        "email": "",
+        "coordinates": {
+          "lat": 30.2063662,
+          "long": -97.8153014
+        }
+      },
+      {
+        "name": "ATX Doulas",
+        "website": "www.atxdoulas.com",
+        "address": "3408 Graybuck Rd, Austin, TX 78748",
+        "phone": "512-931-4404",
+        "email": "info@atxdoulas.com",
+        "coordinates": {
+          "lat": 30.1823202,
+          "long": -97.851925
+        }
+      },
+      {
+        "name": "Austin Doula Care",
+        "website": "www.austindoulacare.com",
+        "address": "2801 Hancock Drive Austin, TX 78731",
+        "phone": "512-814-6195",
+        "email": "",
+        "coordinates": {
+          "lat": 30.3275826,
+          "long": -97.7517316
+        }
+      },
+      {
+        "name": "Brenda The Doula",
+        "website": "www.brendathedoula.com",
+        "address": "",
+        "phone": "512-814-6195",
+        "email": "​brendathedoula@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Morgan Doula",
+        "website": "www.doulamorgan.com",
+        "address": "",
+        "phone": "512-502-4384",
+        "email": "doulamorgan@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Paige Trabulsi Doula",
+        "website": "https://paigetrabulsi.com",
+        "address": "",
+        "phone": "512-217-5794",
+        "email": "paige@paigetrabulsi.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Kelly Boler Jack Doula",
+        "website": "www.kellybolerjackdoula.com",
+        "address": "4602 Southwest Pkwy, Austin, TX 78735",
+        "phone": "512-765-4998",
+        "email": "kellybolerjackdoula@gmail.com",
+        "coordinates": {
+          "lat": 30.2402308,
+          "long": -97.864911
+        }
+      },
+      {
+        "name": "Austin Doula Collective",
+        "website": "www.austindoulacollective.com",
+        "address": "",
+        "phone": "",
+        "email": "austindoulacollective@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Mama Peace",
+        "website": "www.mamapeace.com",
+        "address": "",
+        "phone": "512-692-9468",
+        "email": "mamapeaceaustin@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Infinite Love Doula",
+        "website": "www.infinitelovedoula.com",
+        "address": "",
+        "phone": "415-368-3807",
+        "email": "AustinInfiniteLovedoula@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Empowered Birthing",
+        "website": "www.austinareadoula.com",
+        "address": "",
+        "phone": "512-730-1941",
+        "email": "info@austinareadoula.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Mama Fox Doula",
+        "website": "www.mamafoxdoula.com",
+        "address": "3706 Guadalupe St, Austin, TX 78705",
+        "phone": "512-740-1847",
+        "email": "juliele@mamafoxdoula.com",
+        "coordinates": {
+          "lat": 30.3026011,
+          "long": -97.7407611
+        }
+      },
+      {
+        "name": "BirthAva",
+        "website": "www.birthava.com",
+        "address": "500 Spyglass Dr, Austin, TX 78746",
+        "phone": "512-993-0789",
+        "email": "brandy@birthava.com",
+        "coordinates": {
+          "lat": 30.261113,
+          "long": -97.7887106
+        }
+      },
+      {
+        "name": "Mother Lover Doula",
+        "website": "www.themotherloverdoula.com",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Matriarch Mother Care",
+        "website": "www.matriarchmothercare.com",
+        "address": "",
+        "phone": "512- 766-2368",
+        "email": "mia@matriarchmothercare.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Stork Maternity Consulting",
+        "website": "www.storkatx.com",
+        "address": "2404 Lake Austin Blvd, Austin, TX 78703",
+        "phone": "512-351-6919",
+        "email": "hello@storkatx.com",
+        "coordinates": {
+          "lat": 30.2785321,
+          "long": -97.7747394
+        }
+      },
+      {
+        "name": "Sucellent Birth",
+        "website": "www.succulentbirth.wixsite.com/equipoise",
+        "address": "",
+        "phone": "512-799-0236",
+        "email": "SucculentBirth@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "Woman Craft Austin",
+        "website": "www.womancraftaustin.com",
+        "address": "9213 Magna Carta Loop, Austin, TX",
+        "phone": "512-537-1641",
+        "email": "Colleen@womancraftaustin.com",
+        "coordinates": {
+          "lat": 30.3353387,
+          "long": -97.6504938
+        }
+      },
+      {
+        "name": "The Living Well",
+        "website": "www.the-living-well.com",
+        "address": "18204 Wind Valley Way, Pflugerville, TX 78660",
+        "phone": "512-925-5688",
+        "email": "contact@the-living-well.com",
+        "coordinates": {
+          "lat": 30.4551772,
+          "long": -97.5816644
+        }
+      },
+      {
+        "name": "Empowered Birthing",
+        "website": "www.empoweredbeginningsatx.com",
+        "address": "",
+        "phone": "512-939-9163",
+        "email": "Ciarra@EmpoweredBeginningsATX.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
+        }
+      },
+      {
+        "name": "New Life Birth Services",
+        "website": "www.newlifebirthservices.com",
+        "address": "9302 Castlewood Drive Austin, TX 78748",
+        "phone": "512-477 5452",
+        "email": "newlifebirthservices@gmail.com",
+        "coordinates": {
+          "lat": 30.1817774,
+          "long": -97.8280424
+        }
+      },
+      {
+        "name": "The Third Eye Birth",
+        "website": "www.thirdeyebirth.com",
+        "address": "",
+        "phone": "760-500-0050",
+        "email": "thirdeyebirth@gmail.com",
+        "coordinates": {
+          "lat": null,
+          "long": null
         }
       }
     ]

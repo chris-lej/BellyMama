@@ -45,6 +45,7 @@ class SearchBar extends React.Component {
                     <option value="">Choose your service</option>
                     <option value='prenatal-yoga'>PreNatal Yoga</option>
                     <option value='prenatal-massage'>PreNatal Massage</option>
+                    <option value='doulas'>Doulas</option>
                   </Field>
                 </div>
                 {
