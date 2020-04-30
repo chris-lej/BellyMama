@@ -12,3 +12,16 @@
 .map-container, .list-container {
     margin-top: -15px;
 }
+
+.no-address-list {
+    height: 87.7vh;
+    overflow: auto;
+}
+
+.business-name {
+    font-size: 18px;
+}
+
+.business-details {
+    font-size: 14px;
+}

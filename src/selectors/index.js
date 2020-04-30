@@ -1,3 +1,6 @@
+// Search category
+export const currentSearchCategory = (state) => state.apiData.category || 'Banana'
+
 // Original Data Tree //
 export const businessesDataTree = (state) => state.apiData.businesses || [];
 export const businessesWithAddress = (state) => businessesDataTree(state).filter((business) => business.address.length) || [];
@@ -10,5 +13,6 @@ export default {
   businessesDataTree,
   businessesWithAddress,
   businessesWithoutAddress,
-  businessViewIsMap
+  businessViewIsMap,
+  currentSearchCategory
 }

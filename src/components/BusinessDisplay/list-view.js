@@ -1,5 +1,9 @@
 import React from 'react';
 import './business-view.css'
+import ContactBubbleIcon from "../Icons/contact-bubble-icon";
+import GeoPinIcon from "../Icons/geo-pin-icon";
+import WebHomeIcon from "../Icons/web-home-icon";
+import './business-view.css'
 
 const ListView = (props) => (
     <div className="list-container">
@@ -8,10 +12,33 @@ const ListView = (props) => (
         ? props.businesses.map(({ name, address, phone, website }) => {
             return (
               <div key={name} className="business-container">
-                <h3>{name}</h3>
-                <div>{address}</div>
-                <div>{phone}</div>
-                <div>{website}</div>
+                <div className="business-name">
+                  {name}
+                </div>
+
+                {
+                  !!address.length &&
+                  <div id="business-phone-number" className="business-details">
+                    <GeoPinIcon />
+                    {address}
+                  </div>
+                }
+
+                {
+                  !!phone.length &&
+                  <div id="business-phone-number" className="business-details">
+                    <ContactBubbleIcon />
+                    {phone}
+                  </div>
+                }
+
+                {
+                  !!website.length &&
+                  <div id="business-website" className="business-details">
+                    <WebHomeIcon />
+                    <a href={`http://${website}`}>Website</a>
+                  </div>
+                }
               </div>
             )
           })

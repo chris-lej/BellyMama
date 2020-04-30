@@ -8,14 +8,30 @@ import { connect } from "react-redux";
 import Actions from "../../actions";
 import * as Yup from 'yup';
 import { Button } from 'reactstrap'
+import Selectors from '../../selectors'
 import './search-bar.css'
+
+const mapStateToProps = (state) => ({
+  currentSearchCategory: Selectors.currentSearchCategory(state)
+});
 
 const mapDispatchToProps = (dispatch) => ({
   getData: (category) => dispatch(Actions.getBusinesses(category))
 });
 
 class SearchBar extends React.Component {
-  render = () => (
+
+  readableCategory = {
+    "Banana": "Banana Text",
+    "prenatal-yoga": "PreNatal Yoga",
+    "prenatal-massage": "PreNatal Massage",
+    "doulas": "Doulas"
+  };
+
+  render = () => {
+    console.log(this.props.currentSearchCategory)
+
+    return (
     <div className='d-flex d-flex-row'>
       {
         this.props.navBar &&
@@ -42,7 +58,9 @@ class SearchBar extends React.Component {
                     as="select"
                     className="form-control"
                   >
-                    <option value="">Choose your service</option>
+                    <option value="">
+                      {this.readableCategory[this.props.currentSearchCategory]}
+                    </option>
                     <option value='prenatal-yoga'>PreNatal Yoga</option>
                     <option value='prenatal-massage'>PreNatal Massage</option>
                     <option value='doulas'>Doulas</option>
@@ -66,7 +84,7 @@ class SearchBar extends React.Component {
         </div>
       </Formik>
     </div>
-  );
+  );}
 };
 
-export default connect(null, mapDispatchToProps)(SearchBar)
+export default connect(mapStateToProps, mapDispatchToProps)(SearchBar)

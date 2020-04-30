@@ -24,17 +24,6 @@
         }
       },
       {
-        "name": "Lotus Babies",
-        "website": "www.lotus-babies.com",
-        "address": "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
-        "phone": "512-577-3590",
-        "email": "anyacasteel@gmail.com ",
-        "coordinates": {
-          "lat": 30.20360756,
-          "long": -97.78580475
-        }
-      },
-      {
         "name": "Yoga Peace School",
         "website": "www.yogapeaceschool.com",
         "address": "5806 Woodrow Ave, Austin, TX 78756",
@@ -118,8 +107,8 @@
         "phone": "512-577-3590",
         "email": "",
         "coordinates": {
-          "lat": 30.35880454,
-          "long": -97.73466468
+          "lat": 30.2056316,
+          "long": -97.8107331
         }
       },
       {
@@ -912,7 +901,7 @@
         }
       },
       {
-        "name": "Empowered Birthing",
+        "name": "Empowered Beginnings",
         "website": "www.empoweredbeginningsatx.com",
         "address": "",
         "phone": "512-939-9163",

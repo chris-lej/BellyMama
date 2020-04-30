@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { businessViewIsMap } from '../../selectors';
+import Selectors from '../../selectors';
 import HomeView from './home-view';
-import Actions from "../../actions";
 
 export const mapStateToProps = (state) => ({
-  businessViewIsMap: businessViewIsMap(state)
-});
-
-export const mapDispatchToProps = (dispatch) => ({
-  toggleBusinessView: (value) => dispatch(Actions.toggleBusinessView(value))
+  businessesDataExist: Selectors.businessesDataTree(state).length
 });
 
 
@@ -17,10 +12,9 @@ class HomeContainer extends Component {
 
   render = () => (
     <HomeView
-      businessViewIsMap={this.props.businessViewIsMap}
-      toggleView={this.props.toggleBusinessView}
+      businessesDataExist={this.props.businessesDataExist}
     />
   );
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomeContainer);
+export default connect(mapStateToProps)(HomeContainer);

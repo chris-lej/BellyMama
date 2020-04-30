@@ -6,6 +6,9 @@ import {
 } from "react-leaflet";
 import MapboxLayer from "./MapBoxLayer";
 import './business-view.css'
+import WebHomeIcon from "../Icons/web-home-icon";
+import ContactBubbleIcon from "../Icons/contact-bubble-icon";
+import GeoPinIcon from "../Icons/geo-pin-icon";
 
 const MapView = (props) => (
   <div className="d-flex map-container">
@@ -17,14 +20,30 @@ const MapView = (props) => (
         props.businessesWithAddress.map(({ coordinates, name, phone, address, website }) => (
         <Marker position={[coordinates.lat, coordinates.long]} key={name}>
           <Popup id={`popup-${name}`}>
-            <h4>{name}</h4>
-            <p>
-              {phone}
-              <br />
+            <div className="business-name">
+              {name}
+            </div>
+
+            {
+              !!phone.length &&
+              <div id="business-phone-number" className="business-details">
+                <ContactBubbleIcon />
+                {phone}
+              </div>
+            }
+
+            <div id="business-address" className="mbusiness-details">
+              <GeoPinIcon />
               {address}
-              <br />
-              <a href={website}>Website</a>
-            </p>
+            </div>
+
+              {
+                !!website.length &&
+                <div id="business-website" className="business-details">
+                  <WebHomeIcon />
+                  <a href={`http://${website}`}>Website</a>
+                </div>
+              }
           </Popup>
         </Marker>
         ))
@@ -32,16 +51,32 @@ const MapView = (props) => (
     </Map>
     {
       !!props.businessesWithoutAddress.length &&
-        <div className="w-30">
+        <div className="w-30 no-address-list">
           <h3>
             Business Without Address
           </h3>
           {
             props.businessesWithoutAddress.map(({ name, phone, website }) => (
               <div className="business-container" key={`map-list-${name}`}>
-                <div>{name}</div>
-                <div>{phone}</div>
-                <div>{website}</div>
+                <div className="business-name">
+                  {name}
+                </div>
+
+                {
+                  !!phone.length &&
+                <div id="business-phone-number" className="business-details">
+                  <ContactBubbleIcon />
+                  {phone}
+                </div>
+                }
+
+                {
+                  !!website.length &&
+                  <div id="business-website" className="business-details">
+                    <WebHomeIcon />
+                    <a href={`http://${website}`}>Website</a>
+                  </div>
+                }
               </div>
             ))
           }

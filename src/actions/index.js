@@ -25,7 +25,7 @@ export const getData = (category) => async (dispatch) => {
 
 export const getBusinesses = (category) => (dispatch) => {
   const service = Services[category]
-  dispatch({ type: DATA_LOADED, payload: service})
+  dispatch({ type: DATA_LOADED, payload: {...service, category}})
 }
 
 export const toggleBusinessView = (value) => (dispatch) => {

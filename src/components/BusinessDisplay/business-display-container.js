@@ -9,6 +9,7 @@ import {
 import Selectors from '../../selectors';
 import MapView from './map-view';
 import ListView from './list-view';
+import MainMenu from "../MainMenu";
 
 export const mapStateToProps = (state) => ({
   businesses: Selectors.businessesDataTree(state),
@@ -22,19 +23,24 @@ const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
 class BusinessDisplayContainer extends React.Component {
   render = () => (
     <div>
-      {
-        this.props.businessViewIsMap
-          ? <MapView
-            centerLat={MAP_CENTER_LAT}
-            centerLong={MAP_CENTER_LONG}
-            businessesWithAddress={this.props.businessesWithAddress}
-            businessesWithoutAddress={this.props.businessesWithoutAddress}
-            mapBoxToken={MAPBOX_ACCESS_TOKEN}
-          />
-          : <ListView
-            businesses={this.props.businesses}
-          />
-      }
+      <header className="App-header">
+        <MainMenu />
+      </header>
+      <div>
+        {
+          this.props.businessViewIsMap
+            ? <MapView
+              centerLat={MAP_CENTER_LAT}
+              centerLong={MAP_CENTER_LONG}
+              businessesWithAddress={this.props.businessesWithAddress}
+              businessesWithoutAddress={this.props.businessesWithoutAddress}
+              mapBoxToken={MAPBOX_ACCESS_TOKEN}
+            />
+            : <ListView
+              businesses={this.props.businesses}
+            />
+        }
+      </div>
     </div>
   );
 }

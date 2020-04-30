@@ -22,7 +22,7 @@ const MainMenuView = () => (
             <SearchBar navBar />
           </div>
         </li>
-        <li id="right-side" className="d-flex pt-2">
+        <div id="right-side" className="d-flex pt-2">
           <div id="toggle-view" className="pt-2">
             <ToggleView />
           </div>
@@ -37,7 +37,7 @@ const MainMenuView = () => (
               <Button className="nav-button" color="link">Contact Us</Button>
             </NavLink>
           </NavItem>
-        </li>
+        </div>
       </Nav>
     </Navbar>
   </div>

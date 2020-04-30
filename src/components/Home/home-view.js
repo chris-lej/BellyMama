@@ -1,9 +1,17 @@
 import React from 'react';
 import BusinessDisplay from '../BusinessDisplay';
+import InitialDisplay from '../InitialDisplay';
 
-export const HomeView = () => (
+export const HomeView = (props) => (
   <div id="home-container">
-    <BusinessDisplay />
+    <div className={!!props.businessesDataExist ? 'd-none' : ''}>
+    <InitialDisplay />
+
+    </div>
+    {
+      !!props.businessesDataExist &&
+        <BusinessDisplay />
+    }
   </div>
 );
 
