@@ -21,15 +21,32 @@ const mapDispatchToProps = (dispatch) => ({
 
 class SearchBar extends React.Component {
 
-  readableCategory = {
-    "Banana": "Banana Text",
-    "prenatal-yoga": "PreNatal Yoga",
-    "prenatal-massage": "PreNatal Massage",
-    "doulas": "Doulas"
-  };
+  allCategories = [
+    {
+      value: 'prenatal-yoga',
+      readableValue: 'PreNatal Yoga'
+    },
+    {
+      value: 'prenatal-massage',
+      readableValue: 'PreNatal Massage'
+    },
+    {
+      value: 'doulas',
+      readableValue: 'Doulas'
+    }
+  ];
+
+  currentCategoryName = (currentCategory) => currentCategory === 'initial-value' ? {readableValue: 'Banana'} : this.allCategories
+      .find((category) => category.value === currentCategory)
+
+  remainingCategories = (currentCategory) => this.allCategories
+    .filter((category) => !(category.value === currentCategory))
 
   render = () => {
-    console.log(this.props.currentSearchCategory)
+    console.log('Current', this.currentCategoryName(this.props.currentSearchCategory))
+    console.log('Remaining', this.remainingCategories(this.props.currentSearchCategory)
+      .filter((category) => !(category.value === 'initial-category'))
+    )
 
     return (
     <div className='d-flex d-flex-row'>
@@ -59,11 +76,17 @@ class SearchBar extends React.Component {
                     className="form-control"
                   >
                     <option value="">
-                      {this.readableCategory[this.props.currentSearchCategory]}
+                      {this.currentCategoryName(this.props.currentSearchCategory).readableValue}
                     </option>
-                    <option value='prenatal-yoga'>PreNatal Yoga</option>
-                    <option value='prenatal-massage'>PreNatal Massage</option>
-                    <option value='doulas'>Doulas</option>
+                    {
+                      this.remainingCategories(this.props.currentSearchCategory)
+                        .sort()
+                        .map((category) => (
+                          <option key={category.value} value={category.value}>
+                            {category.readableValue}
+                          </option>
+                        ))
+                    }
                   </Field>
                 </div>
                 {

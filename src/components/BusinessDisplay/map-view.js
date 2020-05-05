@@ -9,6 +9,7 @@ import './business-view.css'
 import WebHomeIcon from "../Icons/web-home-icon";
 import ContactBubbleIcon from "../Icons/contact-bubble-icon";
 import GeoPinIcon from "../Icons/geo-pin-icon";
+import NoAddressList from "./NoAddressList";
 
 const MapView = (props) => (
   <div className="d-flex map-container">
@@ -51,36 +52,7 @@ const MapView = (props) => (
     </Map>
     {
       !!props.businessesWithoutAddress.length &&
-        <div className="w-30 no-address-list">
-          <h3>
-            Business Without Address
-          </h3>
-          {
-            props.businessesWithoutAddress.map(({ name, phone, website }) => (
-              <div className="business-container" key={`map-list-${name}`}>
-                <div className="business-name">
-                  {name}
-                </div>
-
-                {
-                  !!phone.length &&
-                <div id="business-phone-number" className="business-details">
-                  <ContactBubbleIcon />
-                  {phone}
-                </div>
-                }
-
-                {
-                  !!website.length &&
-                  <div id="business-website" className="business-details">
-                    <WebHomeIcon />
-                    <a href={`http://${website}`}>Website</a>
-                  </div>
-                }
-              </div>
-            ))
-          }
-        </div>
+        <NoAddressList businessesWithoutAddress={props.businessesWithoutAddress} wait={300} />
     }
   </div>
 );

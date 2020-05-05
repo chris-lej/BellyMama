@@ -1,5 +1,5 @@
 // Search category
-export const currentSearchCategory = (state) => state.apiData.category || 'Banana'
+export const currentSearchCategory = (state) => state.apiData.category || 'initial-value'
 
 // Original Data Tree //
 export const businessesDataTree = (state) => state.apiData.businesses || [];
