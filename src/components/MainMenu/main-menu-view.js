@@ -27,13 +27,13 @@ const MainMenuView = () => (
             <ToggleView />
           </div>
           <NavItem>
-            <NavLink tag={Link} to="/">
+            <NavLink tag={Link} to="/about">
               <Button className="nav-button" color="link">About</Button>
             </NavLink>
           </NavItem>
           <div className="separator"/>
           <NavItem>
-            <NavLink tag={Link} to="/">
+            <NavLink tag={Link} to="/contact">
               <Button className="nav-button" color="link">Contact Us</Button>
             </NavLink>
           </NavItem>
