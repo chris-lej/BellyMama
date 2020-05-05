@@ -40,7 +40,7 @@ class NoAddressList extends Component {
                 !!website.length &&
                 <div id="business-website" className="business-details">
                   <WebHomeIcon />
-                  <a href={`http://${website}`}>Website</a>
+                  <a href={`${website}`}>Website</a>
                 </div>
               }
             </div>

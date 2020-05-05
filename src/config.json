@@ -3,7 +3,7 @@
     "businesses": [
       {
         "name": "Hannah Williams Yoga ",
-        "website": "www.hannahwilliamsyoga.com",
+        "website": "https://www.hannahwilliamsyoga.com",
         "address": "",
         "phone": "512-983-5333",
         "email": "hannah@hannahwilliamsyoga.com",
@@ -14,7 +14,7 @@
       },
       {
         "name": "Austin Prenatal Yoga",
-        "website": "www.austinprenatalyoga.com",
+        "website": "https://www.austinprenatalyoga.com",
         "address": "2700 W Anderson Ln, Suite 321, Austin, TX 78757",
         "phone": "512-876-9517",
         "email": "lisa@austinprenatalyoga.com",
@@ -25,7 +25,7 @@
       },
       {
         "name": "Yoga Peace School",
-        "website": "www.yogapeaceschool.com",
+        "website": "https://www.yogapeaceschool.com",
         "address": "5806 Woodrow Ave, Austin, TX 78756",
         "phone": "512-220-2848",
         "email": "explore@yogapeaceschool.com",
@@ -36,7 +36,7 @@
       },
       {
         "name": "Wild Heart Yoga",
-        "website": "www.wildheartyogaaustin.com",
+        "website": "https://www.wildheartyogaaustin.com",
         "address": "5604 Bee Caves Rd, Austin, TX 78746",
         "phone": "512-382-1560",
         "email": "info@wildheartyogaaustin.com",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Austin Area Birthing Center (at Duval) ",
-        "website": "www.austinabc.com",
+        "website": "https://www.austinabc.com",
         "address": "4100 Duval Road, Bldg 2 St 01, Austin, TX 7859",
         "phone": "512-346-3224",
         "email": "",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Soul Strong Yoga",
-        "website": "www.soulstrongyogatx.com",
+        "website": "https://www.soulstrongyogatx.com",
         "address": "309 W Main St, Suite 121, Round Rock, TX 78664",
         "phone": "512-686-7685",
         "email": "info@soulstrongyogatx.com",
@@ -69,7 +69,7 @@
       },
       {
         "name": "Porter Massage and Yoga",
-        "website": "portermassageyoga.com",
+        "website": "https://www.portermassageyoga.com",
         "address": "5716 Hwy 290 W, 205 F, Austin, TX 78735",
         "phone": "512-636-4339",
         "email": "",
@@ -80,7 +80,7 @@
       },
       {
         "name": "Austin Area Birthing Center",
-        "website": "www.austinabc.com",
+        "website": "https://www.austinabc.com",
         "address": "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
         "phone": "512-243-8066",
         "email": "",
@@ -91,7 +91,7 @@
       },
       {
         "name": "The Yoga Room",
-        "website": "www.rryogaroom.com",
+        "website": "https://www.rryogaroom.com",
         "address": "503 E Palm Valley Blvd, Suite 220, Round Rock, TX 78664",
         "phone": "512-318-2112",
         "email": "",
@@ -102,7 +102,7 @@
       },
       {
         "name": "South Austin Prenatal Yoga",
-        "website": "www.southaustinprenatalyoga.com",
+        "website": "https://www.southaustinprenatalyoga.com",
         "address": "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
         "phone": "512-577-3590",
         "email": "",
@@ -114,7 +114,7 @@
       {
         "name": "The Little Yoga House",
         "website": "https://thelittleyogahouse.com",
-        "address": " 2700 W Anderson Ln, Suite 229, Austin, TX 78757",
+        "address": "2700 W Anderson Ln, Suite 229, Austin, TX 78757",
         "phone": "512-358-6190",
         "email": "play@thelittleyogahouse.com",
         "coordinates": {
@@ -583,7 +583,7 @@
     "businesses": [
       {
         "name": "Austin Born",
-        "website": "www.austin-born.com",
+        "website": "https://www.austin-born.com",
         "address": "Classes held: 1305 W 34th St, Austin, TX 78705",
         "phone": "512-200-2165",
         "email": "info@austin-born.com",
@@ -594,7 +594,7 @@
       },
       {
         "name": "Austin Child Birth",
-        "website": "austinchildbirth.com",
+        "website": "https://austinchildbirth.com",
         "address": "2913 Chisholm Trail, Austin, TX 78734",
         "phone": "512- 773-2375",
         "email": "",
@@ -605,7 +605,7 @@
       },
       {
         "name": "Austin Womb Service ( South office)",
-        "website": "www.austinwombservice.com",
+        "website": "https://www.austinwombservice.com",
         "address": "605 Copeland Street, Austin, Texas 78704.",
         "phone": "512-710-9662",
         "email": "Austinwombservice@gmail.com",
@@ -616,7 +616,7 @@
       },
       {
         "name": "Austin Womb Service ( North office)",
-        "website": "www.austinwombservice.com",
+        "website": "https://www.austinwombservice.com",
         "address": "13805 Ann Pl, Austin, TX 78728",
         "phone": "512-710-9662",
         "email": "Austinwombservice@gmail.com",
@@ -627,7 +627,7 @@
       },
       {
         "name": "Doulas of Austin",
-        "website": "www.doulasofaustin.com",
+        "website": "https://www.doulasofaustin.com",
         "address": "3507 Rock Shelf Ln, Round Rock, TX 78681",
         "phone": "619-723-4463",
         "email": "doulasofaustin@gmail.com",
@@ -638,7 +638,7 @@
       },
       {
         "name": "Sacred Work Doula",
-        "website": "www.sacredworkdoula.com",
+        "website": "https://www.sacredworkdoula.com",
         "address": "903 Sedalia St, Cedar Park, TX 78613",
         "phone": "512-827-1857",
         "email": "",
@@ -649,7 +649,7 @@
       },
       {
         "name": "Shelley Scotka",
-        "website": "shelleyscotka.com",
+        "website": "https://shelleyscotka.com",
         "address": "",
         "phone": "512-468-8526",
         "email": "",
@@ -660,7 +660,7 @@
       },
       {
         "name": "Mallory Jacks",
-        "website": "malloryjacks.com",
+        "website": "https://malloryjacks.com",
         "address": "1401 W 29th St unit b, Austin, TX 78703",
         "phone": "501-658-7888",
         "email": "hello @malloryjacks.com",
@@ -671,7 +671,7 @@
       },
       {
         "name": "Healing Birth Work",
-        "website": "healingbirthwork.com",
+        "website": "https://healingbirthwork.com",
         "address": "",
         "phone": "",
         "email": "molly.healingbirthwork@gmail.com",
@@ -682,7 +682,7 @@
       },
       {
         "name": "Austin ABC ( Duval Rd)",
-        "website": "www.austinabc.com",
+        "website": "https://www.austinabc.com",
         "address": "4100 Duval Road Bldg. 2, Suite 101, Austin, TX 78759",
         "phone": "512-346-3224",
         "email": "",
@@ -693,7 +693,7 @@
       },
       {
         "name": "Austin ABC ( William Cannon)",
-        "website": "www.austinabc.com",
+        "website": "https://www.austinabc.com",
         "address": "2500 W. William Cannon Drive Ste. 503 Austin, TX 78745",
         "phone": "512-243-8066",
         "email": "",
@@ -704,7 +704,7 @@
       },
       {
         "name": "ATX Doulas",
-        "website": "www.atxdoulas.com",
+        "website": "https://www.atxdoulas.com",
         "address": "3408 Graybuck Rd, Austin, TX 78748",
         "phone": "512-931-4404",
         "email": "info@atxdoulas.com",
@@ -715,7 +715,7 @@
       },
       {
         "name": "Austin Doula Care",
-        "website": "www.austindoulacare.com",
+        "website": "https://www.austindoulacare.com",
         "address": "2801 Hancock Drive Austin, TX 78731",
         "phone": "512-814-6195",
         "email": "",
@@ -726,7 +726,7 @@
       },
       {
         "name": "Brenda The Doula",
-        "website": "www.brendathedoula.com",
+        "website": "https://www.brendathedoula.com",
         "address": "",
         "phone": "512-814-6195",
         "email": "​brendathedoula@gmail.com",
@@ -737,7 +737,7 @@
       },
       {
         "name": "Morgan Doula",
-        "website": "www.doulamorgan.com",
+        "website": "https://www.doulamorgan.com",
         "address": "",
         "phone": "512-502-4384",
         "email": "doulamorgan@gmail.com",
@@ -759,7 +759,7 @@
       },
       {
         "name": "Kelly Boler Jack Doula",
-        "website": "www.kellybolerjackdoula.com",
+        "website": "https://www.kellybolerjackdoula.com",
         "address": "4602 Southwest Pkwy, Austin, TX 78735",
         "phone": "512-765-4998",
         "email": "kellybolerjackdoula@gmail.com",
@@ -770,7 +770,7 @@
       },
       {
         "name": "Austin Doula Collective",
-        "website": "www.austindoulacollective.com",
+        "website": "https://www.austindoulacollective.com",
         "address": "",
         "phone": "",
         "email": "austindoulacollective@gmail.com",
@@ -781,7 +781,7 @@
       },
       {
         "name": "Mama Peace",
-        "website": "www.mamapeace.com",
+        "website": "https://www.mamapeace.com",
         "address": "",
         "phone": "512-692-9468",
         "email": "mamapeaceaustin@gmail.com",
@@ -803,7 +803,7 @@
       },
       {
         "name": "Empowered Birthing",
-        "website": "www.austinareadoula.com",
+        "website": "https://www.austinareadoula.com",
         "address": "",
         "phone": "512-730-1941",
         "email": "info@austinareadoula.com",
@@ -814,7 +814,7 @@
       },
       {
         "name": "Mama Fox Doula",
-        "website": "www.mamafoxdoula.com",
+        "website": "https://www.mamafoxdoula.com",
         "address": "3706 Guadalupe St, Austin, TX 78705",
         "phone": "512-740-1847",
         "email": "juliele@mamafoxdoula.com",
@@ -825,7 +825,7 @@
       },
       {
         "name": "BirthAva",
-        "website": "www.birthava.com",
+        "website": "https://www.birthava.com",
         "address": "500 Spyglass Dr, Austin, TX 78746",
         "phone": "512-993-0789",
         "email": "brandy@birthava.com",
@@ -836,7 +836,7 @@
       },
       {
         "name": "Mother Lover Doula",
-        "website": "www.themotherloverdoula.com",
+        "website": "https://www.themotherloverdoula.com",
         "address": "",
         "phone": "",
         "email": "",
@@ -847,7 +847,7 @@
       },
       {
         "name": "Matriarch Mother Care",
-        "website": "www.matriarchmothercare.com",
+        "website": "https://www.matriarchmothercare.com",
         "address": "",
         "phone": "512- 766-2368",
         "email": "mia@matriarchmothercare.com",
@@ -858,7 +858,7 @@
       },
       {
         "name": "Stork Maternity Consulting",
-        "website": "www.storkatx.com",
+        "website": "https://www.storkatx.com",
         "address": "2404 Lake Austin Blvd, Austin, TX 78703",
         "phone": "512-351-6919",
         "email": "hello@storkatx.com",
@@ -869,7 +869,7 @@
       },
       {
         "name": "Sucellent Birth",
-        "website": "www.succulentbirth.wixsite.com/equipoise",
+        "website": "https://www.succulentbirth.wixsite.com/equipoise",
         "address": "",
         "phone": "512-799-0236",
         "email": "SucculentBirth@gmail.com",
@@ -880,7 +880,7 @@
       },
       {
         "name": "Woman Craft Austin",
-        "website": "www.womancraftaustin.com",
+        "website": "https://www.womancraftaustin.com",
         "address": "9213 Magna Carta Loop, Austin, TX",
         "phone": "512-537-1641",
         "email": "Colleen@womancraftaustin.com",
@@ -891,7 +891,7 @@
       },
       {
         "name": "The Living Well",
-        "website": "www.the-living-well.com",
+        "website": "https://www.the-living-well.com",
         "address": "18204 Wind Valley Way, Pflugerville, TX 78660",
         "phone": "512-925-5688",
         "email": "contact@the-living-well.com",
@@ -902,7 +902,7 @@
       },
       {
         "name": "Empowered Beginnings",
-        "website": "www.empoweredbeginningsatx.com",
+        "website": "https://www.empoweredbeginningsatx.com",
         "address": "",
         "phone": "512-939-9163",
         "email": "Ciarra@EmpoweredBeginningsATX.com",
@@ -913,7 +913,7 @@
       },
       {
         "name": "New Life Birth Services",
-        "website": "www.newlifebirthservices.com",
+        "website": "https://www.newlifebirthservices.com",
         "address": "9302 Castlewood Drive Austin, TX 78748",
         "phone": "512-477 5452",
         "email": "newlifebirthservices@gmail.com",
@@ -924,7 +924,7 @@
       },
       {
         "name": "The Third Eye Birth",
-        "website": "www.thirdeyebirth.com",
+        "website": "https://www.thirdeyebirth.com",
         "address": "",
         "phone": "760-500-0050",
         "email": "thirdeyebirth@gmail.com",

@@ -16,13 +16,13 @@ const MainMenuView = () => (
   <div>
     <Navbar expand="md">
       <Nav className="w-100 mt-0 navbar-content justify-content-between" navbar>
-        <li id="left-side" className="d-flex pt-2">
+        <li id="left-side" className="d-flex">
           <img src={Symbol} alt="belly mama symbol" className="logo-symbol"/>
           <div className="search-bar">
             <SearchBar navBar />
           </div>
         </li>
-        <div id="right-side" className="d-flex pt-2">
+        <div id="right-side" className="d-flex pt-3">
           <div id="toggle-view" className="pt-2">
             <ToggleView />
           </div>
