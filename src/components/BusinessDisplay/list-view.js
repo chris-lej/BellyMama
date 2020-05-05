@@ -36,7 +36,7 @@ const ListView = (props) => (
                   !!website.length &&
                   <div id="business-website" className="business-details">
                     <WebHomeIcon />
-                    <a href={`http://${website}`}>Website</a>
+                    <a href={`https://${website}`}>Website</a>
                   </div>
                 }
               </div>
