@@ -1,4 +1,7 @@
 /* Add some App.js styles here that you wanna see applied throughout the app */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
 .footer {
     position: absolute;
     bottom: 0;

@@ -5,7 +5,7 @@ class InitialDisplayContainer extends Component {
   render = () => {
     return (
       <div>
-        <SearchBar />
+        <SearchBar navBar/>
       </div>
     );
   }

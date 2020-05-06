@@ -14,34 +14,26 @@ import Symbol from '../../images/symbol02.png';
 
 const MainMenuView = () => (
   <div>
-    <Navbar expand="md">
-      <Nav className="w-100 mt-0 navbar-content justify-content-between" navbar>
-        <li id="left-side" className="d-flex">
-          <img src={Symbol} alt="belly mama symbol" className="logo-symbol"/>
-          <div className="search-bar">
-            <SearchBar navBar />
-          </div>
-        </li>
-        <div id="right-side" className="d-flex pt-3">
-          <div id="toggle-view" className="pt-2">
-            <ToggleView />
-          </div>
-          <NavItem>
-            <NavLink tag={Link} to="/about">
-              <Button className="nav-button" color="link">About</Button>
-            </NavLink>
-          </NavItem>
-          <div className="separator"/>
-          <NavItem>
-            <NavLink tag={Link} to="/contact">
-              <Button className="nav-button" color="link">Contact Us</Button>
-            </NavLink>
-          </NavItem>
+    <div className="row justify-content-between pt-1 pb-1">
+      <div id="left-side" className="d-flex ml-3">
+        <img src={Symbol} alt="belly mama symbol" className="logo-symbol"/>
+        <SearchBar navBar />
+      </div>
+      <div id="right-side" className="d-flex mr-3 navigation">
+        <div id="toggle-view" className="pt-2">
+          <ToggleView />
         </div>
-      </Nav>
-    </Navbar>
+        <Link to="/about">
+          <Button className="nav-button mt-2" color="link">About</Button>
+        </Link>
+        <div className="separator"/>
+        <Link to="/contact">
+          <Button className="nav-button mt-2" color="link">Contact</Button>
+        </Link>
+      </div>
+
+    </div>
   </div>
 );
-
 
 export default MainMenuView;

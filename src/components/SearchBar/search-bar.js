@@ -49,7 +49,7 @@ class SearchBar extends React.Component {
     )
 
     return (
-    <div className='d-flex d-flex-row'>
+    <div className={`d-flex d-flex-row ${this.props.navBar && 'search-for-nav'}`}>
       {
         this.props.navBar &&
         <div className="search-title">I am looking for</div>
