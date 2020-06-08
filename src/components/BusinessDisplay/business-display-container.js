@@ -18,7 +18,8 @@ export const mapStateToProps = (state) => ({
   businessesWithAddress: Selectors.businessesWithAddress(state)
 });
 
-const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
+// const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
+const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiY2xlamV1bmVtZWlzdGVyIiwiYSI6ImNrYjVhdzI3czEyaG0ydWxlMTFldmc0dTEifQ.XUTeEL4Nl1j2Twr4UkM1rQ';
 
 class BusinessDisplayContainer extends React.Component {
   render = () => (

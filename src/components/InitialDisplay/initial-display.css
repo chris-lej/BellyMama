@@ -1,0 +1,30 @@
+.logo-profile {
+    padding: 0px !important;
+    margin-top: 50px;
+    margin-left: -20px;
+    
+}
+
+.logo-simples {
+    margin: 15px 0 5px 15px !important;
+    position: absolute;
+}
+
+.description-1, .description-2 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.description-wrapper {
+    padding-right: 200px;
+}
+
+.description-1 {
+    margin-top: 200px;
+    color: orange;
+}
+
+.description-2 {
+    color: red;
+}
+
