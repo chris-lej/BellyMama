@@ -1,29 +1,38 @@
 .navbar-content {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 .nav-button {
-    color: darkgrey!important;
+  color: darkgrey !important;
 }
 
-.nav-button:hover, .nav-button:visited {
-    color: darkslategray!important;
-    text-decoration: none!important;
+.nav-button:hover,
+.nav-button:visited {
+  color: darkslategray !important;
+  text-decoration: none !important;
 }
 
 .separator {
-    width: 1px;
-    background-color: #ecf3f4;
-    height: 31px;
-    margin-top: 11px;
+  width: 1px;
+  background-color: #ecf3f4;
+  height: 31px;
+  margin-top: 11px;
 }
 
-.logo-symbol {
-    width: 50px;
-    height: 72px;
+.search-logo {
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 70px;
+}
+
+.initial-logo {
+  margin-top: 7px;
+  margin-left: 20px;
+  position: absolute;
+  width: 140px;
 }
 
 .search-bar {
-    padding-top: 15px;
-    padding-left: 25px;
+  padding-top: 15px;
+  padding-left: 25px;
 }
