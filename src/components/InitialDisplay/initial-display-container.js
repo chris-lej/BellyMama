@@ -5,6 +5,7 @@ import SearchBar from "../SearchBar/search-bar";
 import Selectors from "../../selectors";
 import LogoProfile from "../../images/back-main.svg";
 import LogoSimples from "../../images/logo-simples.svg";
+import ServiceTileView from "../ServiceTile";
 
 import "./initial-display.css";
 
@@ -23,8 +24,12 @@ class InitialDisplayContainer extends Component {
         <div className="col-2">
           <img src={LogoProfile} className="logo-profile" />
         </div>
-
         <div className="col-10">
+          <ServiceTileView
+            serviceImg={LogoSimples}
+            serviceName="prenatal-massage"
+          />
+
           <div className="row description-wrapper">
             <p className="description-1 w-100">
               Find Prenatal, Birth and Postpartum services

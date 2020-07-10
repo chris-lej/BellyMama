@@ -1,0 +1,33 @@
+.service-tile-container {
+  width: max-content;
+  padding: 15px 20px;
+  text-align: center;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+.service-tile-container:hover {
+  border: red 1px solid;
+}
+
+.service-tile-container:hover > .service-image {
+  width: 110px;
+  transition: ease-in width 0.2s;
+}
+
+.service-image {
+  width: 100px;
+  transition: ease-out width 0.2s;
+  animation-duration: 3s;
+  animation-name: imageAnimation;
+}
+
+.service-link {
+  display: block;
+  margin-top: 5px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
