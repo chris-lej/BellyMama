@@ -4,7 +4,7 @@ import Actions from "../../actions";
 import SearchBar from "../SearchBar/search-bar";
 import Selectors from "../../selectors";
 import LogoProfile from "../../images/back-main.svg";
-import LogoSimples from "../../images/logo-simples.svg";
+import PlaceholderPic from "../../images/placeholder.png";
 import ServiceTileView from "../ServiceTile";
 
 import "./initial-display.css";
@@ -26,8 +26,8 @@ class InitialDisplayContainer extends Component {
         </div>
         <div className="col-10">
           <ServiceTileView
-            serviceImg={LogoSimples}
-            serviceName="prenatal-massage"
+            serviceImg={PlaceholderPic}
+            serviceName="Prenatal Yoga"
           />
 
           <div className="row description-wrapper">

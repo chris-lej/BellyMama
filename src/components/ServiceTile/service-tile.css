@@ -1,33 +1,50 @@
-.service-tile-container {
-  width: max-content;
-  padding: 15px 20px;
-  text-align: center;
-  background-color: lightgrey;
-  border-radius: 20px;
+.ribbon-wrapper {
+  position: relative;
+  z-index: 998;
+}
+.ribbon-front {
+  line-height: 1.5;
+  background-color: #cc3333;
+  height: 80px;
+  width: 230px;
+  position: relative;
+  left: -10px;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Raleway;
+  color: #f8f8f8;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
-.service-tile-container:hover {
-  border: red 1px solid;
+.ribbon-edge-topleft {
+  position: absolute;
+  z-index: 1;
+  border-style: solid;
+  height: 0px;
+  width: 0px;
 }
 
-.service-tile-container:hover > .service-image {
-  width: 110px;
-  transition: ease-in width 0.2s;
+.ribbon-edge-topleft {
+  left: -10px;
+  border-color: transparent #9b1724 transparent transparent;
 }
 
-.service-image {
-  width: 100px;
-  transition: ease-out width 0.2s;
-  animation-duration: 3s;
-  animation-name: imageAnimation;
+.ribbon-edge-topleft {
+  top: -6px;
+  border-width: 5px 10px 0 0;
+  height: 10px;
 }
 
-.service-link {
-  display: block;
-  margin-top: 5px;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
+.glow {
+  background: none;
+  width: 40px;
+  height: 100%;
+  z-index: 999;
+  position: absolute;
+}
+
+.service-view-selection {
+  font-size: 15px;
 }

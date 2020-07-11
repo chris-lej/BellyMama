@@ -1,12 +1,12 @@
 /* Add some App.js styles here that you wanna see applied throughout the app */
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    line-height: 60px;
-    background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 60px;
+  background-color: lightgray;
 }
