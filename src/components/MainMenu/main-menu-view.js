@@ -9,35 +9,29 @@ import LogoSimples from "../../images/logo-simples.svg";
 
 const MainMenuView = (props) => (
   <div>
-    <div className="row justify-content-between pt-1 pb-1">
+    <div className="row justify-content-between header-container">
       <div id="left-side" className="d-flex ml-3">
-        {props.showSearch ? (
-          <img
-            src={LogoCompleta}
-            alt="belly mama symbol"
-            className="search-logo"
-          />
-        ) : (
-          <img
-            src={LogoSimples}
-            alt="belly mama symbol"
-            className="initial-logo"
-          />
-        )}
-        {props.showSearch && <SearchBar navBar />}
+        <img
+          src={LogoSimples}
+          alt="belly mama symbol"
+          className="initial-logo"
+        />
       </div>
-      <div id="right-side" className="d-flex mr-3 navigation">
-        {props.showSearch && (
+      {!props.showSearch && (
+        <div className="d-flex">
+          <SearchBar navBar />
           <div id="toggle-view" className="pt-2">
             <ToggleView />
           </div>
-        )}
+        </div>
+      )}
+
+      <div id="right-side" className="d-flex mr-3 navigation">
         <Link to="/about">
           <Button className="nav-button mt-2" color="link">
-            About
+            About us
           </Button>
         </Link>
-        <div className="separator" />
         <Link to="/contact">
           <Button className="nav-button mt-2" color="link">
             Contact
@@ -45,6 +39,7 @@ const MainMenuView = (props) => (
         </Link>
       </div>
     </div>
+    <hr className="header-divisor" />
   </div>
 );
 

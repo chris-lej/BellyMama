@@ -12,13 +12,6 @@
   text-decoration: none !important;
 }
 
-.separator {
-  width: 1px;
-  background-color: #ecf3f4;
-  height: 31px;
-  margin-top: 11px;
-}
-
 .search-logo {
   margin-top: 5px;
   margin-left: 15px;
@@ -26,13 +19,18 @@
 }
 
 .initial-logo {
-  margin-top: 7px;
-  margin-left: 20px;
-  position: absolute;
-  width: 140px;
+  width: 100px;
 }
 
 .search-bar {
   padding-top: 15px;
   padding-left: 25px;
+}
+
+.header-container {
+  padding: 20px 45px 0px 45px;
+}
+
+.header-divisor {
+  margin: 10px 45px;
 }

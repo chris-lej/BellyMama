@@ -1,31 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 
 .submit-button {
-    background-color: #df629c!important;
-    border-color: #df629c!important;
-    width: 100%;
+  background-color: #df629c !important;
+  border-color: #df629c !important;
+  width: 100%;
 }
 
-.search-title, .search-city {
-    color: #5576ce;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    margin-top: 2px;
+.search-title,
+.search-city {
+  color: #5576ce;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  margin-top: 2px;
 }
 
 .search-city {
-    margin-top: -4px;
-    margin-left: 7px;
+  margin-top: -4px;
+  margin-left: 7px;
 }
 
 .form-group {
-    margin: 0px!important;
-}
-
-.search-for-nav {
-    margin-top: 10px;
+  margin: 0px !important;
 }
 
 .navigation {
-    margin-top: 10px;
+  margin-top: 10px;
 }

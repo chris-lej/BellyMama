@@ -39,16 +39,16 @@ class ServiceTileView extends Component {
       <div className="ribbon-wrapper">
         <div className="glow">&nbsp;</div>
         <div className="ribbon-front">
-          <div className="ribbon-title text-center mt-1">
+          <div className="ribbon-title text-center">
             <span>{this.props.serviceName}</span>
           </div>
 
-          <div className="service-view-selection mt-2">
+          <div className="service-view-selection mt-1">
             <div className="d-flex justify-content-center">
-              <button className="text-left">
+              <button className="text-left tile-service-link mr-2">
                 <div>
                   <svg
-                    className="bi bi-map mb-1"
+                    className="bi bi-map mb-1 mr-1"
                     width="1em"
                     height="1em"
                     viewBox="0 0 16 16"
@@ -61,10 +61,10 @@ class ServiceTileView extends Component {
                 </div>
               </button>
 
-              <button className="text-left">
+              <button className="text-left tile-service-link">
                 <div>
                   <svg
-                    className="bi bi-list-ul mb-1"
+                    className="bi bi-list-ul mb-1 mr-1"
                     width="1em"
                     height="1em"
                     viewBox="0 0 16 16"

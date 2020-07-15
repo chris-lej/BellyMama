@@ -5,13 +5,12 @@
 .ribbon-front {
   line-height: 1.5;
   background-color: #cc3333;
-  height: 80px;
+  height: 71px;
   width: 230px;
   position: relative;
   left: -10px;
   z-index: 2;
   font-size: 20px;
-  font-weight: 300;
   font-family: Roboto;
   color: #f8f8f8;
   padding-left: 12px;
@@ -46,6 +45,18 @@
   position: absolute;
 }
 
-.service-view-selection {
+.tile-service-link {
+  font-family: Roboto;
+  display: block;
+  color: white;
   font-size: 15px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.tile-service-link:hover {
+  color: orange;
 }
