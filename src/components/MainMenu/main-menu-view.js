@@ -17,12 +17,10 @@ const MainMenuView = (props) => (
           className="initial-logo"
         />
       </div>
-      {!props.showSearch && (
-        <div className="d-flex">
+      {true && (
+        <div className="d-flex dropdown-and-toggle">
           <SearchBar navBar />
-          <div id="toggle-view" className="pt-2">
-            <ToggleView />
-          </div>
+          <ToggleView />
         </div>
       )}
 

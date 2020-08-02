@@ -1,3 +1,3 @@
-import ToggleViewContainer from './toggle-view-container';
+import ToggleViewContainer from "./toggle-view-container";
 
 export default ToggleViewContainer;

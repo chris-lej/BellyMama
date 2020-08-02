@@ -1,9 +1,6 @@
 import React from "react";
-import { Form, Formik, Field } from "formik";
 import { connect } from "react-redux";
 import Actions from "../../actions";
-import * as Yup from "yup";
-import { Button } from "reactstrap";
 import Selectors from "../../selectors";
 import "./search-bar.css";
 
@@ -15,7 +12,7 @@ const mapDispatchToProps = (dispatch) => ({
   getData: (category) => dispatch(Actions.getBusinesses(category)),
 });
 
-class SearchBar extends React.Component {
+class LocationSelect extends React.Component {
   allCategories = [
     {
       value: "prenatal-yoga",
@@ -43,7 +40,11 @@ class SearchBar extends React.Component {
       (category) => !(category.value === currentCategory)
     );
 
-  render = () => {
+  handleTextFieldChange(event) {
+    this.props.getData(event.target.value);
+  }
+
+  render() {
     console.log(
       "Current",
       this.currentCategoryName(this.props.currentSearchCategory)
@@ -56,60 +57,27 @@ class SearchBar extends React.Component {
     );
 
     return (
-      <div
-        className={`d-flex d-flex-row ${this.props.navBar && "search-for-nav"}`}
-      >
-        <Formik
-          initialValues={{ serviceDropdown: "" }}
-          validationSchema={Yup.object({
-            serviceDropdown: Yup.string().required("Required"),
-          })}
-          onSubmit={(values, { setSubmitting }) => {
-            this.props.getData(values.serviceDropdown);
-            setSubmitting(false);
-          }}
+      <div className="select-dropdown">
+        <select
+          onChange={(event) => this.handleTextFieldChange(event, "location")}
         >
-          <div className="mt-2 mx-2" id="search-form">
-            <Form>
-              <div className="form-group">
-                <div className="d-flex">
-                  <div>
-                    <Field
-                      name="serviceDropdown"
-                      as="select"
-                      className="form-control"
-                    >
-                      <option value="">
-                        {
-                          this.currentCategoryName(
-                            this.props.currentSearchCategory
-                          ).readableValue
-                        }
-                      </option>
-                      {this.remainingCategories(
-                        this.props.currentSearchCategory
-                      )
-                        .sort()
-                        .map((category) => (
-                          <option key={category.value} value={category.value}>
-                            {category.readableValue}
-                          </option>
-                        ))}
-                    </Field>
-                  </div>
-                  <div>
-                    <Button type="submit" className="submit-button ml-3">
-                      Search
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </Form>
-          </div>
-        </Formik>
+          <option value="">
+            {
+              this.currentCategoryName(this.props.currentSearchCategory)
+                .readableValue
+            }
+          </option>
+          {this.remainingCategories(this.props.currentSearchCategory)
+            .sort()
+            .map((category) => (
+              <option key={category.value} value={category.value}>
+                {category.readableValue}
+              </option>
+            ))}{" "}
+        </select>
       </div>
     );
-  };
+  }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(SearchBar);
+export default connect(mapStateToProps, mapDispatchToProps)(LocationSelect);

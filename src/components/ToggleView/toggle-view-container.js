@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { businessViewIsMap } from '../../selectors';
-import ToggleViewView from './toggle-view-view';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { businessViewIsMap } from "../../selectors";
+import ToggleViewView from "./toggle-view-view";
 import Actions from "../../actions";
 
 export const mapStateToProps = (state) => ({
-  businessViewIsMap: businessViewIsMap(state)
+  businessViewIsMap: businessViewIsMap(state),
 });
 
 export const mapDispatchToProps = (dispatch) => ({
-  toggleBusinessView: (value) => dispatch(Actions.toggleBusinessView(value))
+  toggleBusinessView: (value) => dispatch(Actions.toggleBusinessView(value)),
 });
-
 
 class ToggleViewContainer extends Component {
   render = () => (
@@ -22,4 +21,7 @@ class ToggleViewContainer extends Component {
   );
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ToggleViewContainer);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ToggleViewContainer);

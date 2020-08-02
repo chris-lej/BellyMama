@@ -34,3 +34,10 @@
 .header-divisor {
   margin: 10px 45px;
 }
+
+.dropdown-and-toggle {
+  background-color: lightgray;
+  border-radius: 4px;
+  height: 39px;
+  width: 384px;
+}

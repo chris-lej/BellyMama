@@ -1,10 +1,3 @@
-.logo-profile {
-  padding: 0px !important;
-  margin-top: 50px;
-  margin-left: -20px;
-  height: 550px;
-}
-
 .logo-simples {
   margin: 15px 0 5px 15px !important;
   position: absolute;
@@ -17,23 +10,13 @@
 }
 
 .description-wrapper {
-  padding-right: 150px;
+  margin-left: 40px;
 }
 
 .description-1 {
-  margin-top: 180px;
   color: orange;
 }
 
 .description-2 {
   color: red;
-}
-
-.links-wrapper {
-  margin-top: 80px;
-  padding-right: 150px;
-}
-
-.service-link:hover {
-  color: orange;
 }

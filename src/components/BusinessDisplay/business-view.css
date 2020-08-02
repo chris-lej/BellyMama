@@ -1,23 +1,28 @@
 .business-container {
-    background-color: #ecf3f4;
-    padding: 5px;
-    border-top: rgb(23, 162, 184) solid 1px;
-    margin: 0px 10px 10px 10px;
-}
-
-.map-container, .list-container {
-    border-top: white solid 2px;
+  width: 300px;
+  background-color: #ecf3f4;
+  border-top: rgb(23, 162, 184) solid 1px;
+  margin: 0px 10px 10px 10px;
 }
 
 .no-address-list {
-    height: 87.7vh;
-    overflow: auto;
+  height: 87.7vh;
+  overflow: auto;
 }
 
 .business-name {
-    font-size: 18px;
+  font-size: 18px;
+  background-color: rgb(23, 162, 184);
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.business-details-wrapper {
+  padding: 10px;
 }
 
 .business-details {
-    font-size: 14px;
+  font-size: 14px;
+  margin-bottom: 5px;
 }

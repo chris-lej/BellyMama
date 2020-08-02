@@ -21,10 +21,8 @@ class ServiceTileView extends Component {
 
   render = () => (
     <div
+      className="tile-wrapper"
       style={{
-        width: "220px",
-        height: "250px",
-        margin: "5% auto",
         backgroundImage: `url(${PlaceholderPic})`,
       }}
     >

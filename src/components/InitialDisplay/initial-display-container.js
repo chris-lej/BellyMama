@@ -17,138 +17,79 @@ const mapDispatchToProps = (dispatch) => ({
   getData: (category) => dispatch(Actions.getBusinesses(category)),
 });
 
+const services = [
+  {
+    serviceName: "Prenatal Yoga",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Prenatal Massage",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Acupunture",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Chripractor",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Doulas",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Birththing Center",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Hospitals",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Sleep Consultant",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Parent Support",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Placenta Encapsulation",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Pregnancy Support",
+    serviceImg: PlaceholderPic,
+  },
+  {
+    serviceName: "Lactation Consultant",
+    serviceImg: PlaceholderPic,
+  },
+];
+
 class InitialDisplayContainer extends Component {
   render = () => {
     return (
-      <div className="row">
-        <div className="col-2">
-          <img src={LogoProfile} className="logo-profile" />
-        </div>
-        <div className="col-10">
-          <ServiceTileView
-            serviceImg={PlaceholderPic}
-            serviceName="Prenatal Yoga"
-          />
-
-          <div className="row description-wrapper">
-            <p className="description-1 w-100">
-              Find Prenatal, Birth and Postpartum services
-            </p>
-            <div className="description-2 w-100">
-              <p className="">in Austin, TX</p>
-            </div>
-          </div>
-
-          <div className="row text-left links-wrapper">
-            <div className="col">
-              <button
-                className="service-link"
-                onClick={() => this.props.getData("prenatal-massage")}
-              >
-                Prenatal Massage
-              </button>
-              <button
-                className="service-link"
-                onClick={() => this.props.getData("prenatal-yoga")}
-              >
-                Prenatal Yoga
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-                onClick={() => this.props.clickHandler}
-              >
-                Acupunture
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Chiropractor
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Pre Natal Yoga
-              </button>
-            </div>
-
-            <div className="col">
-              <button
-                className="service-link"
-                onClick={() => this.props.getData("doulas")}
-              >
-                Doulas
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Birthing Center
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Hospitals
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Sleep Consultant
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Pre Natal Yoga
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Pre Natal Massage
-              </button>
-            </div>
-
-            <div className="col">
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Parent Support
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Pregnancy Support
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Placenta Encaplation
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Lactation Consultant
-              </button>
-              <button
-                className="service-link"
-                onClick={this.props.clickHandler}
-              >
-                Chiropractor
-              </button>
-            </div>
+      <div>
+        <div className=" description-wrapper">
+          <p className="description-1">
+            Find Prenatal, Birth and Postpartum services
+          </p>
+          <div className="description-2">
+            <p className="">in Austin, TX</p>
           </div>
         </div>
-
-        <div></div>
+        <div className="d-flex flex-wrap justify-content-center">
+          {services.map((service) => (
+            <div className="mr-4 mb-4">
+              <ServiceTileView
+                serviceImg={service.serviceImg}
+                serviceName={service.serviceName}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     );
   };
