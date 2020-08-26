@@ -1,30 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Nav, Navbar, NavItem, NavLink, Button } from "reactstrap";
+import { Button } from "reactstrap";
 import "./main-menu.css";
-import SearchBar from "../SearchBar/search-bar";
-import ToggleView from "../ToggleView";
-import LogoCompleta from "../../images/logo-completa.svg";
 import LogoSimples from "../../images/logo-simples.svg";
+import Instagram from "../../images/instagram.svg";
+import Facebook from "../../images/facebook.svg";
 
 const MainMenuView = (props) => (
   <div>
     <div className="row justify-content-between header-container">
-      <div id="left-side" className="d-flex ml-3">
-        <img
-          src={LogoSimples}
-          alt="belly mama symbol"
-          className="initial-logo"
-        />
-      </div>
-      {true && (
-        <div className="d-flex dropdown-and-toggle">
-          <SearchBar navBar />
-          <ToggleView />
-        </div>
-      )}
-
-      <div id="right-side" className="d-flex mr-3 navigation">
+      <div id="left-side" className="d-flex">
         <Link to="/about">
           <Button className="nav-button mt-2" color="link">
             About us
@@ -35,6 +20,30 @@ const MainMenuView = (props) => (
             Contact
           </Button>
         </Link>
+      </div>
+      <div id="center-side" className="d-flex">
+        <Link to="/">
+          <img
+            src={LogoSimples}
+            alt="belly mama symbol"
+            className="initial-logo"
+          />
+        </Link>
+      </div>
+      <div
+        id="right-side"
+        className="d-flex mr-3 mt-1 navigation justify-content-end"
+      >
+        <img
+          src={Instagram}
+          className="social-medias mr-4"
+          alt="Instagram logo"
+        />
+        <img
+          src={Facebook}
+          className="social-medias mr-4"
+          alt="facebook logo"
+        />
       </div>
     </div>
     <hr className="header-divisor" />

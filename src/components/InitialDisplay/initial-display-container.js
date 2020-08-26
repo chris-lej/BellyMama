@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import Actions from "../../actions";
-import SearchBar from "../SearchBar/search-bar";
 import Selectors from "../../selectors";
-import LogoProfile from "../../images/back-main.svg";
 import PlaceholderPic from "../../images/placeholder.png";
 import ServiceTileView from "../ServiceTile";
 
@@ -21,10 +19,12 @@ const services = [
   {
     serviceName: "Prenatal Yoga",
     serviceImg: PlaceholderPic,
+    serviceSearchName: "prenatal-yoga",
   },
   {
     serviceName: "Prenatal Massage",
     serviceImg: PlaceholderPic,
+    serviceSearchName: "prenatal-massage",
   },
   {
     serviceName: "Acupunture",
@@ -74,7 +74,7 @@ class InitialDisplayContainer extends Component {
       <div>
         <div className=" description-wrapper">
           <p className="description-1">
-            Find Prenatal, Birth and Postpartum services
+            Prenatal, Birth and Postpartum services
           </p>
           <div className="description-2">
             <p className="">in Austin, TX</p>
@@ -82,10 +82,11 @@ class InitialDisplayContainer extends Component {
         </div>
         <div className="d-flex flex-wrap justify-content-center">
           {services.map((service) => (
-            <div className="mr-4 mb-4">
+            <div className="mr-4 mb-3">
               <ServiceTileView
                 serviceImg={service.serviceImg}
                 serviceName={service.serviceName}
+                serviceSearchName={service.serviceSearchName}
               />
             </div>
           ))}

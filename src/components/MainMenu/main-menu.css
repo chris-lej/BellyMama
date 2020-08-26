@@ -12,19 +12,8 @@
   text-decoration: none !important;
 }
 
-.search-logo {
-  margin-top: 5px;
-  margin-left: 15px;
-  width: 70px;
-}
-
 .initial-logo {
-  width: 100px;
-}
-
-.search-bar {
-  padding-top: 15px;
-  padding-left: 25px;
+  width: 67px;
 }
 
 .header-container {
@@ -35,9 +24,11 @@
   margin: 10px 45px;
 }
 
-.dropdown-and-toggle {
-  background-color: lightgray;
-  border-radius: 4px;
-  height: 39px;
-  width: 384px;
+.social-medias {
+  width: 32px;
+}
+
+#left-side,
+#right-side {
+  width: 175px;
 }

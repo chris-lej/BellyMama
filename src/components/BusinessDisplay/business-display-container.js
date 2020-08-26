@@ -7,7 +7,6 @@ import {
 import Selectors from "../../selectors";
 import MapView from "./map-view";
 import ListView from "./list-view";
-import MainMenu from "../MainMenu";
 
 export const mapStateToProps = (state) => ({
   businesses: Selectors.businessesDataTree(state),
@@ -16,16 +15,11 @@ export const mapStateToProps = (state) => ({
   businessesWithAddress: Selectors.businessesWithAddress(state),
 });
 
-// const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
-const MAPBOX_ACCESS_TOKEN =
-  "pk.eyJ1IjoiY2xlamV1bmVtZWlzdGVyIiwiYSI6ImNrYjVhdzI3czEyaG0ydWxlMTFldmc0dTEifQ.XUTeEL4Nl1j2Twr4UkM1rQ";
+const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 class BusinessDisplayContainer extends React.Component {
   render = () => (
-    <div>
-      <header className="App-header">
-        <MainMenu showSearch />
-      </header>
+    <div className="container">
       <div>
         {this.props.businessViewIsMap ? (
           <MapView

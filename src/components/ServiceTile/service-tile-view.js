@@ -12,6 +12,7 @@ const mapDispatchToProps = (dispatch) => ({
 
 class ServiceTileView extends Component {
   getDataWithBusinessView = (service, mapView = true) => {
+    console.log("called");
     if (!mapView) {
       this.props.toggleBusinessView(false);
       this.props.getData(service);
@@ -43,7 +44,12 @@ class ServiceTileView extends Component {
 
           <div className="service-view-selection mt-1">
             <div className="d-flex justify-content-center">
-              <button className="text-left tile-service-link mr-2">
+              <button
+                className="text-left tile-service-link mr-2"
+                onClick={() =>
+                  this.getDataWithBusinessView(this.props.serviceSearchName)
+                }
+              >
                 <div>
                   <svg
                     className="bi bi-map mb-1 mr-1"
@@ -59,7 +65,15 @@ class ServiceTileView extends Component {
                 </div>
               </button>
 
-              <button className="text-left tile-service-link">
+              <button
+                className="text-left tile-service-link"
+                onClick={() =>
+                  this.getDataWithBusinessView(
+                    this.props.serviceSearchName,
+                    false
+                  )
+                }
+              >
                 <div>
                   <svg
                     className="bi bi-list-ul mb-1 mr-1"
@@ -77,7 +91,9 @@ class ServiceTileView extends Component {
             </div>
           </div>
         </div>
-        <div className="ribbon-edge-topleft"></div>
+        <div className="ribbon-edge-topleft">
+          <div id="triangle-topleft"></div>
+        </div>
         <div className="ribbon-edge-topright"></div>
       </div>
     </div>

@@ -26,3 +26,15 @@
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+.dropdown-and-toggle {
+  background-color: lightgray;
+  border-radius: 4px;
+  height: 39px;
+  width: 384px;
+  margin: auto;
+}
+
+.dropdown-background {
+  background-color: #ecf3f4;
+}

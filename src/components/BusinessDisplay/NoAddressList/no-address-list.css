@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 .no-address-list {
+  padding-top: 5px;
   background-color: #ecf3f4;
-  border-left: white solid 1px;
-  height: 35px;
+  height: 38px;
 }
 
 .no-address-title {
+  border: none;
   font-family: "Roboto";
   color: #5576ce;
+  background: none;
 }
