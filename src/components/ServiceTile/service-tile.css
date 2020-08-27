@@ -1,6 +1,15 @@
+.tile-wrapper-button,
+.tile-wrapper-button:hover,
+.tile-wrapper-button:focus,
+.tile-wrapper-button:visited {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 .tile-wrapper {
-  width: 205px;
-  height: 293px;
+  width: 181px;
+  height: 257px;
   margin-bottom: 23px;
 }
 
@@ -9,20 +18,20 @@
   z-index: 998;
 }
 .ribbon-front {
-  line-height: 1.5;
+  box-shadow: 2px -1px 8px white;
   background-color: #cc3333;
-  height: 71px;
-  width: 216px;
+  width: 191px;
   position: relative;
   left: -10px;
   z-index: 2;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Roboto;
   color: #f8f8f8;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 5px;
   margin-top: 30px;
+  padding-bottom: 6px;
 }
 
 .ribbon-edge-topleft {

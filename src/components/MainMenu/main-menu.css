@@ -1,3 +1,7 @@
+#main-menu-wrapper {
+  margin-bottom: 40px;
+}
+
 .navbar-content {
   margin-top: 2em;
 }
@@ -7,7 +11,8 @@
 }
 
 .nav-button:hover,
-.nav-button:visited {
+.nav-button:visited,
+.nav-button:active {
   color: darkslategray !important;
   text-decoration: none !important;
 }
@@ -30,5 +35,5 @@
 
 #left-side,
 #right-side {
-  width: 175px;
+  width: 231px;
 }

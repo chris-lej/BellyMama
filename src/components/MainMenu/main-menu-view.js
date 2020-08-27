@@ -7,8 +7,8 @@ import Instagram from "../../images/instagram.svg";
 import Facebook from "../../images/facebook.svg";
 
 const MainMenuView = (props) => (
-  <div>
-    <div className="row justify-content-between header-container">
+  <div id="main-menu-wrapper">
+    <div className="row justify-content-between header-container mb-3">
       <div id="left-side" className="d-flex">
         <Link to="/about">
           <Button className="nav-button mt-2" color="link">
@@ -18,6 +18,11 @@ const MainMenuView = (props) => (
         <Link to="/contact">
           <Button className="nav-button mt-2" color="link">
             Contact
+          </Button>
+        </Link>
+        <Link to="/faq">
+          <Button className="nav-button mt-2" color="link">
+            FAQ
           </Button>
         </Link>
       </div>

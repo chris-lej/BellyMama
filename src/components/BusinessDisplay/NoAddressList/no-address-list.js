@@ -1,5 +1,11 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import Actions from "../../../actions";
 import "./no-address-list.css";
+
+export const mapDispatchToProps = (dispatch) => ({
+  toggleBusinessView: (value) => dispatch(Actions.toggleBusinessView(value)),
+});
 
 class NoAddressList extends Component {
   constructor(props) {
@@ -16,7 +22,10 @@ class NoAddressList extends Component {
   render = () => {
     return (
       <div className={`no-address-list ${this.state.hidden}`}>
-        <button className="no-address-title">
+        <button
+          className="no-address-title"
+          onClick={() => this.props.toggleBusinessView(false)}
+        >
           <span className="text-center">
             <strong>Click here</strong> for businesses that don't have an
             address!
@@ -27,4 +36,4 @@ class NoAddressList extends Component {
   };
 }
 
-export default NoAddressList;
+export default connect(null, mapDispatchToProps)(NoAddressList);

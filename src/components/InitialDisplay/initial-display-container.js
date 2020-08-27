@@ -80,7 +80,7 @@ class InitialDisplayContainer extends Component {
             <p className="">in Austin, TX</p>
           </div>
         </div>
-        <div className="d-flex flex-wrap justify-content-center">
+        <div className="categories-wrapper d-flex flex-wrap justify-content-between">
           {services.map((service) => (
             <div className="mr-4 mb-3">
               <ServiceTileView

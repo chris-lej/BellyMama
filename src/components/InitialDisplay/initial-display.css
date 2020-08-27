@@ -11,6 +11,8 @@
 
 .description-wrapper {
   margin-left: 40px;
+  margin-bottom: 65px;
+  text-shadow: 5px 5px 5px lightgray;
 }
 
 .description-1 {
@@ -19,4 +21,9 @@
 
 .description-2 {
   color: red;
+}
+
+.categories-wrapper {
+  margin-left: 40px;
+  margin-right: 20px;
 }
