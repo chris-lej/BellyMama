@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { allServices } from "../../service-catalog";
 import Actions from "../../actions";
 import Selectors from "../../selectors";
 import "./search-bar.css";
@@ -13,31 +14,16 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 class LocationSelect extends React.Component {
-  allCategories = [
-    {
-      value: "prenatal-yoga",
-      readableValue: "PreNatal Yoga",
-    },
-    {
-      value: "prenatal-massage",
-      readableValue: "PreNatal Massage",
-    },
-    {
-      value: "doulas",
-      readableValue: "Doulas",
-    },
-  ];
-
   currentCategoryName = (currentCategory) =>
     currentCategory === "initial-value"
       ? { readableValue: "Banana" }
-      : this.allCategories.find(
-          (category) => category.value === currentCategory
+      : allServices.find(
+          (category) => category.categoryName === currentCategory
         );
 
   remainingCategories = (currentCategory) =>
-    this.allCategories.filter(
-      (category) => !(category.value === currentCategory)
+    allServices.filter(
+      (category) => !(category.categoryName === currentCategory)
     );
 
   handleTextFieldChange(event) {
@@ -45,17 +31,6 @@ class LocationSelect extends React.Component {
   }
 
   render() {
-    console.log(
-      "Current",
-      this.currentCategoryName(this.props.currentSearchCategory)
-    );
-    console.log(
-      "Remaining",
-      this.remainingCategories(this.props.currentSearchCategory).filter(
-        (category) => !(category.value === "initial-category")
-      )
-    );
-
     return (
       <div className="select-dropdown">
         <select
@@ -64,14 +39,14 @@ class LocationSelect extends React.Component {
           <option value="">
             {
               this.currentCategoryName(this.props.currentSearchCategory)
-                .readableValue
+                .categoryReadableName
             }
           </option>
           {this.remainingCategories(this.props.currentSearchCategory)
             .sort()
             .map((category) => (
-              <option key={category.value} value={category.value}>
-                {category.readableValue}
+              <option key={category.categoryName} value={category.categoryName}>
+                {category.categoryReadableName}
               </option>
             ))}{" "}
         </select>

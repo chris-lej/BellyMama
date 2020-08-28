@@ -12,7 +12,6 @@ const mapDispatchToProps = (dispatch) => ({
 
 class ServiceTileView extends Component {
   getDataWithBusinessView = (service, mapView = true) => {
-    console.log("called");
     if (!mapView) {
       this.props.toggleBusinessView(false);
       this.props.getData(service);
