@@ -1,5 +1,4 @@
 import React from "react";
-import LogoPerfil from "../../images/back-main.svg";
 import "./about.css";
 
 const AboutView = (props) => {
@@ -7,11 +6,9 @@ const AboutView = (props) => {
     <div>
       <div className="about-container">
         <h1 className="about-title">About Us</h1>
-        <div className="row">
-          <div className="col-2">
-            <img src={LogoPerfil} style={{ height: "450px" }} alt="" />
-          </div>
-          <div className="col-9 ml-4">
+        <div className="d-flex">
+          <div className="about-left-image"></div>
+          <div className="about-text-wrapper">
             <p>
               Austin has excellent resources for parents-to-be, and now you can
               find them all in this platform. Belly Mama compiled Prenatal,
@@ -33,7 +30,9 @@ const AboutView = (props) => {
               contact us, please email bellymama@io.com. Enjoy the website!
             </p>
             <div className="d-flex justify-content-center">
-              <button>Request to add service.</button>
+              <button className="request-button">
+                Request to add service.
+              </button>
             </div>
           </div>
         </div>

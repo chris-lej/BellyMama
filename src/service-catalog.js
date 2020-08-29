@@ -2,6 +2,7 @@ import PlaceholderPic from "./images/placeholder.png";
 
 export const allServices = [
   {
+    categoryColor: "wellbeing",
     categoryImage: PlaceholderPic,
     categoryName: "prenatal-yoga",
     categoryReadableName: "Prenatal Yoga",
@@ -130,6 +131,7 @@ export const allServices = [
     ],
   },
   {
+    categoryColor: "wellbeing",
     categoryImage: PlaceholderPic,
     categoryName: "prenatal-massage",
     categoryReadableName: "Prenatal Massage",
@@ -593,6 +595,7 @@ export const allServices = [
     ],
   },
   {
+    categoryColor: "wellbeing",
     categoryImage: PlaceholderPic,
     categoryName: "doulas",
     categoryReadableName: "Doulas",
@@ -959,3 +962,15 @@ export const getBusinessesByCategory = (category) => {
   );
   return foundCategory ? foundCategory.businesses : [];
 };
+
+export const wellbeingCategories = allServices.filter(
+  (category) => category.categoryColor === "wellbeing"
+);
+
+export const supportCategories = allServices.filter(
+  (category) => category.categoryColor === "support"
+);
+
+export const hospitalsCategories = allServices.filter(
+  (category) => category.categoryColor === "hospital"
+);

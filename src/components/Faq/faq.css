@@ -1,8 +1,20 @@
 .faq-container {
   margin-left: 45px;
+  margin-right: 45px;
 }
 
 .faq-title {
   color: grey;
   text-shadow: 5px 5px 5px lightgray;
+}
+
+.faq-left-image {
+  width: 500px;
+  background-color: gray;
+  margin-right: 20px;
+}
+
+.faq-text-wrapper {
+  text-align: justify;
+  text-justify: auto;
 }

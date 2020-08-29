@@ -1,8 +1,30 @@
 .about-container {
   margin-left: 45px;
+  margin-right: 45px;
 }
 
 .about-title {
   color: grey;
   text-shadow: 5px 5px 5px lightgray;
+}
+
+.about-left-image {
+  width: 500px;
+  background-color: gray;
+  margin-right: 20px;
+}
+
+.request-button {
+  border: 1px solid orange;
+  outline: none;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  background-color: orange;
+}
+
+.about-text-wrapper {
+  text-align: justify;
+  text-justify: auto;
 }
