@@ -9,12 +9,15 @@ const Contact = () => {
         <div className="d-flex">
           <div className="contact-left-image"></div>
           <div className="contact-text-wrapper">
-            <p>
-              Austin has excellent resources for parents-to-be, and now you can
-              find them all in this platform. Belly Mama compiled Prenatal,
-              Birth, and Postpartum services offered in Austin on one webpage in
-              hope to facilitate your search.
+            <p className="contact-hear">We want to hear from you!</p>
+            <p className="contact-text">
+              Please get in touch with any suggestions, tips or questions that
+              we have not answered in our FAQs and we will gladly get back to
+              you.
             </p>
+            <div className="d-flex justify-content-center">
+              <button className="contact-button">Contact Us</button>
+            </div>
           </div>
         </div>
       </div>

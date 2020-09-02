@@ -23,18 +23,18 @@ class InitialDisplayContainer extends Component {
   render = () => {
     return (
       <div>
-        <div className=" description-wrapper">
+        <div className=" description-wrapper d-flex">
           <p className="description-1">
-            Prenatal, Birth and Postpartum services
+            Prenatal, Birth and Postpartum services in{" "}
+            <span className="description-2">Austin, TX</span>
           </p>
-          <div className="description-2">
-            <p className="">in Austin, TX</p>
-          </div>
         </div>
         <div className="categories-section-title">
+          <div className="section-title-horizontal-line1" />
           <span>Wellbeing</span>
+          <div className="section-title-horizontal-line2" />
         </div>
-        <div className="categories-wrapper d-flex flex-wrap justify-content-around">
+        <div className="categories-wrapper d-flex flex-wrap">
           {wellbeingCategories.map(
             ({ categoryImage, categoryName, categoryReadableName }) => (
               <div className="mr-4 mb-3" key={categoryName}>
@@ -50,9 +50,11 @@ class InitialDisplayContainer extends Component {
         </div>
 
         <div className="categories-section-title">
+          <div className="section-title-horizontal-line1" />
           <span>Support</span>
+          <div className="section-title-horizontal-line2" />
         </div>
-        <div className="categories-wrapper d-flex flex-wrap justify-content-around">
+        <div className="categories-wrapper d-flex flex-wrap">
           {supportCategories.map(
             ({ categoryImage, categoryName, categoryReadableName }) => (
               <div className="mr-4 mb-3" key={categoryName}>
@@ -68,9 +70,12 @@ class InitialDisplayContainer extends Component {
         </div>
 
         <div className="categories-section-title">
-          <span>Hospitals</span>
+          <div className="section-title-horizontal-line1" />
+
+          <span>Birthing</span>
+          <div className="section-title-horizontal-line2" />
         </div>
-        <div className="categories-wrapper d-flex flex-wrap justify-content-around">
+        <div className="categories-wrapper d-flex flex-wrap">
           {hospitalsCategories.map(
             ({ categoryImage, categoryName, categoryReadableName }) => (
               <div className="mr-4 mb-3" key={categoryName}>

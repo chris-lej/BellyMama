@@ -1,5 +1,7 @@
 .category-wrapper {
   width: 175px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
 .category-title {

@@ -9,12 +9,16 @@ const Contact = () => {
         <div className="d-flex">
           <div className="faq-left-image"></div>
           <div className="faq-text-wrapper">
-            <p>
-              Austin has excellent resources for parents-to-be, and now you can
-              find them all in this platform. Belly Mama compiled Prenatal,
-              Birth, and Postpartum services offered in Austin on one webpage in
-              hope to facilitate your search.
-            </p>
+            <p className="faq-question">Austin has excellent resources?</p>
+            <p className="faq-answer">Of course it does silly goose.</p>
+            <p className="faq-question">Austin has excellent resources?</p>
+            <p className="faq-answer">Of course it does silly goose.</p>
+            <p className="faq-question">Austin has excellent resources?</p>
+            <p className="faq-answer">Of course it does silly goose.</p>
+            <p className="faq-question">Austin has excellent resources?</p>
+            <p className="faq-answer">Of course it does silly goose.</p>
+            <p className="faq-question">Austin has excellent resources?</p>
+            <p className="faq-answer">Of course it does silly goose.</p>
           </div>
         </div>
       </div>

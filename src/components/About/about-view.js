@@ -26,13 +26,11 @@ const AboutView = (props) => {
               you, or just by service name in the list view icon.
             </p>
             <p>
-              If you want to add your business in our webpage, click here. To
-              contact us, please email bellymama@io.com. Enjoy the website!
+              If you want to add your business click on the button below and get
+              in touch with us. Enjoy the website!
             </p>
             <div className="d-flex justify-content-center">
-              <button className="request-button">
-                Request to add service.
-              </button>
+              <button className="request-button">Request to add service</button>
             </div>
           </div>
         </div>

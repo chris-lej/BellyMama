@@ -130,23 +130,13 @@ export const allServices = [
       },
     ],
   },
+
   {
     categoryColor: "wellbeing",
     categoryImage: PlaceholderPic,
     categoryName: "prenatal-massage",
     categoryReadableName: "Prenatal Massage",
     businesses: [
-      {
-        name: "The Living Well",
-        website: "https://www.the-living-well.com",
-        address: "18204 Wind Valley Way, Pflugerville, TX 78660",
-        phone: "512-925-5688",
-        email: "contact@the-living-well.com",
-        coordinates: {
-          lat: 30.4551772,
-          long: -97.5816644,
-        },
-      },
       {
         name: "Mantis Massage",
         website: "https://www.mantismassage.com",
@@ -335,7 +325,7 @@ export const allServices = [
         },
       },
       {
-        name: "Pampering Pros (Westlake)",
+        name: "Pampering Pros",
         website: "https://www.pamperingpros.com",
         address: "701 S Capital of Texas Hwy n840, Austin, TX 78746",
         phone: "844-868-6946",
@@ -592,17 +582,29 @@ export const allServices = [
           long: -97.7084603,
         },
       },
+      {
+        name: "The Living Well",
+        website: "https://www.the-living-well.com",
+        address: "18204 Wind Valley Way, Pflugerville, TX 78660",
+        phone: "512-925-5688",
+        email: "contact@the-living-well.com",
+        coordinates: {
+          lat: 30.4551772,
+          long: -97.5816644,
+        },
+      },
     ],
   },
+
   {
-    categoryColor: "wellbeing",
+    categoryColor: "support",
     categoryImage: PlaceholderPic,
     categoryName: "doulas",
     categoryReadableName: "Doulas",
     businesses: [
       {
         name: "Austin Born",
-        website: "https://www.austin-born.com",
+        website: "www.austin-born.com",
         address: "Classes held: 1305 W 34th St, Austin, TX 78705",
         phone: "512-200-2165",
         email: "info@austin-born.com",
@@ -613,7 +615,7 @@ export const allServices = [
       },
       {
         name: "Austin Child Birth",
-        website: "https://austinchildbirth.com",
+        website: "austinchildbirth.com",
         address: "2913 Chisholm Trail, Austin, TX 78734",
         phone: "512- 773-2375",
         email: "",
@@ -624,8 +626,8 @@ export const allServices = [
       },
       {
         name: "Austin Womb Service ( South office)",
-        website: "https://www.austinwombservice.com",
-        address: "605 Copeland Street, Austin, Texas 78704.",
+        website: "www.austinwombservice.com",
+        address: " 605 Copeland Street, Austin, TX 78704",
         phone: "512-710-9662",
         email: "Austinwombservice@gmail.com",
         coordinates: {
@@ -635,7 +637,7 @@ export const allServices = [
       },
       {
         name: "Austin Womb Service ( North office)",
-        website: "https://www.austinwombservice.com",
+        website: "www.austinwombservice.com",
         address: "13805 Ann Pl, Austin, TX 78728",
         phone: "512-710-9662",
         email: "Austinwombservice@gmail.com",
@@ -646,7 +648,7 @@ export const allServices = [
       },
       {
         name: "Doulas of Austin",
-        website: "https://www.doulasofaustin.com",
+        website: "www.doulasofaustin.com",
         address: "3507 Rock Shelf Ln, Round Rock, TX 78681",
         phone: "619-723-4463",
         email: "doulasofaustin@gmail.com",
@@ -657,8 +659,8 @@ export const allServices = [
       },
       {
         name: "Sacred Work Doula",
-        website: "https://www.sacredworkdoula.com",
-        address: "903 Sedalia St, Cedar Park, TX 78613",
+        website: "www.sacredworkdoula.com",
+        address: "903 Sedalia St, Cedar Park, TX 78613\n",
         phone: "512-827-1857",
         email: "",
         coordinates: {
@@ -668,7 +670,7 @@ export const allServices = [
       },
       {
         name: "Shelley Scotka",
-        website: "https://shelleyscotka.com",
+        website: "shelleyscotka.com",
         address: "",
         phone: "512-468-8526",
         email: "",
@@ -679,7 +681,7 @@ export const allServices = [
       },
       {
         name: "Mallory Jacks",
-        website: "https://malloryjacks.com",
+        website: "malloryjacks.com",
         address: "1401 W 29th St unit b, Austin, TX 78703",
         phone: "501-658-7888",
         email: "hello @malloryjacks.com",
@@ -690,7 +692,7 @@ export const allServices = [
       },
       {
         name: "Healing Birth Work",
-        website: "https://healingbirthwork.com",
+        website: "healingbirthwork.com",
         address: "",
         phone: "",
         email: "molly.healingbirthwork@gmail.com",
@@ -701,7 +703,7 @@ export const allServices = [
       },
       {
         name: "Austin ABC ( Duval Rd)",
-        website: "https://www.austinabc.com",
+        website: "www.austinabc.com",
         address: "4100 Duval Road Bldg. 2, Suite 101, Austin, TX 78759",
         phone: "512-346-3224",
         email: "",
@@ -712,7 +714,7 @@ export const allServices = [
       },
       {
         name: "Austin ABC ( William Cannon)",
-        website: "https://www.austinabc.com",
+        website: "www.austinabc.com",
         address: "2500 W. William Cannon Drive Ste. 503 Austin, TX 78745",
         phone: "512-243-8066",
         email: "",
@@ -723,7 +725,7 @@ export const allServices = [
       },
       {
         name: "ATX Doulas",
-        website: "https://www.atxdoulas.com",
+        website: "www.atxdoulas.com",
         address: "3408 Graybuck Rd, Austin, TX 78748",
         phone: "512-931-4404",
         email: "info@atxdoulas.com",
@@ -734,7 +736,7 @@ export const allServices = [
       },
       {
         name: "Austin Doula Care",
-        website: "https://www.austindoulacare.com",
+        website: "www.austindoulacare.com",
         address: "2801 Hancock Drive Austin, TX 78731",
         phone: "512-814-6195",
         email: "",
@@ -745,7 +747,7 @@ export const allServices = [
       },
       {
         name: "Brenda The Doula",
-        website: "https://www.brendathedoula.com",
+        website: "www.brendathedoula.com",
         address: "",
         phone: "512-814-6195",
         email: "​brendathedoula@gmail.com",
@@ -756,7 +758,7 @@ export const allServices = [
       },
       {
         name: "Morgan Doula",
-        website: "https://www.doulamorgan.com",
+        website: "www.doulamorgan.com",
         address: "",
         phone: "512-502-4384",
         email: "doulamorgan@gmail.com",
@@ -778,7 +780,7 @@ export const allServices = [
       },
       {
         name: "Kelly Boler Jack Doula",
-        website: "https://www.kellybolerjackdoula.com",
+        website: "www.kellybolerjackdoula.com",
         address: "4602 Southwest Pkwy, Austin, TX 78735",
         phone: "512-765-4998",
         email: "kellybolerjackdoula@gmail.com",
@@ -789,7 +791,7 @@ export const allServices = [
       },
       {
         name: "Austin Doula Collective",
-        website: "https://www.austindoulacollective.com",
+        website: "www.austindoulacollective.com",
         address: "",
         phone: "",
         email: "austindoulacollective@gmail.com",
@@ -800,7 +802,7 @@ export const allServices = [
       },
       {
         name: "Mama Peace",
-        website: "https://www.mamapeace.com",
+        website: "www.mamapeace.com",
         address: "",
         phone: "512-692-9468",
         email: "mamapeaceaustin@gmail.com",
@@ -822,7 +824,7 @@ export const allServices = [
       },
       {
         name: "Empowered Birthing",
-        website: "https://www.austinareadoula.com",
+        website: "www.austinareadoula.com",
         address: "",
         phone: "512-730-1941",
         email: "info@austinareadoula.com",
@@ -833,7 +835,7 @@ export const allServices = [
       },
       {
         name: "Mama Fox Doula",
-        website: "https://www.mamafoxdoula.com",
+        website: "www.mamafoxdoula.com",
         address: "3706 Guadalupe St, Austin, TX 78705",
         phone: "512-740-1847",
         email: "juliele@mamafoxdoula.com",
@@ -844,7 +846,7 @@ export const allServices = [
       },
       {
         name: "BirthAva",
-        website: "https://www.birthava.com",
+        website: "www.birthava.com",
         address: "500 Spyglass Dr, Austin, TX 78746",
         phone: "512-993-0789",
         email: "brandy@birthava.com",
@@ -855,7 +857,7 @@ export const allServices = [
       },
       {
         name: "Mother Lover Doula",
-        website: "https://www.themotherloverdoula.com",
+        website: "www.themotherloverdoula.com",
         address: "",
         phone: "",
         email: "",
@@ -866,7 +868,7 @@ export const allServices = [
       },
       {
         name: "Matriarch Mother Care",
-        website: "https://www.matriarchmothercare.com",
+        website: "www.matriarchmothercare.com",
         address: "",
         phone: "512- 766-2368",
         email: "mia@matriarchmothercare.com",
@@ -877,7 +879,7 @@ export const allServices = [
       },
       {
         name: "Stork Maternity Consulting",
-        website: "https://www.storkatx.com",
+        website: "www.storkatx.com",
         address: "2404 Lake Austin Blvd, Austin, TX 78703",
         phone: "512-351-6919",
         email: "hello@storkatx.com",
@@ -888,7 +890,7 @@ export const allServices = [
       },
       {
         name: "Sucellent Birth",
-        website: "https://www.succulentbirth.wixsite.com/equipoise",
+        website: "www.succulentbirth.wixsite.com/equipoise",
         address: "",
         phone: "512-799-0236",
         email: "SucculentBirth@gmail.com",
@@ -899,7 +901,7 @@ export const allServices = [
       },
       {
         name: "Woman Craft Austin",
-        website: "https://www.womancraftaustin.com",
+        website: "www.womancraftaustin.com",
         address: "9213 Magna Carta Loop, Austin, TX",
         phone: "512-537-1641",
         email: "Colleen@womancraftaustin.com",
@@ -910,7 +912,7 @@ export const allServices = [
       },
       {
         name: "The Living Well",
-        website: "https://www.the-living-well.com",
+        website: "www.the-living-well.com",
         address: "18204 Wind Valley Way, Pflugerville, TX 78660",
         phone: "512-925-5688",
         email: "contact@the-living-well.com",
@@ -920,8 +922,8 @@ export const allServices = [
         },
       },
       {
-        name: "Empowered Beginnings",
-        website: "https://www.empoweredbeginningsatx.com",
+        name: "Empowered Birthing",
+        website: "www.empoweredbeginningsatx.com",
         address: "",
         phone: "512-939-9163",
         email: "Ciarra@EmpoweredBeginningsATX.com",
@@ -932,8 +934,8 @@ export const allServices = [
       },
       {
         name: "New Life Birth Services",
-        website: "https://www.newlifebirthservices.com",
-        address: "9302 Castlewood Drive Austin, TX 78748",
+        website: "www.newlifebirthservices.com",
+        address: "9302 Castlewood Drive, Austin, TX 78748",
         phone: "512-477 5452",
         email: "newlifebirthservices@gmail.com",
         coordinates: {
@@ -943,10 +945,1495 @@ export const allServices = [
       },
       {
         name: "The Third Eye Birth",
-        website: "https://www.thirdeyebirth.com",
+        website: "www.thirdeyebirth.com",
         address: "",
         phone: "760-500-0050",
         email: "thirdeyebirth@gmail.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Lotus Babies",
+        website: "www.lotus-babies.com",
+        address: "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
+        phone: "512-577-3590",
+        email: "anyacasteel@gmail.com ",
+        coordinates: {
+          lat: 30.20360756,
+          long: -97.78580475,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "support",
+    categoryImage: PlaceholderPic,
+    categoryName: "baby-sleep-consultant",
+    categoryReadableName: "Baby Sleep Consultant",
+    businesses: [
+      {
+        name: "Dream on Babies",
+        website: "https://dreamonbabies.com/",
+        address: "",
+        phone: "979-204-6520",
+        email: "",
+        coordinates: {
+          lat: "",
+          long: "",
+        },
+      },
+      {
+        name: "Austin Expecting",
+        website: "http://austinexpecting.com/",
+        address: "",
+        phone: "512-553-2811",
+        email: "jennifer@austinexpecting.com",
+        coordinates: {
+          lat: "",
+          long: "",
+        },
+      },
+      {
+        name: "Parent Heroes",
+        website: "https://parent-heroes.com/",
+        address: "",
+        phone: "512-589-3477",
+        email: "",
+        coordinates: {
+          lat: "",
+          long: "",
+        },
+      },
+      {
+        name: "Strone Little Sleepers",
+        website: "https://www.stronglittlesleepers.com/",
+        address: "",
+        phone: "",
+        email: "",
+        coordinates: {
+          lat: "",
+          long: "",
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "hospital",
+    categoryImage: PlaceholderPic,
+    categoryName: "birthing-center-and-home-birth",
+    categoryReadableName: "Birthing Center and Home Birth",
+    businesses: [
+      {
+        name: "Austin ABC (Duval Rd)",
+        website: "www.austinabc.com",
+        address: "4100 Duval Road Bldg. 2, Suite 101, Austin, TX 78759",
+        phone: "512-346-3224",
+        email: "",
+        coordinates: {
+          lat: 30.4117805,
+          long: -97.7300692,
+        },
+      },
+      {
+        name: "Austin ABC (William Cannon)",
+        website: "www.austinabc.com",
+        address: "2500 W. William Cannon Drive, Suite 503 Austin, TX 78745",
+        phone: "512-243-8066",
+        email: "",
+        coordinates: {
+          lat: 30.2063662,
+          long: -97.8153014,
+        },
+      },
+      {
+        name: "Birth Wise Birth Center",
+        website: "www.birthwisetx.com",
+        address: "1709 Rio Grande St,  Austin, TX 78701 ",
+        phone: "512-374-9592",
+        email: "info@birthwisetx.com",
+        coordinates: {
+          lat: 30.2811082,
+          long: -97.7472537,
+        },
+      },
+      {
+        name: "Beautiful Beginning Birth",
+        website: "www.beautifulbeginningbirth.com",
+        address: "6611 River Pl Blvd, Suite 107, Austin, TX 78730",
+        phone: "512-636-3661 ",
+        email: "Emma@BeautifulBeginningBirth.com",
+        coordinates: {
+          lat: 30.3925964,
+          long: -97.9860081,
+        },
+      },
+      {
+        name: "Natural Birthing Center",
+        website: "www.naturalbirthingcenter.net",
+        address: "1101 Satellite View, Suite 104,  Round Rock, TX 78665",
+        phone: "512-468-1419",
+        email: "midwife64@yahoo.com",
+        coordinates: {
+          lat: 30.5655683,
+          long: -97.6659672,
+        },
+      },
+      {
+        name: "New Life Birth Services",
+        website: "www.newlifebirthservices.com",
+        address: "9302 Castlewood Drive, Austin, TX 78748",
+        phone: "512-477-5452",
+        email: "newlifebirthservices@gmail.com",
+        coordinates: {
+          lat: 30.1817774,
+          long: -97.8280424,
+        },
+      },
+      {
+        name: "Austin Womb Service (South office)",
+        website: "www.austinwombservice.com",
+        address: "605 Copeland Street, Austin, TX 78704",
+        phone: "512-710-9662",
+        email: "Austinwombservice@gmail.com",
+        coordinates: {
+          lat: 30.2534355,
+          long: -97.7561458,
+        },
+      },
+      {
+        name: "Austin Womb Service (North office)",
+        website: "www.austinwombservice.com",
+        address: "13805 Ann Pl, Austin, TX 78728",
+        phone: "512-710-9662",
+        email: "Austinwombservice@gmail.com",
+        coordinates: {
+          lat: 30.4276612,
+          long: -97.6765209,
+        },
+      },
+      {
+        name: "Acession Birthing Center",
+        website: "www.healthcare.ascension.org",
+        address: "1113 Research Blvd, Cedar Park, TX 78613",
+        phone: "512-324-6000",
+        email: "",
+        coordinates: {
+          lat: 30.4790552,
+          long: -97.8052359,
+        },
+      },
+      {
+        name: "Austin Child Birth",
+        website: "www.austinchildbirth.com",
+        address: "2913 Chisholm Trail, Austin, TX 78734",
+        phone: "512-773-2375",
+        email: "",
+        coordinates: {
+          lat: 30.3812755,
+          long: -98.0575937,
+        },
+      },
+      {
+        name: "Natural Beginning Birthing Center",
+        website: "www.natural-beginning.com",
+        address: "12221 Renfert Way #330, Austin, TX 78758",
+        phone: "512-425-3825",
+        email: "nbbc@obgynnorth.com ",
+        coordinates: {
+          lat: 30.3097155,
+          long: -97.70576,
+        },
+      },
+      {
+        name: "Support the Mama Midwifery Services",
+        website: "www.burnetmidwife.com",
+        address: "9501 N FM 620 #7205, Austin, TX 78726",
+        phone: "281-529-5413",
+        email: "",
+        coordinates: {
+          lat: 30.3333029,
+          long: -97.9172256,
+        },
+      },
+      {
+        name: "HomeBirth in Austin (South)",
+        website: "www.austinhomebirth.com",
+        address: "605 Copeland Street, Austin, Texas 78704.",
+        phone: "512-710-9662",
+        email: "HomebirthinAustin@gmail.com",
+        coordinates: {
+          lat: 30.2534309,
+          long: -97.7561458,
+        },
+      },
+      {
+        name: "HomeBirth in Austin  (North)",
+        website: "www.austinhomebirth.com",
+        address: "13805 Ann Pl, Austin, TX 78728",
+        phone: "512-710-9662",
+        email: "HomebirthinAustin@gmail.com",
+        coordinates: {
+          lat: 30.4276612,
+          long: -97.6765209,
+        },
+      },
+      {
+        name: "Monika Stone Midwife",
+        website: "www.monikastonemidwife.com",
+        address: "13805 Ann Place, Austin, TX 78728",
+        phone: "512-925-8354",
+        email: "mail@monikastonemidwife.com",
+        coordinates: {
+          lat: 30.4271593,
+          long: -97.6728677,
+        },
+      },
+      {
+        name: "Monika Stone Midwife (Manchaca)",
+        website: "www.monikastonemidwife.com",
+        address: "6700 Manchaca Rd, Austin, TX 78745",
+        phone: "512-925-8354",
+        email: "mail@monikastonemidwife.com",
+        coordinates: {
+          lat: 30.2064426,
+          long: -97.8092862,
+        },
+      },
+      {
+        name: "Austin Area Midwife",
+        website: "www.austinareamidwife.com",
+        address: "6700 Manchaca Rd, Austin, TX 78745",
+        phone: "512-924-8265",
+        email: "junelamphier@gmail.com",
+        coordinates: {
+          lat: 30.2064426,
+          long: -97.8092862,
+        },
+      },
+      {
+        name: "MotherBloom Midwifery Service",
+        website: "www.motherbloommidwifery.com",
+        address: "9001 Oak Valley Rd, Austin, TX 78737",
+        phone: "512-745-3002",
+        email: "april.blackmore@gmail.com",
+        coordinates: {
+          lat: 30.2253591,
+          long: -97.9120706,
+        },
+      },
+      {
+        name: "Sister Midwifery",
+        website: "www.sistersmidwifery.com",
+        address: "",
+        phone: "512-658-5628",
+        email: "genschaeferaustin@gmail.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "wellbeing",
+    categoryImage: PlaceholderPic,
+    categoryName: "acupunture",
+    categoryReadableName: "Acupunture",
+    businesses: [
+      {
+        name: "Song Bird Acupuncture",
+        website: "https://songbirdacupuncture.com/",
+        address: "6626 Silvermine Dr., Suite 400, Austin TX 78736",
+        phone: "512-640-9778 ",
+        email: "arden@songbirdacupuncture.com",
+        coordinates: {
+          lat: 30.2350375,
+          long: -97.8891528,
+        },
+      },
+      {
+        name: "Light Family Acupuncture",
+        website: "http://lightfamilyacupuncture.com/",
+        address: "1709 Rio Grande Street, Austin, TX 78701",
+        phone: "512-775-4057",
+        email: "",
+        coordinates: {
+          lat: 30.2811082,
+          long: -97.7472537,
+        },
+      },
+      {
+        name: "Sarah Johnson Acupuncture",
+        website: "http://www.sjohnsonlac.com/",
+        address: "5524 Bee Caves Rd, Building K, Suite 3, Austin, TX 78746",
+        phone: "617-308-6620",
+        email: "",
+        coordinates: {
+          lat: 30.2946046,
+          long: 97.8251194,
+        },
+      },
+      {
+        name: "Sage Acupuncture (South)",
+        website: "https://reproductiveacupuncture.com/",
+        address: "5000 Davis Lane, Suite 100, Austin, TX 78749",
+        phone: "512-968-2605",
+        email: "",
+        coordinates: {
+          lat: 30.2070846,
+          long: -97.8614675,
+        },
+      },
+      {
+        name: "Sage Acupuncture (North)",
+        website: "https://reproductiveacupuncture.com/",
+        address: "3921 Steck Avenue, Suite A100, Austin, TX 78759",
+        phone: "512-968-2605",
+        email: "",
+        coordinates: {
+          lat: 30.3724326,
+          long: -97.7543419,
+        },
+      },
+      {
+        name: "In Balance Chiropractic and Acupuncture",
+        website: "https://www.inbalanceatx.com/pregnancy/",
+        address: "9800 North Lamar Boulevard, Unit 140, Austin, TX 78753",
+        phone: "512-873-9355",
+        email: "",
+        coordinates: {
+          lat: 30.3679867,
+          long: -97.6971078,
+        },
+      },
+      {
+        name: "Austin Acupuncture Studio",
+        website: "http://www.austinacupuncturestudio.com/",
+        address: "911 W 38th St, Suite 402, Austin, TX 78705",
+        phone: "512-677-9051",
+        email: "misty@austinacupuncturestudio.com",
+        coordinates: {
+          lat: 30.3047813,
+          long: -97.7451533,
+        },
+      },
+      {
+        name: "Lotus Chiropractic and Acupuncture",
+        website: "http://www.lotusatx.com/",
+        address: "2700 W.Anderson Ln, Unit 50, Austin TX 78757",
+        phone: "512-270-9580",
+        email: "",
+        coordinates: {
+          lat: 30.3586425,
+          long: -97.7371109,
+        },
+      },
+      {
+        name: "Season Health",
+        website: "https://seasonshealth.com/",
+        address: "13860 US 183 N., Ste. B, Austin, TX 78750",
+        phone: "512-632-7674",
+        email: "cls@seasonshealth.com",
+        coordinates: {
+          lat: 30.4668796,
+          long: -97.7998569,
+        },
+      },
+      {
+        name: "Acupuncture together",
+        website: "https://acupuncturetogetheraustin.com/",
+        address: "7431 Burnet Rd, Austin, TX 78757",
+        phone: "512-698-5151",
+        email: "",
+        coordinates: {
+          lat: 30.3498932,
+          long: -97.7359627,
+        },
+      },
+      {
+        name: "Birds Nest",
+        website: "https://www.birdsnestacupuncture.com/",
+        address: "4101 Medical Parkway, Suite 113, Austin, TX 78756",
+        phone: "512-761-6719",
+        email: "info@birdsnestacupuncture.com",
+        coordinates: {
+          lat: 30.3099363,
+          long: -97.7444808,
+        },
+      },
+      {
+        name: "Texas Fertility Acupuncture",
+        website: "https://www.texasfertilityacupuncture.com/",
+        address: "4131 Spicewood Springs, Building A4, Austin, TX 78759",
+        phone: "512-302-5600",
+        email: "admin@texasfertilityacupuncture.com",
+        coordinates: {
+          lat: 30.3708412,
+          long: -97.7581522,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "support",
+    categoryImage: PlaceholderPic,
+    categoryName: "early-parenting-support",
+    categoryReadableName: "Early Parenting Support",
+    businesses: [
+      {
+        name: "Austin Baby Guru",
+        website: "https://austinbabyguru.com/",
+        address: "",
+        phone: "512-791-8749",
+        email: " AustinBabyGuru@gmail.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Partner in Parenting",
+        website: "https://www.pipaustin.org/home",
+        address: "",
+        phone: "",
+        email: "",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Texas Parents to Parents",
+        website: "https://www.txp2p.org/",
+        address: "",
+        phone: "",
+        email: "",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Any Baby Can",
+        website: "https://anybabycan.org/",
+        address: "6207 Sheridan Ave, Austin, TX 78723",
+        phone: "512-454-3743",
+        email: "Info@AnyBabyCan.org",
+        coordinates: {
+          lat: 30.3212289,
+          long: -97.7705977,
+        },
+      },
+      {
+        name: "Mamas for Mamas",
+        website: "",
+        address:
+          "Austin Center for Therapy & Assessment  8103 Brodie Lane, Ste. 1  Austin, TX 78745",
+        phone: "Contact: Melissa Bentley, MA at 512-920-3737",
+        email: "",
+        coordinates: {
+          lat: 30.2008523,
+          long: -97.8386875,
+        },
+      },
+      {
+        name: "Austin Parents of Multiples",
+        website: "https://austinpom.org/",
+        address: "",
+        phone: "512-693-9233",
+        email: "info@austinpom.org",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Austin Expecting",
+        website: "http://austinexpecting.com/",
+        address: "",
+        phone: "512-553-2811",
+        email: "jennifer@austinexpecting.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "hospital",
+    categoryImage: PlaceholderPic,
+    categoryName: "maternity-hospitals",
+    categoryReadableName: "Maternity Hospitals",
+    businesses: [
+      {
+        name: "St. Davis Woman Center",
+        website: "https://stdavids.com/service/women-maternity-newborn",
+        address: "12221 N Mopac Expy, Austin, TX 78758",
+        phone: "512-901-1000",
+        email: "",
+        coordinates: {
+          lat: 30.4114435,
+          long: -97.7084709,
+        },
+      },
+      {
+        name: "St. Davis Medical Center",
+        website: "https://stdavids.com/service/women-maternity-newborn",
+        address: "919 E 32nd St, Austin, TX 78705",
+        phone: "512-476-7111",
+        email: "",
+        coordinates: {
+          lat: 30.2599539,
+          long: -97.8496483,
+        },
+      },
+      {
+        name: "St. David's Round Rock Medical Center",
+        website: "https://stdavids.com/service/women-maternity-newborn",
+        address: "2400 Round Rock Ave, Round Rock, TX 78681",
+        phone: "512-341-1000",
+        email: "",
+        coordinates: {
+          lat: 30.3546817,
+          long: -97.9003994,
+        },
+      },
+      {
+        name: "St. David’s South Austin Medical Center",
+        website: "https://stdavids.com/service/women-maternity-newborn",
+        address: "901 W Ben White Blvd, Austin, TX 78704",
+        phone: "512-447-2211",
+        email: "",
+        coordinates: {
+          lat: 30.2162144,
+          long: -97.8192924,
+        },
+      },
+      {
+        name: "Ascension Seton Williamson",
+        website:
+          "https://www.getascensioncare.com/obstetrics/texas/austin/?_ga=2.225688538.1159864681.1592260468-2108106527.1592260468",
+        address: "201 Seton Pkwy,  Round Rock TX 78665",
+        phone: "512-324-4000",
+        email: "",
+        coordinates: {
+          lat: 30.5670699,
+          long: -97.6534394,
+        },
+      },
+      {
+        name: "Ascension Seton Medical Center Austin",
+        website:
+          "https://www.getascensioncare.com/obstetrics/texas/austin/?_ga=2.225688538.1159864681.1592260468-2108106527.1592260468",
+        address: "1201 West 38th St, Austin TX 78705",
+        phone: "512-324-1000",
+        email: "",
+        coordinates: {
+          lat: 30.305555,
+          long: -97.7475087,
+        },
+      },
+      {
+        name: "Ascension Seton Northwest",
+        website:
+          "https://www.getascensioncare.com/obstetrics/texas/austin/?_ga=2.225688538.1159864681.1592260468-2108106527.1592260468",
+        address: "1113 Research Blvd, Austin TX 78759",
+        phone: "512-324-6000",
+        email: "",
+        coordinates: {
+          lat: 30.4790552,
+          long: -97.8052359,
+        },
+      },
+      {
+        name: "Ascension Seton Hays",
+        website:
+          "https://www.getascensioncare.com/obstetrics/texas/austin/?_ga=2.225688538.1159864681.1592260468-2108106527.1592260468",
+        address: "6001 Kyle Pkwy, Kyle TX 78640",
+        phone: "512-504-5000",
+        email: "",
+        coordinates: {
+          lat: 30.0084463,
+          long: -98.413248,
+        },
+      },
+      {
+        name: "Ascension Seton Williamson Birthing Center",
+        website:
+          "https://www.getascensioncare.com/obstetrics/texas/austin/?_ga=2.225688538.1159864681.1592260468-2108106527.1592260468",
+        address: "201 Seton Pkwy, Round Rock TX 78665",
+        phone: "512-324-4000",
+        email: "",
+        coordinates: {
+          lat: 30.5670699,
+          long: -97.6534394,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "wellbeing",
+    categoryImage: PlaceholderPic,
+    categoryName: "prenatal-chirotherapy",
+    categoryReadableName: "Prenatal Chirotherapy",
+    businesses: [
+      {
+        name: "Austin Life Chiropractic (Austin) ",
+        website: "https://austinlifechiro.com/austin/",
+        address: "2700 W. Anderson Lane, # 509, Austin, TX 78757",
+        phone: "512-452-7681",
+        email: "info@austinlifechiro.com",
+        coordinates: {
+          lat: 30.3588483,
+          long: -97.7694039,
+        },
+      },
+      {
+        name: "Austin Life Chiropractic (Round Rock) ",
+        website: "https://austinlifechiro.com/austin/",
+        address: "115 Sundance Pkwy, Ste.340 Round Rock, TX 78681",
+        phone: "512-387-8733",
+        email: "info@austinlifechiro.com",
+        coordinates: {
+          lat: 30.4831663,
+          long: -97.6799764,
+        },
+      },
+      {
+        name: "Hausman Chiropractic",
+        website: "https://www.hausmanchiropractic.com/",
+        address: "8015 Shoal Creek Blvd Suite 110 Austin, TX 78757",
+        phone: "512-419-1000",
+        email: "hcaustintx@gmail.com",
+        coordinates: {
+          lat: 30.3635264,
+          long: -97.7415249,
+        },
+      },
+      {
+        name: "RejuvaWell ",
+        website: "https://www.wholefamilychiropractors.com/",
+        address: "4818 Berkman Dr, Ste 100 Austin, TX 78723",
+        phone: "512-505-8500",
+        email: "",
+        coordinates: {
+          lat: 30.3017386,
+          long: -97.7030455,
+        },
+      },
+      {
+        name: "Cedar Park Chiropractic",
+        website: "https://cedarparkchiro.com/",
+        address: "345 Cypress Creek Rd., #103, Cedar Park, TX 78613",
+        phone: "512-335-0641",
+        email: "",
+        coordinates: {
+          lat: 30.5005144,
+          long: -97.819732,
+        },
+      },
+      {
+        name: "In Balance",
+        website: "https://www.inbalanceatx.com/",
+        address: "9800 North Lamar Boulevard, #140, Austin, TX 78753",
+        phone: "512-873-9355",
+        email: "",
+        coordinates: {
+          lat: 30.3679867,
+          long: -97.6971078,
+        },
+      },
+      {
+        name: "Colm Chiropractic",
+        website: "https://colmchiropractic.com/",
+        address: "5920 W William Cannon Dr, Bldg 7, Ste 100 Austin, TX 78749",
+        phone: "512-956-7449",
+        email: "info@colmchiropractic.com",
+        coordinates: {
+          lat: 30.2306071,
+          long: -97.8951459,
+        },
+      },
+      {
+        name: "Family Chiropractic of Austin",
+        website: "https://www.familychiroatx.com/",
+        address: "4220 W William Cannon Dr, Ste 130, Austin, TX 78749",
+        phone: "512- 892-3434",
+        email: "",
+        coordinates: {
+          lat: 30.2221775,
+          long: -97.846525,
+        },
+      },
+      {
+        name: "Austin Wellness Chiropractic",
+        website: "http://www.austinwellnesschiropractic.com/",
+        address: "10815 RR 2222  Building #3C, Suite 100,  Austin, TX 78730",
+        phone: "512- 524-7669",
+        email: "",
+        coordinates: {
+          lat: 30.3941739,
+          long: -97.9881066,
+        },
+      },
+      {
+        name: "Life Spring Chiropractic",
+        website: "https://lifespringchiro.com/",
+        address: "2612 S Lamar Blvd, Austin, TX 78704",
+        phone: "512- 400-1241",
+        email: "info@lifespringchiro.com",
+        coordinates: {
+          lat: 30.2460649,
+          long: -97.7970871,
+        },
+      },
+      {
+        name: "Pure Light Chiropractic",
+        website: "https://www.purelightchiro.com/",
+        address: "1711 Fortview Rd, Austin, TX 78704",
+        phone: "512-750-1512",
+        email: "",
+        coordinates: {
+          lat: 30.2294549,
+          long: -97.7871198,
+        },
+      },
+      {
+        name: "Austin Community Wellness- Family Chiropractic & Massage",
+        website: "https://www.austincommunitywellness.com/",
+        address: "2900 S Congress Ave, #104, Austin, TX 78704",
+        phone: "512- 507-5672",
+        email: "austincommunitywellness@gmail.com",
+        coordinates: {
+          lat: 30.2335015,
+          long: -97.7606876,
+        },
+      },
+      {
+        name: "Atlas Holistic Wellness",
+        website: "https://keepaustinadjusted.com/",
+        address: "6010 Balcones Dr., Ste 101, Austin, TX 78731",
+        phone: "512-465-9355",
+        email: "",
+        coordinates: {
+          lat: 30.3426882,
+          long: -97.7562944,
+        },
+      },
+      {
+        name: "Vert- Align",
+        website: "https://www.vert-align.com/",
+        address: "1110 W. William Cannon, #403,  Austin, TX 78745",
+        phone: "512-571-6230",
+        email: "",
+        coordinates: {
+          lat: 30.1998081,
+          long: -97.7827603,
+        },
+      },
+      {
+        name: "All Good Chiropractic",
+        website: "https://www.allgoodchiro.com/",
+        address: "5145 N FM 620, Suite F-130, Austin, TX 78732",
+        phone: "512-276-2710",
+        email: "allgoodchiropractic@gmail.com",
+        coordinates: {
+          lat: 30.38956,
+          long: -98.0260736,
+        },
+      },
+      {
+        name: "Empower Family Chiropractic",
+        website: "https://empowerfamilychiro.com/",
+        address: "2951 Ranch Rd, 620 S #106, Austin, TX 78738",
+        phone: "512-956-6970",
+        email: "info@empowerfamilychiro.com",
+        coordinates: {
+          lat: 30.3341824,
+          long: -97.96901,
+        },
+      },
+      {
+        name: "Gardner Chiropractic",
+        website: "https://drgardnerchiro.com/",
+        address: "3000 Joe DiMaggio Blvd, Ste 54 Round Rock, TX 78665",
+        phone: "512-387-3308",
+        email: "",
+        coordinates: {
+          lat: 30.5247242,
+          long: -97.6426387,
+        },
+      },
+      {
+        name: "Lotus Chiropractic and Acupuncture",
+        website: "http://www.lotusatx.com/",
+        address: "2700 W.Anderson Ln, Unit 50, Austin TX 78757",
+        phone: "512-270-9580",
+        email: "",
+        coordinates: {
+          lat: 30.3586425,
+          long: -97.7371109,
+        },
+      },
+      {
+        name: "Round Rock Health & Wellness Center",
+        website: "https://www.rrwellness.com/",
+        address: "2251 Double Creek Dr, Round Rock, TX 78664",
+        phone: "512-246-0220",
+        email: "owner@rrwellness.com",
+        coordinates: {
+          lat: 30.491984,
+          long: -97.6466829,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin- South",
+        website: "https://www.kapsner.com/",
+        address: "1701 W. Ben White Blvd. Suite 160, Austin, TX 78704",
+        phone: "512-441-1240",
+        email: "",
+        coordinates: {
+          lat: 30.2277401,
+          long: -97.8027983,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin- North",
+        website: "https://www.kapsner.com/",
+        address: "8440 Burnet Rd #118, Austin, TX 78757",
+        phone: "512-459-4014",
+        email: "",
+        coordinates: {
+          lat: 30.3663155,
+          long: -97.7313833,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin-Rock Round",
+        website: "https://www.kapsner.com/",
+        address: "2000 S IH 35 Frontage Rd H1, Round Rock, TX 78681",
+        phone: "512-733-1700",
+        email: "",
+        coordinates: {
+          lat: 30.4884823,
+          long: -97.682266,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin- Cedar Park",
+        website: "https://www.kapsner.com/",
+        address: "401 E Whitestone Blvd Suite C-104, Cedar Park, TX 78613",
+        phone: "512-260-4020",
+        email: "",
+        coordinates: {
+          lat: 30.5232308,
+          long: -97.8284461,
+        },
+      },
+      {
+        name: "Texas Start Chiropractic",
+        website: "https://texstarchiropractic.com/index.htm",
+        address: "4601 Southwest Pkwy, #101, Austin, TX 78735",
+        phone: "512-899-2228",
+        email: "",
+        coordinates: {
+          lat: 30.2394594,
+          long: -97.8340123,
+        },
+      },
+      {
+        name: "Truly Chiropractic",
+        website: "https://www.trulychiropractictx.com/",
+        address: "5353 W. US 290 Service Rd.,  #104 Austin, TX 78735",
+        phone: "512-571-0522",
+        email: "",
+        coordinates: {
+          lat: 30.2357917,
+          long: -97.8402404,
+        },
+      },
+      {
+        name: "City Limit Chiropractic",
+        website: "https://www.citylimitschiropractic.com/",
+        address: "9037 Research Blvd, #250,  Austin, TX  78758",
+        phone: "512-973-3900",
+        email: "",
+        coordinates: {
+          lat: 30.3736694,
+          long: -97.727567,
+        },
+      },
+      {
+        name: "Hawthorne Chiropractic",
+        website: "https://www.drglenndc.com/",
+        address: "8701 Shoal Creek Boulevard,#104, Austin, TX 78757",
+        phone: "512-448-2225",
+        email: "",
+        coordinates: {
+          lat: 30.3549176,
+          long: -97.7538808,
+        },
+      },
+      {
+        name: "White Head Chiropractic",
+        website: "https://www.whiteheadchiro.com/",
+        address: "5775 Airport Blvd, #300, Austin, TX 78752",
+        phone: "512-643-1642",
+        email: "",
+        coordinates: {
+          lat: 30.3224342,
+          long: -97.7158839,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "support",
+    categoryImage: PlaceholderPic,
+    categoryName: "pregnancy-support",
+    categoryReadableName: "Pregnancy Support",
+    businesses: [
+      {
+        name: "Austin Life Chiropractic (Austin) ",
+        website: "https://austinlifechiro.com/austin/",
+        address: "2700 W. Anderson Lane, # 509, Austin, TX 78757",
+        phone: "512-452-7681",
+        email: "info@austinlifechiro.com",
+        coordinates: {
+          lat: 30.3588483,
+          long: -97.7694039,
+        },
+      },
+      {
+        name: "Austin Life Chiropractic (Round Rock) ",
+        website: "https://austinlifechiro.com/austin/",
+        address: "115 Sundance Pkwy, Ste.340 Round Rock, TX 78681",
+        phone: "512-387-8733",
+        email: "info@austinlifechiro.com",
+        coordinates: {
+          lat: 30.4831663,
+          long: -97.6799764,
+        },
+      },
+      {
+        name: "Hausman Chiropractic",
+        website: "https://www.hausmanchiropractic.com/",
+        address: "8015 Shoal Creek Blvd Suite 110 Austin, TX 78757",
+        phone: "512-419-1000",
+        email: "hcaustintx@gmail.com",
+        coordinates: {
+          lat: 30.3635264,
+          long: -97.7415249,
+        },
+      },
+      {
+        name: "RejuvaWell ",
+        website: "https://www.wholefamilychiropractors.com/",
+        address: "4818 Berkman Dr, Ste 100 Austin, TX 78723",
+        phone: "512-505-8500",
+        email: "",
+        coordinates: {
+          lat: 30.3017386,
+          long: -97.7030455,
+        },
+      },
+      {
+        name: "Cedar Park Chiropractic",
+        website: "https://cedarparkchiro.com/",
+        address: "345 Cypress Creek Rd., #103, Cedar Park, TX 78613",
+        phone: "512-335-0641",
+        email: "",
+        coordinates: {
+          lat: 30.5005144,
+          long: -97.819732,
+        },
+      },
+      {
+        name: "In Balance",
+        website: "https://www.inbalanceatx.com/",
+        address: "9800 North Lamar Boulevard, #140, Austin, TX 78753",
+        phone: "512-873-9355",
+        email: "",
+        coordinates: {
+          lat: 30.3679867,
+          long: -97.6971078,
+        },
+      },
+      {
+        name: "Colm Chiropractic",
+        website: "https://colmchiropractic.com/",
+        address: "5920 W William Cannon Dr, Bldg 7, Ste 100 Austin, TX 78749",
+        phone: "512-956-7449",
+        email: "info@colmchiropractic.com",
+        coordinates: {
+          lat: 30.2306071,
+          long: -97.8951459,
+        },
+      },
+      {
+        name: "Family Chiropractic of Austin",
+        website: "https://www.familychiroatx.com/",
+        address: "4220 W William Cannon Dr, Ste 130, Austin, TX 78749",
+        phone: "512- 892-3434",
+        email: "",
+        coordinates: {
+          lat: 30.2221775,
+          long: -97.846525,
+        },
+      },
+      {
+        name: "Austin Wellness Chiropractic",
+        website: "http://www.austinwellnesschiropractic.com/",
+        address: "10815 RR 2222  Building #3C, Suite 100,  Austin, TX 78730",
+        phone: "512- 524-7669",
+        email: "",
+        coordinates: {
+          lat: 30.3941739,
+          long: -97.9881066,
+        },
+      },
+      {
+        name: "Life Spring Chiropractic",
+        website: "https://lifespringchiro.com/",
+        address: "2612 S Lamar Blvd, Austin, TX 78704",
+        phone: "512- 400-1241",
+        email: "info@lifespringchiro.com",
+        coordinates: {
+          lat: 30.2460649,
+          long: -97.7970871,
+        },
+      },
+      {
+        name: "Pure Light Chiropractic",
+        website: "https://www.purelightchiro.com/",
+        address: "1711 Fortview Rd, Austin, TX 78704",
+        phone: "512-750-1512",
+        email: "",
+        coordinates: {
+          lat: 30.2294549,
+          long: -97.7871198,
+        },
+      },
+      {
+        name: "Austin Community Wellness- Family Chiropractic & Massage",
+        website: "https://www.austincommunitywellness.com/",
+        address: "2900 S Congress Ave, #104, Austin, TX 78704",
+        phone: "512- 507-5672",
+        email: "austincommunitywellness@gmail.com",
+        coordinates: {
+          lat: 30.2335015,
+          long: -97.7606876,
+        },
+      },
+      {
+        name: "Atlas Holistic Wellness",
+        website: "https://keepaustinadjusted.com/",
+        address: "6010 Balcones Dr., Ste 101, Austin, TX 78731",
+        phone: "512-465-9355",
+        email: "",
+        coordinates: {
+          lat: 30.3426882,
+          long: -97.7562944,
+        },
+      },
+      {
+        name: "Vert- Align",
+        website: "https://www.vert-align.com/",
+        address: "1110 W. William Cannon, #403,  Austin, TX 78745",
+        phone: "512-571-6230",
+        email: "",
+        coordinates: {
+          lat: 30.1998081,
+          long: -97.7827603,
+        },
+      },
+      {
+        name: "All Good Chiropractic",
+        website: "https://www.allgoodchiro.com/",
+        address: "5145 N FM 620, Suite F-130, Austin, TX 78732",
+        phone: "512-276-2710",
+        email: "allgoodchiropractic@gmail.com",
+        coordinates: {
+          lat: 30.38956,
+          long: -98.0260736,
+        },
+      },
+      {
+        name: "Empower Family Chiropractic",
+        website: "https://empowerfamilychiro.com/",
+        address: "2951 Ranch Rd, 620 S #106, Austin, TX 78738",
+        phone: "512-956-6970",
+        email: "info@empowerfamilychiro.com",
+        coordinates: {
+          lat: 30.3341824,
+          long: -97.96901,
+        },
+      },
+      {
+        name: "Gardner Chiropractic",
+        website: "https://drgardnerchiro.com/",
+        address: "3000 Joe DiMaggio Blvd, Ste 54 Round Rock, TX 78665",
+        phone: "512-387-3308",
+        email: "",
+        coordinates: {
+          lat: 30.5247242,
+          long: -97.6426387,
+        },
+      },
+      {
+        name: "Lotus Chiropractic and Acupuncture",
+        website: "http://www.lotusatx.com/",
+        address: "2700 W.Anderson Ln, Unit 50, Austin TX 78757",
+        phone: "512-270-9580",
+        email: "",
+        coordinates: {
+          lat: 30.3586425,
+          long: -97.7371109,
+        },
+      },
+      {
+        name: "Round Rock Health & Wellness Center",
+        website: "https://www.rrwellness.com/",
+        address: "2251 Double Creek Dr, Round Rock, TX 78664",
+        phone: "512-246-0220",
+        email: "owner@rrwellness.com",
+        coordinates: {
+          lat: 30.491984,
+          long: -97.6466829,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin- South",
+        website: "https://www.kapsner.com/",
+        address: "1701 W. Ben White Blvd. Suite 160, Austin, TX 78704",
+        phone: "512-441-1240",
+        email: "",
+        coordinates: {
+          lat: 30.2277401,
+          long: -97.8027983,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin- North",
+        website: "https://www.kapsner.com/",
+        address: "8440 Burnet Rd #118, Austin, TX 78757",
+        phone: "512-459-4014",
+        email: "",
+        coordinates: {
+          lat: 30.3663155,
+          long: -97.7313833,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin-Rock Round",
+        website: "https://www.kapsner.com/",
+        address: "2000 S IH 35 Frontage Rd H1, Round Rock, TX 78681",
+        phone: "512-733-1700",
+        email: "",
+        coordinates: {
+          lat: 30.4884823,
+          long: -97.682266,
+        },
+      },
+      {
+        name: "Kapsner Chiropractic Center of Austin- Cedar Park",
+        website: "https://www.kapsner.com/",
+        address: "401 E Whitestone Blvd Suite C-104, Cedar Park, TX 78613",
+        phone: "512-260-4020",
+        email: "",
+        coordinates: {
+          lat: 30.5232308,
+          long: -97.8284461,
+        },
+      },
+      {
+        name: "Texas Start Chiropractic",
+        website: "https://texstarchiropractic.com/index.htm",
+        address: "4601 Southwest Pkwy, #101, Austin, TX 78735",
+        phone: "512-899-2228",
+        email: "",
+        coordinates: {
+          lat: 30.2394594,
+          long: -97.8340123,
+        },
+      },
+      {
+        name: "Truly Chiropractic",
+        website: "https://www.trulychiropractictx.com/",
+        address: "5353 W. US 290 Service Rd.,  #104 Austin, TX 78735",
+        phone: "512-571-0522",
+        email: "",
+        coordinates: {
+          lat: 30.2357917,
+          long: -97.8402404,
+        },
+      },
+      {
+        name: "City Limit Chiropractic",
+        website: "https://www.citylimitschiropractic.com/",
+        address: "9037 Research Blvd, #250,  Austin, TX  78758",
+        phone: "512-973-3900",
+        email: "",
+        coordinates: {
+          lat: 30.3736694,
+          long: -97.727567,
+        },
+      },
+      {
+        name: "Hawthorne Chiropractic",
+        website: "https://www.drglenndc.com/",
+        address: "8701 Shoal Creek Boulevard,#104, Austin, TX 78757",
+        phone: "512-448-2225",
+        email: "",
+        coordinates: {
+          lat: 30.3549176,
+          long: -97.7538808,
+        },
+      },
+      {
+        name: "White Head Chiropractic",
+        website: "https://www.whiteheadchiro.com/",
+        address: "5775 Airport Blvd, #300, Austin, TX 78752",
+        phone: "512-643-1642",
+        email: "",
+        coordinates: {
+          lat: 30.3224342,
+          long: -97.7158839,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "hospital",
+    categoryImage: PlaceholderPic,
+    categoryName: "placental-encapsulation",
+    categoryReadableName: "Placental Encapsulation",
+    businesses: [
+      {
+        name: "ATX Doulas",
+        website: "https://www.atxdoulas.com/",
+        address: "3408 Graybuck Rd, Austin, TX 78748",
+        phone: "512-931-4404",
+        email: "info@atxdoulas.com",
+        coordinates: {
+          lat: 30.1823202,
+          long: -97.851925,
+        },
+      },
+      {
+        name: "Hill Country Placentas",
+        website: "https://www.hillcountryplacentas.com/",
+        address: "",
+        phone: "512-517-9017",
+        email: "",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Lotus Babies",
+        website: "https://lotus-babies.com/",
+        address: "",
+        phone: "512-577-3590",
+        email: "anyacasteel@gmail.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Doulas of Austin",
+        website: "http://www.doulasofaustin.com/",
+        address: "3507 Rock Shelf Ln, Round Rock, TX 78681",
+        phone: "619-723-4463",
+        email: "doulasofaustin@gmail.com",
+        coordinates: {
+          lat: 30.5547768,
+          long: -97.7385756,
+        },
+      },
+    ],
+  },
+
+  {
+    categoryColor: "support",
+    categoryImage: PlaceholderPic,
+    categoryName: "lactation-consultant",
+    categoryReadableName: "Lactation Consultant",
+    businesses: [
+      {
+        name: "The Mama Mantra",
+        website: "http://www.themamamantra.com/",
+        address: "",
+        phone: "678-231-8741",
+        email: "",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Breast Feeding Austin",
+        website: "https://www.breastfeedingaustin.com/",
+        address: "925 Westbank Dr, West Lake Hills, TX 78746",
+        phone: "512-327-0411",
+        email: "helina.teshome@gmail.com",
+        coordinates: {
+          lat: 30.2776699,
+          long: -97.8105605,
+        },
+      },
+      {
+        name: "Mom’s Place WIC Breastfeeding Clinic",
+        website: "http://www.austintexas.gov/department/find-us",
+        address: "8701 Research Blvd, Austin, TX 78758",
+        phone: "512-972-6700",
+        email: "",
+        coordinates: {
+          lat: 30.3648846,
+          long: -97.7193341,
+        },
+      },
+      {
+        name: "Austin Breast Feeding",
+        website: "https://austinbreastfeeding.com/",
+        address: "",
+        phone: "512-587-4303",
+        email: "",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Milk Diva",
+        website: "https://www.milkdiva.com/",
+        address: "",
+        phone: "512-846-6455‬",
+        email: "info@milkdiva.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "A Baby's Best Start",
+        website: "http://www.ababysbeststart.net/",
+        address:
+          "4601 Spicewood Springs Road, Building 3, Suite #200 C, Austin , TX 78759",
+        phone: "512- 873-0700",
+        email: "",
+        coordinates: {
+          lat: 30.3745714,
+          long: -97.7627039,
+        },
+      },
+      {
+        name: "Stork Maternity Consulting",
+        website: "https://storkatx.com/",
+        address: "2404 Lake Austin Blvd, Austin, TX 78703",
+        phone: "512-351-6919",
+        email: "hello@storkatx.com",
+        coordinates: {
+          lat: 30.2785321,
+          long: -97.7747394,
+        },
+      },
+      {
+        name: "It's more than Milk",
+        website: "http://itsmorethanmilk.com/",
+        address: "",
+        phone: "817-203-4881",
+        email: "naya@itsmorethanmilk.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Ann Bennett",
+        website: "http://www.annbennett-ibclc.com/",
+        address: "2300 Lohaman's Spur, Suite 106, Lakeway, TX 78734",
+        phone: "512-965-4626",
+        email: "",
+        coordinates: {
+          lat: 30.3381749,
+          long: -97.9733649,
+        },
+      },
+      {
+        name: "Breast Feeding  Success",
+        website: "https://www.bfsuccess.com/",
+        address: " 1201 W 38th St., Austin, TX 78705",
+        phone: "512-808-0237",
+        email: "",
+        coordinates: {
+          lat: 30.3055596,
+          long: -97.7475087,
+        },
+      },
+      {
+        name: "The Milk Grotto",
+        website: "https://themilkgrotto.com/",
+        address: "",
+        phone: "512-651-9360",
+        email: "",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Tanja Knutson",
+        website: "http://tanjaknutson.com/",
+        address: "",
+        phone: "512-720-9688",
+        email: "tan@tanjaknutson.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Infinite Love Doula",
+        website: "https://infinitelovedoula.com/",
+        address: "",
+        phone: "415-368-3807",
+        email: "austinInfinitelovedoula@gmail.com",
+        coordinates: {
+          lat: null,
+          long: null,
+        },
+      },
+      {
+        name: "Bee Well Austin",
+        website: "https://www.beewellaustin.com/",
+        address: "12005 Bee Cave Rd, Suite 2A, Austin, TX 78738",
+        phone: "512-225-0766",
+        email: "",
+        coordinates: {
+          lat: 30.307562,
+          long: -97.9284073,
+        },
+      },
+      {
+        name: "Breastfeeding success",
+        website: "https://www.bfsuccess.com/",
+        address: "",
+        phone: "512-808-0237",
+        email: "",
         coordinates: {
           lat: null,
           long: null,

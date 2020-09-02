@@ -5,21 +5,9 @@ import "./category-card.css";
 
 const mapDispatchToProps = (dispatch) => ({
   getData: (category) => dispatch(Actions.getBusinesses(category)),
-  toggleBusinessView: (value) => dispatch(Actions.toggleBusinessView(value)),
 });
 
 class CategoryCardView extends Component {
-  getDataWithBusinessView = (service, mapView = true) => {
-    if (!mapView) {
-      this.props.toggleBusinessView(false);
-      this.props.getData(service);
-      return;
-    }
-    this.props.toggleBusinessView(true);
-    this.props.getData(service);
-    return;
-  };
-
   render = () => (
     <div className="category-wrapper">
       <div
@@ -38,17 +26,13 @@ class CategoryCardView extends Component {
         <div className="category-link-wrapper">
           <button
             className="category-button category-map"
-            onClick={() =>
-              this.getDataWithBusinessView(this.props.serviceSearchName, true)
-            }
+            onClick={() => this.props.getData(this.props.serviceSearchName)}
           >
             MAP
           </button>
           <button
             className="category-button category-list"
-            onClick={() =>
-              this.getDataWithBusinessView(this.props.serviceSearchName, false)
-            }
+            onClick={() => this.props.getData(this.props.serviceSearchName)}
           >
             LIST
           </button>

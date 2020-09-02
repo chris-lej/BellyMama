@@ -1,9 +1,5 @@
 // import axios from 'axios'
-import {
-  TOGGLE_VIEW,
-  DATA_LOADED,
-  CLEAR_DATA,
-} from "../constants/action-types";
+import { DATA_LOADED, CLEAR_DATA } from "../constants/action-types";
 import { getBusinessesByCategory } from "../service-catalog";
 
 export const getBusinesses = (category) => (dispatch) => {
@@ -14,16 +10,11 @@ export const getBusinesses = (category) => (dispatch) => {
   dispatch({ type: DATA_LOADED, payload });
 };
 
-export const toggleBusinessView = (value) => (dispatch) => {
-  dispatch({ type: TOGGLE_VIEW, payload: value });
-};
-
 export const clearBusinesses = () => (dispatch) => {
   dispatch({ type: CLEAR_DATA });
 };
 
 export default {
   getBusinesses,
-  toggleBusinessView,
   clearBusinesses,
 };

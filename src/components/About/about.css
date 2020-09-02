@@ -4,27 +4,40 @@
 }
 
 .about-title {
-  color: grey;
+  color: rgb(181, 179, 179);
   text-shadow: 5px 5px 5px lightgray;
 }
 
 .about-left-image {
-  width: 500px;
+  width: 215px;
+  min-width: 215px;
   background-color: gray;
   margin-right: 20px;
 }
 
 .request-button {
-  border: 1px solid orange;
+  border: 1px solid #e8a63c;
+  color: #e8a63c;
   outline: none;
-  font-weight: 600;
+  font-weight: 300;
   border-radius: 10px;
   background-color: transparent;
+  font-size: 24px;
+}
+
+.request-button:focus {
+  outline: none;
+}
+
+.request-button:hover {
   color: white;
-  background-color: orange;
+  background-color: #e8a63c;
+  outline: none;
 }
 
 .about-text-wrapper {
+  color: #508ea6;
+  font-size: 20px;
   text-align: justify;
   text-justify: auto;
 }
