@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/BellyMama/static/css/main.30804389.chunk.css",
+    "main.js": "/BellyMama/static/js/main.d83fbf55.chunk.js",
+    "main.js.map": "/BellyMama/static/js/main.d83fbf55.chunk.js.map",
+    "runtime-main.js": "/BellyMama/static/js/runtime-main.f17d20aa.js",
+    "runtime-main.js.map": "/BellyMama/static/js/runtime-main.f17d20aa.js.map",
+    "static/css/2.266e55a5.chunk.css": "/BellyMama/static/css/2.266e55a5.chunk.css",
+    "static/js/2.822a8d8b.chunk.js": "/BellyMama/static/js/2.822a8d8b.chunk.js",
+    "static/js/2.822a8d8b.chunk.js.map": "/BellyMama/static/js/2.822a8d8b.chunk.js.map",
+    "index.html": "/BellyMama/index.html",
+    "precache-manifest.730c70ab2335b48813c367364f5ea289.js": "/BellyMama/precache-manifest.730c70ab2335b48813c367364f5ea289.js",
+    "service-worker.js": "/BellyMama/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/BellyMama/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.30804389.chunk.css.map": "/BellyMama/static/css/main.30804389.chunk.css.map",
+    "static/media/facebook.svg": "/BellyMama/static/media/facebook.695c1b70.svg",
+    "static/media/instagram.svg": "/BellyMama/static/media/instagram.97d1974b.svg",
+    "static/media/logo-simples.svg": "/BellyMama/static/media/logo-simples.4d17e56c.svg",
+    "static/media/placeholder.png": "/BellyMama/static/media/placeholder.78b12a66.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f17d20aa.js",
+    "static/css/2.266e55a5.chunk.css",
+    "static/js/2.822a8d8b.chunk.js",
+    "static/css/main.30804389.chunk.css",
+    "static/js/main.d83fbf55.chunk.js"
+  ]
+}
