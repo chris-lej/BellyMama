@@ -7,7 +7,7 @@ import {
 } from "../../service-catalog";
 import Actions from "../../actions";
 import Selectors from "../../selectors";
-import CategoryCard from "../CategoryCard";
+import PerfilMulher from "../../images/perfil-mulher.png";
 
 import "./initial-display.css";
 
@@ -22,72 +22,62 @@ const mapDispatchToProps = (dispatch) => ({
 class InitialDisplayContainer extends Component {
   render = () => {
     return (
-      <div>
-        <div className=" description-wrapper d-flex">
-          <p className="description-1">
-            Prenatal, Birth and Postpartum services in{" "}
-            <span className="description-2">Austin, TX</span>
-          </p>
-        </div>
-        <div className="categories-section-title">
-          <div className="section-title-horizontal-line1" />
-          <span>Wellbeing</span>
-          <div className="section-title-horizontal-line2" />
-        </div>
-        <div className="categories-wrapper d-flex flex-wrap">
-          {wellbeingCategories.map(
-            ({ categoryImage, categoryName, categoryReadableName }) => (
-              <div className="mr-4 mb-3" key={categoryName}>
-                <CategoryCard
-                  serviceColor="wellbeing"
-                  serviceImg={categoryImage}
-                  serviceName={categoryReadableName}
-                  serviceSearchName={categoryName}
-                />
-              </div>
-            )
-          )}
-        </div>
+      <div className="home-container d-flex">
+        <img src={PerfilMulher} className="home-left-image" alt="" />
+        <div className="home-text-wrapper">
+          <div className="home-title-wrapper">
+            <div className="home-title-first">Hi Parents,</div>
+            <div>
+              Use this platform to find Prenatal, Birth and Postpartum services
+              in
+              <span className="home-location-text"> Austin,&nbsp;TX.</span>
+            </div>
+          </div>
 
-        <div className="categories-section-title">
-          <div className="section-title-horizontal-line1" />
-          <span>Support</span>
-          <div className="section-title-horizontal-line2" />
-        </div>
-        <div className="categories-wrapper d-flex flex-wrap">
-          {supportCategories.map(
-            ({ categoryImage, categoryName, categoryReadableName }) => (
-              <div className="mr-4 mb-3" key={categoryName}>
-                <CategoryCard
-                  serviceColor="support"
-                  serviceImg={categoryImage}
-                  serviceName={categoryReadableName}
-                  serviceSearchName={categoryName}
-                />
+          <div className="d-flex justify-content-center home-categories-wrapper">
+            <div className="home-category-col text-left">
+              <div className="home-category-title">Wellbeing</div>
+              <div className="home-category-services">
+                {wellbeingCategories.map((service) => (
+                  <div
+                    className="home-service"
+                    onClick={() => this.props.getData(service.categoryName)}
+                  >
+                    {"> "} {service.categoryReadableName}
+                  </div>
+                ))}
               </div>
-            )
-          )}
-        </div>
-
-        <div className="categories-section-title">
-          <div className="section-title-horizontal-line1" />
-
-          <span>Birthing</span>
-          <div className="section-title-horizontal-line2" />
-        </div>
-        <div className="categories-wrapper d-flex flex-wrap">
-          {hospitalsCategories.map(
-            ({ categoryImage, categoryName, categoryReadableName }) => (
-              <div className="mr-4 mb-3" key={categoryName}>
-                <CategoryCard
-                  serviceColor="hospital"
-                  serviceImg={categoryImage}
-                  serviceName={categoryReadableName}
-                  serviceSearchName={categoryName}
-                />
+            </div>
+            <div className="home-vertical-divider" />
+            <div className="home-category-col text-left">
+              <div className="home-category-title">Support</div>
+              <div className="home-category-services">
+                {supportCategories.map((service) => (
+                  <div
+                    className="home-service"
+                    onClick={() => this.props.getData(service.categoryName)}
+                  >
+                    {"> "} {service.categoryReadableName}
+                  </div>
+                ))}
               </div>
-            )
-          )}
+            </div>
+            <div className="home-vertical-divider" />
+            <div className="home-category-col text-left">
+              <div className="home-category-title">Hospitals</div>
+              <div className="home-category-services">
+                {hospitalsCategories.map((service) => (
+                  <div
+                    className="home-service"
+                    onClick={() => this.props.getData(service.categoryName)}
+                  >
+                    {"> "}
+                    {service.categoryReadableName}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

@@ -10,20 +10,37 @@ const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 function PointsList(props) {
   const { data, onItemClick } = props;
   return (
-    <div>
-      <ul>
-        {data.map((item, index) => (
-          <li
-            key={index}
-            onClick={(e) => {
-              onItemClick(index);
-            }}
-          >
-            {item.name}
-            {!item.coordinates.lat ? " (without address)" : null}
-          </li>
-        ))}
-      </ul>
+    <div className="business-container">
+      {data.map((item, index) => (
+        <div
+          key={index}
+          onClick={(e) => {
+            onItemClick(index);
+          }}
+          className="map-service-box"
+        >
+          <div className="business-name">{item.name}</div>
+
+          {!!item.phone.length && (
+            <div id="business-phone-number" className="business-details">
+              <ContactBubbleIcon />
+              {item.phone}
+            </div>
+          )}
+
+          <div id="business-address" className="mbusiness-details">
+            <GeoPinIcon />
+            {item.address}
+          </div>
+
+          {!!item.website.length && (
+            <div id="business-website" className="business-details">
+              <WebHomeIcon />
+              <a href={`${item.website}`}>Website</a>
+            </div>
+          )}
+        </div>
+      ))}
     </div>
   );
 }
@@ -73,7 +90,7 @@ function PointMarker(props) {
             <a href={`${content.website}`}>Website</a>
           </div>
         )}
-      </Popup>{" "}
+      </Popup>
     </Marker>
   ) : null;
 }

@@ -1,1 +1,1 @@
-![prenatal-logo](./src/images/logo-simples.svg)
+![belly-mama-logo](./src/images/logo.png)

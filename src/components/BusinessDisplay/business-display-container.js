@@ -7,6 +7,7 @@ import {
 import Selectors from "../../selectors";
 import Map from "./Map";
 import SearchBar from "../SearchBar";
+import "./business-view.css";
 
 export const mapStateToProps = (state) => ({
   businesses: Selectors.businessesDataTree(state),
@@ -14,7 +15,7 @@ export const mapStateToProps = (state) => ({
 
 class BusinessDisplayContainer extends React.Component {
   render = () => (
-    <div className="container">
+    <div className="business-map-wrapper">
       <SearchBar />
 
       <div className="map-container">

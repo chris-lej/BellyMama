@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 import Actions from "../../actions";
 import "./main-menu.css";
-import LogoSimples from "../../images/logo-simples.svg";
+import Logo from "../../images/logo.png";
 import Instagram from "../../images/instagram.svg";
 import Facebook from "../../images/facebook.svg";
 
@@ -16,20 +16,20 @@ class MainMenuView extends React.Component {
   render() {
     return (
       <div id="main-menu-wrapper">
-        <div className="row justify-content-between header-container mb-3">
+        <div className="row justify-content-between header-container">
           <div id="left-side" className="d-flex">
             <Link to="/about">
-              <Button className="nav-button mt-2" color="link">
+              <Button className="nav-button" color="link">
                 About us
               </Button>
             </Link>
             <Link to="/contact">
-              <Button className="nav-button mt-2" color="link">
+              <Button className="nav-button" color="link">
                 Contact
               </Button>
             </Link>
             <Link to="/faq">
-              <Button className="nav-button mt-2" color="link">
+              <Button className="nav-button" color="link">
                 FAQ
               </Button>
             </Link>
@@ -37,7 +37,7 @@ class MainMenuView extends React.Component {
           <div id="center-side" className="d-flex">
             <Link to="/" onClick={() => this.props.clearBusinesses()}>
               <img
-                src={LogoSimples}
+                src={Logo}
                 alt="belly mama symbol"
                 className="initial-logo"
               />

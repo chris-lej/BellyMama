@@ -1,8 +1,22 @@
 .business-container {
-  width: 300px;
-  background-color: #ecf3f4;
-  border-top: rgb(23, 162, 184) solid 1px;
-  margin: 0px 10px 10px 10px;
+  width: 410px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 73vh;
+  overflow: scroll;
+  border: none;
+}
+
+@media (min-height: 700px) {
+  .business-container {
+    height: 75.5vh;
+  }
+}
+
+.business-map-wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .no-address-list {
@@ -16,6 +30,7 @@
   padding: 10px;
   color: white;
   font-weight: 600;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .business-details-wrapper {
@@ -36,5 +51,12 @@
 }
 
 .dropdown-background {
+  background-color: #ecf3f4;
+}
+
+.map-service-box {
+  border: 1px solid darkgray;
+  border-radius: 12px;
+  margin-bottom: 5px;
   background-color: #ecf3f4;
 }

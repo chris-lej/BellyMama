@@ -1,7 +1,3 @@
-#main-menu-wrapper {
-  margin-bottom: 40px;
-}
-
 .navbar-content {
   margin-top: 2em;
 }
@@ -18,7 +14,7 @@
 }
 
 .initial-logo {
-  width: 67px;
+  width: 120px;
 }
 
 .header-container {
@@ -31,6 +27,10 @@
 
 .social-medias {
   width: 32px;
+}
+
+#left-side {
+  margin-top: 15px;
 }
 
 #left-side,
