@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import {
   wellbeingCategories,
   supportCategories,
-  hospitalsCategories,
+  birthingCategories,
 } from "../../service-catalog";
 import Actions from "../../actions";
 import Selectors from "../../selectors";
@@ -64,9 +64,9 @@ class InitialDisplayContainer extends Component {
             </div>
             <div className="home-vertical-divider" />
             <div className="home-category-col text-left">
-              <div className="home-category-title">Hospitals</div>
+              <div className="home-category-title">Birthing</div>
               <div className="home-category-services">
-                {hospitalsCategories.map((service) => (
+                {birthingCategories.map((service) => (
                   <div
                     className="home-service"
                     onClick={() => this.props.getData(service.categoryName)}

@@ -14,7 +14,9 @@
 }
 
 .initial-logo {
-  width: 120px;
+  width: 145px;
+  margin-top: -15px;
+  margin-bottom: -10px;
 }
 
 .header-container {

@@ -1022,7 +1022,7 @@ export const allServices = [
   },
 
   {
-    categoryColor: "hospital",
+    categoryColor: "birthing",
     categoryImage: PlaceholderPic,
     categoryName: "birthing-center-and-home-birth",
     categoryReadableName: "Birthing Center and Home Birth",
@@ -1242,8 +1242,8 @@ export const allServices = [
   {
     categoryColor: "wellbeing",
     categoryImage: PlaceholderPic,
-    categoryName: "acupunture",
-    categoryReadableName: "Acupunture",
+    categoryName: "acupuncture",
+    categoryReadableName: "Acupuncture",
     businesses: [
       {
         name: "Song Bird Acupuncture",
@@ -1468,7 +1468,7 @@ export const allServices = [
   },
 
   {
-    categoryColor: "hospital",
+    categoryColor: "birthing",
     categoryImage: PlaceholderPic,
     categoryName: "maternity-hospitals",
     categoryReadableName: "Maternity Hospitals",
@@ -2215,7 +2215,7 @@ export const allServices = [
   },
 
   {
-    categoryColor: "hospital",
+    categoryColor: "birthing",
     categoryImage: PlaceholderPic,
     categoryName: "placental-encapsulation",
     categoryReadableName: "Placental Encapsulation",
@@ -2458,6 +2458,6 @@ export const supportCategories = allServices.filter(
   (category) => category.categoryColor === "support"
 );
 
-export const hospitalsCategories = allServices.filter(
-  (category) => category.categoryColor === "hospital"
+export const birthingCategories = allServices.filter(
+  (category) => category.categoryColor === "birthing"
 );
