@@ -75,7 +75,7 @@ function PointsList(props) {
 }
 
 function PointsLayer(props) {
-  const { data, selectedIndex, hoveredIndex } = props;
+  const { data, selectedIndex, hoveredIndex, onClosePopup } = props;
   return data.map((item, index) => (
     <PointMarker
       key={index}
@@ -83,30 +83,40 @@ function PointsLayer(props) {
       center={{ lat: item.coordinates.lat, lng: item.coordinates.long }}
       openPopup={selectedIndex === index}
       setHoverColor={hoveredIndex === index}
+      closePopup={onClosePopup}
     />
   ));
 }
 
 function PointMarker(props) {
   const markerRef = useRef(null);
-  const { center, content, openPopup, setHoverColor } = props;
+  const { center, content, openPopup, setHoverColor, closePopup } = props;
 
   useEffect(() => {
     if (setHoverColor && markerRef.current) {
       markerRef.current.leafletElement.setIcon(customIcon);
       markerRef.current.leafletElement.setZIndexOffset(99999);
-    } else if (markerRef.current) {
+    } else if (markerRef.current && !openPopup) {
       markerRef.current.leafletElement.setIcon(customIcon1);
       markerRef.current.leafletElement.setZIndexOffset(10);
     }
     if (openPopup && markerRef.current) {
+      markerRef.current.leafletElement.setIcon(customIcon);
       markerRef.current.leafletElement.openPopup();
     }
+    markerRef.current.leafletElement.on("mouseover", () => {
+      markerRef.current.leafletElement.setIcon(customIcon);
+      markerRef.current.leafletElement.setZIndexOffset(99999);
+    });
+    markerRef.current.leafletElement.on("mouseout", () => {
+      markerRef.current.leafletElement.setIcon(customIcon1);
+      markerRef.current.leafletElement.setZIndexOffset(10);
+    });
   }, [openPopup, setHoverColor]);
 
   return content.coordinates.lat ? (
     <Marker ref={markerRef} position={center} riseOnHover>
-      <Popup id={`popup-${content.name}`}>
+      <Popup id={`popup-${content.name}`} onClose={closePopup}>
         <div className="business-name">{content.name}</div>
 
         {!!content.phone.length && (
@@ -157,6 +167,10 @@ function MapExample(props) {
     setHovered(null);
   }
 
+  function handleClosePopup() {
+    setSelected(null);
+  }
+
   return (
     <div className="d-flex">
       <PointsList
@@ -170,6 +184,7 @@ function MapExample(props) {
         <PointsLayer
           selectedIndex={selected}
           hoveredIndex={hovered}
+          onClosePopup={handleClosePopup}
           data={businesses}
         />
       </Map>

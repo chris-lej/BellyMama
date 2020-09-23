@@ -14,6 +14,11 @@
   }
 }
 
+.map-service-box:hover .business-name,
+.map-service-box.hover .business-name {
+  background-color: red;
+}
+
 .business-map-wrapper {
   margin-left: 40px;
   margin-right: 40px;
