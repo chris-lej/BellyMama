@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BellyMama/precache-manifest.4c752324a1827139bbd06f0b6891cfee.js"
+  "/BellyMama/precache-manifest.18760ea6439314ed52a1cc398971bcfa.js"
 );
 
 self.addEventListener('message', (event) => {
