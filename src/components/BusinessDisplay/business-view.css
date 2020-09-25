@@ -16,7 +16,7 @@
 
 .map-service-box:hover .business-name,
 .map-service-box.hover .business-name {
-  background-color: red;
+  background-color: #d42757;
 }
 
 .business-map-wrapper {

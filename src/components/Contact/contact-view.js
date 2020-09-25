@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+
 import "./contact.css";
 
-const Contact = () => {
+const Contact = (props) => {
+  const { className } = props;
+
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => setModal(!modal);
+
   return (
     <div>
       <div className="contact-container">
@@ -16,11 +24,25 @@ const Contact = () => {
               you.
             </p>
             <div className="d-flex justify-content-center">
-              <button className="contact-button">Contact Us</button>
+              <button className="contact-button" onClick={() => toggle()}>
+                Contact Us
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <Modal isOpen={modal} toggle={toggle} className={className}>
+        <ModalHeader toggle={toggle}>Contact us</ModalHeader>
+        <ModalBody>Contact Form Goes Here</ModalBody>
+        <ModalFooter>
+          <Button color="primary" onClick={toggle}>
+            Send
+          </Button>
+          <Button color="secondary" onClick={toggle}>
+            Cancel
+          </Button>
+        </ModalFooter>
+      </Modal>
     </div>
   );
 };

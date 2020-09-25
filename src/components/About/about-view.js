@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./about.css";
 
 const AboutView = (props) => {
+  const { className } = props;
+
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => setModal(!modal);
+
   return (
     <div>
       <div className="about-container">
@@ -30,11 +37,25 @@ const AboutView = (props) => {
               in touch with us. Enjoy the website!
             </p>
             <div className="d-flex justify-content-center">
-              <button className="request-button">Request to add service</button>
+              <button className="request-button" onClick={() => toggle()}>
+                Request to add service
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <Modal isOpen={modal} toggle={toggle} className={className}>
+        <ModalHeader toggle={toggle}>Contact us</ModalHeader>
+        <ModalBody>Whatever content and form here</ModalBody>
+        <ModalFooter>
+          <Button color="primary" onClick={toggle}>
+            Send
+          </Button>
+          <Button color="secondary" onClick={toggle}>
+            Cancel
+          </Button>
+        </ModalFooter>
+      </Modal>
     </div>
   );
 };

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
-
 .submit-button {
   background-color: #df629c !important;
   border-color: #df629c !important;
@@ -9,7 +7,6 @@
 .search-title,
 .search-city {
   color: #5576ce;
-  font-family: "Oswald", sans-serif;
   font-size: 30px;
   margin-top: 2px;
 }

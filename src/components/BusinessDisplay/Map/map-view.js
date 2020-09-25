@@ -9,18 +9,14 @@ import EmailIcon from "../../Icons/email-icon";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
-const customIcon = new L.icon({
-  iconUrl: require("../../../images/facebook.svg"),
-  iconRetinaUrl: require("../../../images/facebook.svg"),
-  iconSize: new L.Point(60, 75),
-  className: "leaflet-div-icon",
+const markerBlue = new L.icon({
+  iconUrl: require("../../../images/marker-blue.png"),
+  iconRetinaUrl: require("../../../images/marker-blue.png"),
 });
 
-const customIcon1 = new L.icon({
-  iconUrl: require("../../../images/instagram.svg"),
-  iconRetinaUrl: require("../../../images/instagram.svg"),
-  iconSize: new L.Point(60, 75),
-  className: "leaflet-div-icon",
+const markerPink = new L.icon({
+  iconUrl: require("../../../images/marker-pink.png"),
+  iconRetinaUrl: require("../../../images/marker-pink.png"),
 });
 
 function PointsList(props) {
@@ -59,13 +55,19 @@ function PointsList(props) {
 
           <div id="business-address" className="mbusiness-details">
             <GeoPinIcon />
-            {item.address}
+            {item.address || "This business does not have an address."}
           </div>
 
           {!!item.website.length && (
             <div id="business-website" className="business-details">
               <WebHomeIcon />
-              <a href={`${item.website}`}>Website</a>
+              <a
+                href={`${item.website}`}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Website
+              </a>
             </div>
           )}
         </div>
@@ -94,24 +96,26 @@ function PointMarker(props) {
 
   useEffect(() => {
     if (setHoverColor && markerRef.current) {
-      markerRef.current.leafletElement.setIcon(customIcon);
+      markerRef.current.leafletElement.setIcon(markerPink);
       markerRef.current.leafletElement.setZIndexOffset(99999);
     } else if (markerRef.current && !openPopup) {
-      markerRef.current.leafletElement.setIcon(customIcon1);
+      markerRef.current.leafletElement.setIcon(markerBlue);
       markerRef.current.leafletElement.setZIndexOffset(10);
     }
     if (openPopup && markerRef.current) {
-      markerRef.current.leafletElement.setIcon(customIcon);
+      markerRef.current.leafletElement.setIcon(markerPink);
       markerRef.current.leafletElement.openPopup();
     }
-    markerRef.current.leafletElement.on("mouseover", () => {
-      markerRef.current.leafletElement.setIcon(customIcon);
-      markerRef.current.leafletElement.setZIndexOffset(99999);
-    });
-    markerRef.current.leafletElement.on("mouseout", () => {
-      markerRef.current.leafletElement.setIcon(customIcon1);
-      markerRef.current.leafletElement.setZIndexOffset(10);
-    });
+    if (markerRef.current) {
+      markerRef.current.leafletElement.on("mouseover", () => {
+        markerRef.current.leafletElement.setIcon(markerPink);
+        markerRef.current.leafletElement.setZIndexOffset(99999);
+      });
+      markerRef.current.leafletElement.on("mouseout", () => {
+        markerRef.current.leafletElement.setIcon(markerBlue);
+        markerRef.current.leafletElement.setZIndexOffset(10);
+      });
+    }
   }, [openPopup, setHoverColor]);
 
   return content.coordinates.lat ? (
@@ -141,7 +145,13 @@ function PointMarker(props) {
         {!!content.website.length && (
           <div id="business-website" className="business-details">
             <WebHomeIcon />
-            <a href={`${content.website}`}>Website</a>
+            <a
+              href={`${content.website}`}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Website
+            </a>
           </div>
         )}
       </Popup>

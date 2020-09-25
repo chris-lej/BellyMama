@@ -1025,7 +1025,7 @@ export const allServices = [
     categoryColor: "birthing",
     categoryImage: PlaceholderPic,
     categoryName: "birthing-center-and-home-birth",
-    categoryReadableName: "Birthing Center and Home Birth",
+    categoryReadableName: "Home and Birthing Center",
     businesses: [
       {
         name: "Austin ABC (Duval Rd)",
