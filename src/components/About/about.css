@@ -41,3 +41,27 @@
   text-align: justify;
   text-justify: auto;
 }
+
+.about-submit-button {
+  border: none;
+  background-color: transparent;
+  color: #e8a63c;
+}
+
+.about-submit-button:hover {
+  color: white;
+}
+
+.about-form-label {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.about-form-input {
+  margin-bottom: 5px;
+}
+
+.about-comment-box {
+  min-height: 200px;
+}

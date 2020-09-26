@@ -1,13 +1,40 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./about.css";
 
 const AboutView = (props) => {
   const { className } = props;
+  const EMAILJS_EMAIL_ID = process.env.REACT_APP_EMAILJS_EMAIL_ID;
+  const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const EMAILJS_USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    console.log(e.target);
+
+    emailjs
+      .sendForm(
+        EMAILJS_EMAIL_ID,
+        EMAILJS_TEMPLATE_ID,
+        e.target,
+        EMAILJS_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toggle();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
 
   return (
     <div>
@@ -46,15 +73,44 @@ const AboutView = (props) => {
       </div>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Contact us</ModalHeader>
-        <ModalBody>Whatever content and form here</ModalBody>
-        <ModalFooter>
-          <Button color="primary" onClick={toggle}>
-            Send
-          </Button>
-          <Button color="secondary" onClick={toggle}>
-            Cancel
-          </Button>
-        </ModalFooter>
+        <ModalBody>
+          <form onSubmit={sendEmail}>
+            <div>
+              <div className="about-form-input">
+                <label className="about-form-label">Name</label>
+                <input type="text" className="form-control" name="from_name" />
+              </div>
+              <div className="about-form-input">
+                <label className="about-form-label">Phone</label>
+                <input type="text" className="form-control" name="phone" />
+              </div>
+              <div className="about-form-input">
+                <label className="about-form-label">E-mail</label>
+                <input type="text" className="form-control" name="email" />
+              </div>
+              <div className="about-form-input">
+                <label className="about-form-label">Message</label>
+                <textarea
+                  type="text"
+                  className="form-control about-comment-box"
+                  name="message"
+                />
+              </div>
+              <div>
+                <button className="request-button mr-3">
+                  <input
+                    className="about-submit-button"
+                    type="submit"
+                    value="Send"
+                  />
+                </button>
+                <button className="request-button" onClick={toggle}>
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </form>
+        </ModalBody>
       </Modal>
     </div>
   );
