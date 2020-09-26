@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "860b07d9b810759b923d7062309a4d05",
+    "revision": "374e1c9530bb47414a010545bc3f7c83",
     "url": "/BellyMama/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BellyMama/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "7e361f461fbd8297e07f",
+    "revision": "45eea8a6b04da7dd48ab",
     "url": "/BellyMama/static/css/main.47fcdb37.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BellyMama/static/js/2.b9334cd0.chunk.js"
   },
   {
-    "revision": "7e361f461fbd8297e07f",
-    "url": "/BellyMama/static/js/main.9d91a648.chunk.js"
+    "revision": "45eea8a6b04da7dd48ab",
+    "url": "/BellyMama/static/js/main.b1e046b8.chunk.js"
   },
   {
     "revision": "c9d70e3e4a71a44c004e",

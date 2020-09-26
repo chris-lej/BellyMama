@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BellyMama/static/css/main.47fcdb37.chunk.css",
-    "main.js": "/BellyMama/static/js/main.9d91a648.chunk.js",
-    "main.js.map": "/BellyMama/static/js/main.9d91a648.chunk.js.map",
+    "main.js": "/BellyMama/static/js/main.b1e046b8.chunk.js",
+    "main.js.map": "/BellyMama/static/js/main.b1e046b8.chunk.js.map",
     "runtime-main.js": "/BellyMama/static/js/runtime-main.f17d20aa.js",
     "runtime-main.js.map": "/BellyMama/static/js/runtime-main.f17d20aa.js.map",
     "static/css/2.266e55a5.chunk.css": "/BellyMama/static/css/2.266e55a5.chunk.css",
     "static/js/2.b9334cd0.chunk.js": "/BellyMama/static/js/2.b9334cd0.chunk.js",
     "static/js/2.b9334cd0.chunk.js.map": "/BellyMama/static/js/2.b9334cd0.chunk.js.map",
     "index.html": "/BellyMama/index.html",
-    "precache-manifest.fd81a8d907d61c72ce708e226b0907fc.js": "/BellyMama/precache-manifest.fd81a8d907d61c72ce708e226b0907fc.js",
+    "precache-manifest.92cd97dd463a57ef5375cf02a22faf45.js": "/BellyMama/precache-manifest.92cd97dd463a57ef5375cf02a22faf45.js",
     "service-worker.js": "/BellyMama/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/BellyMama/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.47fcdb37.chunk.css.map": "/BellyMama/static/css/main.47fcdb37.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.266e55a5.chunk.css",
     "static/js/2.b9334cd0.chunk.js",
     "static/css/main.47fcdb37.chunk.css",
-    "static/js/main.9d91a648.chunk.js"
+    "static/js/main.b1e046b8.chunk.js"
   ]
 }
