@@ -604,7 +604,7 @@ export const allServices = [
     businesses: [
       {
         name: "Austin Born",
-        website: "www.austin-born.com",
+        website: "https://www.austin-born.com",
         address: "Classes held: 1305 W 34th St, Austin, TX 78705",
         phone: "512-200-2165",
         email: "info@austin-born.com",
@@ -615,7 +615,7 @@ export const allServices = [
       },
       {
         name: "Austin Child Birth",
-        website: "austinchildbirth.com",
+        website: "https://austinchildbirth.com",
         address: "2913 Chisholm Trail, Austin, TX 78734",
         phone: "512- 773-2375",
         email: "",
@@ -626,7 +626,7 @@ export const allServices = [
       },
       {
         name: "Austin Womb Service ( South office)",
-        website: "www.austinwombservice.com",
+        website: "https://www.austinwombservice.com",
         address: " 605 Copeland Street, Austin, TX 78704",
         phone: "512-710-9662",
         email: "Austinwombservice@gmail.com",
@@ -637,7 +637,7 @@ export const allServices = [
       },
       {
         name: "Austin Womb Service ( North office)",
-        website: "www.austinwombservice.com",
+        website: "https://www.austinwombservice.com",
         address: "13805 Ann Pl, Austin, TX 78728",
         phone: "512-710-9662",
         email: "Austinwombservice@gmail.com",
@@ -648,7 +648,7 @@ export const allServices = [
       },
       {
         name: "Doulas of Austin",
-        website: "www.doulasofaustin.com",
+        website: "https://www.doulasofaustin.com",
         address: "3507 Rock Shelf Ln, Round Rock, TX 78681",
         phone: "619-723-4463",
         email: "doulasofaustin@gmail.com",
@@ -659,7 +659,7 @@ export const allServices = [
       },
       {
         name: "Sacred Work Doula",
-        website: "www.sacredworkdoula.com",
+        website: "https://www.sacredworkdoula.com",
         address: "903 Sedalia St, Cedar Park, TX 78613\n",
         phone: "512-827-1857",
         email: "",
@@ -670,7 +670,7 @@ export const allServices = [
       },
       {
         name: "Shelley Scotka",
-        website: "shelleyscotka.com",
+        website: "https://shelleyscotka.com",
         address: "",
         phone: "512-468-8526",
         email: "",
@@ -681,7 +681,7 @@ export const allServices = [
       },
       {
         name: "Mallory Jacks",
-        website: "malloryjacks.com",
+        website: "https://malloryjacks.com",
         address: "1401 W 29th St unit b, Austin, TX 78703",
         phone: "501-658-7888",
         email: "hello @malloryjacks.com",
@@ -692,7 +692,7 @@ export const allServices = [
       },
       {
         name: "Healing Birth Work",
-        website: "healingbirthwork.com",
+        website: "https://healingbirthwork.com",
         address: "",
         phone: "",
         email: "molly.healingbirthwork@gmail.com",
@@ -703,7 +703,7 @@ export const allServices = [
       },
       {
         name: "Austin ABC ( Duval Rd)",
-        website: "www.austinabc.com",
+        website: "https://www.austinabc.com",
         address: "4100 Duval Road Bldg. 2, Suite 101, Austin, TX 78759",
         phone: "512-346-3224",
         email: "",
@@ -714,7 +714,7 @@ export const allServices = [
       },
       {
         name: "Austin ABC ( William Cannon)",
-        website: "www.austinabc.com",
+        website: "https://www.austinabc.com",
         address: "2500 W. William Cannon Drive Ste. 503 Austin, TX 78745",
         phone: "512-243-8066",
         email: "",
@@ -725,7 +725,7 @@ export const allServices = [
       },
       {
         name: "ATX Doulas",
-        website: "www.atxdoulas.com",
+        website: "https://www.atxdoulas.com",
         address: "3408 Graybuck Rd, Austin, TX 78748",
         phone: "512-931-4404",
         email: "info@atxdoulas.com",
@@ -736,7 +736,7 @@ export const allServices = [
       },
       {
         name: "Austin Doula Care",
-        website: "www.austindoulacare.com",
+        website: "https://www.austindoulacare.com",
         address: "2801 Hancock Drive Austin, TX 78731",
         phone: "512-814-6195",
         email: "",
@@ -747,7 +747,7 @@ export const allServices = [
       },
       {
         name: "Brenda The Doula",
-        website: "www.brendathedoula.com",
+        website: "https://www.brendathedoula.com",
         address: "",
         phone: "512-814-6195",
         email: "​brendathedoula@gmail.com",
@@ -758,7 +758,7 @@ export const allServices = [
       },
       {
         name: "Morgan Doula",
-        website: "www.doulamorgan.com",
+        website: "https://www.doulamorgan.com",
         address: "",
         phone: "512-502-4384",
         email: "doulamorgan@gmail.com",
@@ -780,7 +780,7 @@ export const allServices = [
       },
       {
         name: "Kelly Boler Jack Doula",
-        website: "www.kellybolerjackdoula.com",
+        website: "https://www.kellybolerjackdoula.com",
         address: "4602 Southwest Pkwy, Austin, TX 78735",
         phone: "512-765-4998",
         email: "kellybolerjackdoula@gmail.com",
@@ -791,7 +791,7 @@ export const allServices = [
       },
       {
         name: "Austin Doula Collective",
-        website: "www.austindoulacollective.com",
+        website: "https://www.austindoulacollective.com",
         address: "",
         phone: "",
         email: "austindoulacollective@gmail.com",
@@ -802,7 +802,7 @@ export const allServices = [
       },
       {
         name: "Mama Peace",
-        website: "www.mamapeace.com",
+        website: "https://www.mamapeace.com",
         address: "",
         phone: "512-692-9468",
         email: "mamapeaceaustin@gmail.com",
@@ -813,7 +813,7 @@ export const allServices = [
       },
       {
         name: "Infinite Love Doula",
-        website: "www.infinitelovedoula.com",
+        website: "https://www.infinitelovedoula.com",
         address: "",
         phone: "415-368-3807",
         email: "AustinInfiniteLovedoula@gmail.com",
@@ -824,7 +824,7 @@ export const allServices = [
       },
       {
         name: "Empowered Birthing",
-        website: "www.austinareadoula.com",
+        website: "https://www.austinareadoula.com",
         address: "",
         phone: "512-730-1941",
         email: "info@austinareadoula.com",
@@ -835,7 +835,7 @@ export const allServices = [
       },
       {
         name: "Mama Fox Doula",
-        website: "www.mamafoxdoula.com",
+        website: "https://www.mamafoxdoula.com",
         address: "3706 Guadalupe St, Austin, TX 78705",
         phone: "512-740-1847",
         email: "juliele@mamafoxdoula.com",
@@ -846,7 +846,7 @@ export const allServices = [
       },
       {
         name: "BirthAva",
-        website: "www.birthava.com",
+        website: "https://www.birthava.com",
         address: "500 Spyglass Dr, Austin, TX 78746",
         phone: "512-993-0789",
         email: "brandy@birthava.com",
@@ -857,7 +857,7 @@ export const allServices = [
       },
       {
         name: "Mother Lover Doula",
-        website: "www.themotherloverdoula.com",
+        website: "https://www.themotherloverdoula.com",
         address: "",
         phone: "",
         email: "",
@@ -868,7 +868,7 @@ export const allServices = [
       },
       {
         name: "Matriarch Mother Care",
-        website: "www.matriarchmothercare.com",
+        website: "https://www.matriarchmothercare.com",
         address: "",
         phone: "512- 766-2368",
         email: "mia@matriarchmothercare.com",
@@ -879,7 +879,7 @@ export const allServices = [
       },
       {
         name: "Stork Maternity Consulting",
-        website: "www.storkatx.com",
+        website: "https://www.storkatx.com",
         address: "2404 Lake Austin Blvd, Austin, TX 78703",
         phone: "512-351-6919",
         email: "hello@storkatx.com",
@@ -890,7 +890,7 @@ export const allServices = [
       },
       {
         name: "Sucellent Birth",
-        website: "www.succulentbirth.wixsite.com/equipoise",
+        website: "https://www.succulentbirth.wixsite.com/equipoise",
         address: "",
         phone: "512-799-0236",
         email: "SucculentBirth@gmail.com",
@@ -901,7 +901,7 @@ export const allServices = [
       },
       {
         name: "Woman Craft Austin",
-        website: "www.womancraftaustin.com",
+        website: "https://www.womancraftaustin.com",
         address: "9213 Magna Carta Loop, Austin, TX",
         phone: "512-537-1641",
         email: "Colleen@womancraftaustin.com",
@@ -912,7 +912,7 @@ export const allServices = [
       },
       {
         name: "The Living Well",
-        website: "www.the-living-well.com",
+        website: "https://www.the-living-well.com",
         address: "18204 Wind Valley Way, Pflugerville, TX 78660",
         phone: "512-925-5688",
         email: "contact@the-living-well.com",
@@ -923,7 +923,7 @@ export const allServices = [
       },
       {
         name: "Empowered Birthing",
-        website: "www.empoweredbeginningsatx.com",
+        website: "https://www.empoweredbeginningsatx.com",
         address: "",
         phone: "512-939-9163",
         email: "Ciarra@EmpoweredBeginningsATX.com",
@@ -934,7 +934,7 @@ export const allServices = [
       },
       {
         name: "New Life Birth Services",
-        website: "www.newlifebirthservices.com",
+        website: "https://www.newlifebirthservices.com",
         address: "9302 Castlewood Drive, Austin, TX 78748",
         phone: "512-477 5452",
         email: "newlifebirthservices@gmail.com",
@@ -945,7 +945,7 @@ export const allServices = [
       },
       {
         name: "The Third Eye Birth",
-        website: "www.thirdeyebirth.com",
+        website: "https://www.thirdeyebirth.com",
         address: "",
         phone: "760-500-0050",
         email: "thirdeyebirth@gmail.com",
@@ -956,7 +956,7 @@ export const allServices = [
       },
       {
         name: "Lotus Babies",
-        website: "www.lotus-babies.com",
+        website: "https://www.lotus-babies.com",
         address: "2500 W William Cannon Dr, Suite 503, Austin, TX 78745",
         phone: "512-577-3590",
         email: "anyacasteel@gmail.com ",
