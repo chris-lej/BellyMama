@@ -40,6 +40,7 @@ class InitialDisplayContainer extends Component {
               <div className="home-category-services">
                 {wellbeingCategories.map((service) => (
                   <div
+                    key={service.categoryReadableName}
                     className="home-service"
                     onClick={() => this.props.getData(service.categoryName)}
                   >
@@ -54,6 +55,7 @@ class InitialDisplayContainer extends Component {
               <div className="home-category-services">
                 {supportCategories.map((service) => (
                   <div
+                    key={service.categoryReadableName}
                     className="home-service"
                     onClick={() => this.props.getData(service.categoryName)}
                   >
@@ -68,6 +70,7 @@ class InitialDisplayContainer extends Component {
               <div className="home-category-services">
                 {birthingCategories.map((service) => (
                   <div
+                    key={service.categoryReadableName}
                     className="home-service"
                     onClick={() => this.props.getData(service.categoryName)}
                   >

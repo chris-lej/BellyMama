@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import "./about.css";
 
 const AboutView = (props) => {
   const { className } = props;
   const EMAILJS_EMAIL_ID = process.env.REACT_APP_EMAILJS_EMAIL_ID;
-  const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const EMAILJS_CONTACT_TEMPLATE_ID =
+    process.env.REACT_APP_EMAILJS_CONTACT_TEMPLATE_ID;
   const EMAILJS_USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 
   const [modal, setModal] = useState(false);
@@ -16,12 +17,10 @@ const AboutView = (props) => {
   function sendEmail(e) {
     e.preventDefault();
 
-    console.log(e.target);
-
     emailjs
       .sendForm(
         EMAILJS_EMAIL_ID,
-        EMAILJS_TEMPLATE_ID,
+        EMAILJS_CONTACT_TEMPLATE_ID,
         e.target,
         EMAILJS_USER_ID
       )
@@ -64,7 +63,7 @@ const AboutView = (props) => {
               in touch with us. Enjoy the website!
             </p>
             <div className="d-flex justify-content-center">
-              <button className="request-button" onClick={() => toggle()}>
+              <button className="about-form-button" onClick={() => toggle()}>
                 Request to add service
               </button>
             </div>
@@ -96,15 +95,13 @@ const AboutView = (props) => {
                   name="message"
                 />
               </div>
-              <div>
-                <button className="request-button mr-3">
-                  <input
-                    className="about-submit-button"
-                    type="submit"
-                    value="Send"
-                  />
-                </button>
-                <button className="request-button" onClick={toggle}>
+              <div className="d-flex justify-content-end">
+                <input
+                  className="about-form-button"
+                  type="submit"
+                  value="Send"
+                />
+                <button className="about-form-button" onClick={toggle}>
                   Cancel
                 </button>
               </div>

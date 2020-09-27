@@ -1,6 +1,5 @@
 .business-container {
   width: 410px;
-  margin-top: 10px;
   margin-right: 10px;
   cursor: pointer;
   height: 73vh;
@@ -14,9 +13,8 @@
   }
 }
 
-.map-service-box:hover .business-name,
-.map-service-box.hover .business-name {
-  background-color: #d42757;
+.map-service-box:hover {
+  background-color: #ecf3f4;
 }
 
 .business-map-wrapper {
@@ -24,18 +22,11 @@
   margin-right: 40px;
 }
 
-.no-address-list {
-  height: 87.7vh;
-  overflow: auto;
-}
-
 .business-name {
-  font-size: 18px;
-  background-color: rgb(23, 162, 184);
-  padding: 10px;
-  color: white;
-  font-weight: 600;
-  border-radius: 10px 10px 0px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 .business-details-wrapper {
@@ -44,7 +35,7 @@
 
 .business-details {
   font-size: 14px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .dropdown-and-toggle {
@@ -60,8 +51,25 @@
 }
 
 .map-service-box {
-  border: 1px solid darkgray;
-  border-radius: 12px;
-  margin-bottom: 5px;
-  background-color: #ecf3f4;
+  border-bottom: 1px solid lightgrey;
+  padding-left: 5px;
+}
+
+.map-service-box:hover .no-address-message {
+  color: #d42757;
+}
+
+.business-buttons {
+  border: 1px solid #508ea6;
+  color: #508ea6;
+  outline: none;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.business-buttons:hover {
+  color: white;
+  background-color: #508ea6;
+  outline: none;
 }

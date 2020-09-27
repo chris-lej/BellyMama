@@ -3,9 +3,7 @@ import L from "leaflet";
 import { Map, Marker, Popup } from "react-leaflet";
 import MapboxLayer from "../MapBoxLayer";
 import WebHomeIcon from "../../Icons/web-home-icon";
-import ContactBubbleIcon from "../../Icons/contact-bubble-icon";
 import GeoPinIcon from "../../Icons/geo-pin-icon";
-import EmailIcon from "../../Icons/email-icon";
 
 const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
@@ -41,35 +39,51 @@ function PointsList(props) {
 
           {!!item.phone.length && (
             <div id="business-phone-number" className="business-details">
-              <ContactBubbleIcon />
               {item.phone}
             </div>
           )}
 
-          {!!item.email.length && (
-            <div id="business-email" className="business-details">
-              <EmailIcon />
-              {item.email}
-            </div>
-          )}
-
-          <div id="business-address" className="mbusiness-details">
-            <GeoPinIcon />
-            {item.address || "This business does not have an address."}
+          <div id="business-address" className="business-details">
+            {item.address ? (
+              <span>{item.address}</span>
+            ) : (
+              <span className="no-address-message">
+                This business does not have an address.
+              </span>
+            )}
           </div>
 
-          {!!item.website.length && (
-            <div id="business-website" className="business-details">
-              <WebHomeIcon />
-              <a
-                href={`${item.website}`}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Website
-              </a>
-            </div>
-          )}
+          <div className="d-flex justify-content-around mb-1 mt-1">
+            {!!item.website.length && (
+              <div id="business-website" className="business-details">
+                <a
+                  href={`${item.website}`}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="business-buttons">
+                    Website
+                    <WebHomeIcon />
+                  </button>
+                </a>
+              </div>
+            )}
+
+            {!!item.address.length && (
+              <div className="business-details">
+                <a
+                  href={`http://maps.google.com/?q=${item.address}`}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="business-buttons">
+                    Directions
+                    <GeoPinIcon />
+                  </button>
+                </a>
+              </div>
+            )}
+          </div>
         </div>
       ))}
     </div>
@@ -125,35 +139,51 @@ function PointMarker(props) {
 
         {!!content.phone.length && (
           <div id="business-phone-number" className="business-details">
-            <ContactBubbleIcon />
             {content.phone}
           </div>
         )}
 
-        {!!content.email.length && (
-          <div id="business-email" className="business-details">
-            <EmailIcon />
-            {content.email}
-          </div>
-        )}
-
-        <div id="business-address" className="mbusiness-details">
-          <GeoPinIcon />
-          {content.address}
+        <div id="business-address" className="business-details">
+          {content.address ? (
+            <span>{content.address}</span>
+          ) : (
+            <span className="no-address-message">
+              This business does not have an address.
+            </span>
+          )}
         </div>
 
-        {!!content.website.length && (
-          <div id="business-website" className="business-details">
-            <WebHomeIcon />
-            <a
-              href={`${content.website}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Website
-            </a>
-          </div>
-        )}
+        <div className="d-flex justify-content-around mb-1 mt-1">
+          {!!content.website.length && (
+            <div id="business-website" className="business-details">
+              <a
+                href={`${content.website}`}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="business-buttons">
+                  Website
+                  <WebHomeIcon />
+                </button>
+              </a>
+            </div>
+          )}
+
+          {!!content.address.length && (
+            <div className="business-details">
+              <a
+                href={`http://maps.google.com/?q=${content.address}`}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="business-buttons">
+                  Directions
+                  <GeoPinIcon />
+                </button>
+              </a>
+            </div>
+          )}
+        </div>
       </Popup>
     </Marker>
   ) : null;
@@ -170,7 +200,6 @@ function MapExample(props) {
 
   function handleItemHover(index) {
     setHovered(index);
-    console.log("hovered ", hovered);
   }
 
   function handleItemHoverClear() {

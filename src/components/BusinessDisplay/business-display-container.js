@@ -16,7 +16,9 @@ export const mapStateToProps = (state) => ({
 class BusinessDisplayContainer extends React.Component {
   render = () => (
     <div className="business-map-wrapper">
-      <SearchBar />
+      <div className="pb-2">
+        <SearchBar />
+      </div>
 
       <div className="map-container">
         <Map

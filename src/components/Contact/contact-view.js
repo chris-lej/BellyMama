@@ -1,14 +1,42 @@
 import React, { useState } from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import emailjs from "emailjs-com";
+import { Modal, ModalHeader, ModalBody } from "reactstrap";
 
 import "./contact.css";
 
 const Contact = (props) => {
   const { className } = props;
+  const EMAILJS_EMAIL_ID = process.env.REACT_APP_EMAILJS_EMAIL_ID;
+  const EMAILJS_CONTACT_TEMPLATE_ID =
+    process.env.REACT_APP_EMAILJS_CONTACT_TEMPLATE_ID;
+  const EMAILJS_USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    console.log(e.target);
+
+    emailjs
+      .sendForm(
+        EMAILJS_EMAIL_ID,
+        EMAILJS_CONTACT_TEMPLATE_ID,
+        e.target,
+        EMAILJS_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toggle();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
 
   return (
     <div>
@@ -24,7 +52,7 @@ const Contact = (props) => {
               you.
             </p>
             <div className="d-flex justify-content-center">
-              <button className="contact-button" onClick={() => toggle()}>
+              <button className="contact-form-button" onClick={() => toggle()}>
                 Contact Us
               </button>
             </div>
@@ -33,15 +61,42 @@ const Contact = (props) => {
       </div>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Contact us</ModalHeader>
-        <ModalBody>Contact Form Goes Here</ModalBody>
-        <ModalFooter>
-          <Button color="primary" onClick={toggle}>
-            Send
-          </Button>
-          <Button color="secondary" onClick={toggle}>
-            Cancel
-          </Button>
-        </ModalFooter>
+        <ModalBody>
+          <form onSubmit={sendEmail}>
+            <div>
+              <div className="contact-form-input">
+                <label className="contact-form-label">Name</label>
+                <input type="text" className="form-control" name="from_name" />
+              </div>
+              <div className="contact-form-input">
+                <label className="contact-form-label">Phone</label>
+                <input type="text" className="form-control" name="phone" />
+              </div>
+              <div className="contact-form-input">
+                <label className="contact-form-label">E-mail</label>
+                <input type="text" className="form-control" name="email" />
+              </div>
+              <div className="contact-form-input">
+                <label className="contact-form-label">Message</label>
+                <textarea
+                  type="text"
+                  className="form-control contact-comment-box"
+                  name="message"
+                />
+              </div>
+              <div className="d-flex justify-content-end">
+                <input
+                  className="contact-form-button"
+                  type="submit"
+                  value="Send"
+                />
+                <button className="contact-form-button" onClick={toggle}>
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </form>
+        </ModalBody>
       </Modal>
     </div>
   );

@@ -15,26 +15,6 @@
   margin-right: 20px;
 }
 
-.request-button {
-  border: 1px solid #e8a63c;
-  color: #e8a63c;
-  outline: none;
-  font-weight: 300;
-  border-radius: 10px;
-  background-color: transparent;
-  font-size: 24px;
-}
-
-.request-button:focus {
-  outline: none;
-}
-
-.request-button:hover {
-  color: white;
-  background-color: #e8a63c;
-  outline: none;
-}
-
 .about-text-wrapper {
   color: #508ea6;
   font-size: 20px;
@@ -48,20 +28,33 @@
   color: #e8a63c;
 }
 
-.about-submit-button:hover {
-  color: white;
-}
-
 .about-form-label {
   color: gray;
   font-size: 12px;
   margin-bottom: 0px;
 }
 
-.about-form-input {
-  margin-bottom: 5px;
+.about-comment-box {
+  min-height: 200px;
+}
+
+.about-form-button {
+  border: 1px solid #508ea6;
+  color: #508ea6;
+  outline: none;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-left: 15px;
+}
+
+.about-form-button:hover {
+  color: white;
+  background-color: #508ea6;
+  outline: none;
 }
 
 .about-comment-box {
   min-height: 200px;
+  margin-bottom: 15px;
 }

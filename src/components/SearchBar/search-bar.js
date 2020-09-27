@@ -48,7 +48,7 @@ class LocationSelect extends React.Component {
               <option key={category.categoryName} value={category.categoryName}>
                 {category.categoryReadableName}
               </option>
-            ))}{" "}
+            ))}
         </select>
       </div>
     );
