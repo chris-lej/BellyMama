@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "374e1c9530bb47414a010545bc3f7c83",
+    "revision": "c1d5693409802fd163b2063975476107",
     "url": "/BellyMama/index.html"
   },
   {
-    "revision": "033ee52489941a3dd292",
+    "revision": "70152e95dcb358ad2167",
     "url": "/BellyMama/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "45eea8a6b04da7dd48ab",
-    "url": "/BellyMama/static/css/main.47fcdb37.chunk.css"
+    "revision": "f9300e68229cb10202a0",
+    "url": "/BellyMama/static/css/main.119289eb.chunk.css"
   },
   {
-    "revision": "033ee52489941a3dd292",
-    "url": "/BellyMama/static/js/2.b9334cd0.chunk.js"
+    "revision": "70152e95dcb358ad2167",
+    "url": "/BellyMama/static/js/2.fc4fa136.chunk.js"
   },
   {
-    "revision": "45eea8a6b04da7dd48ab",
-    "url": "/BellyMama/static/js/main.b1e046b8.chunk.js"
+    "revision": "f9300e68229cb10202a0",
+    "url": "/BellyMama/static/js/main.af15e692.chunk.js"
   },
   {
     "revision": "c9d70e3e4a71a44c004e",
