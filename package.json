@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://chris-lej.github.io/BellyMama",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "emailjs-com": "^2.6.3",
